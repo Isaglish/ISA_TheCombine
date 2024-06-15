@@ -12,7 +12,6 @@
 		<Path name="data/sounds/music/ingame5.ogg"/>
 		<Path name="data/sounds/music/ingame6.ogg"/>
 		<Path name="data/sounds/music/ingame7.ogg"/>
-		<Path name="data/sounds/music/ingame8.ogg"/>
 	</Sound>
 
 	<Sound ID="music_win" channel="music" stream="true">
