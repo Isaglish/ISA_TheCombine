@@ -1,0 +1,33 @@
+<Entities>
+    <Bind to="door_wood_01_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+
+    <Bind to="door_wood_old_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+
+    <Bind to="door_flat_01_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+
+    <Bind to="gate_poor_01_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+
+    <Bind to="door_grate_01_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+
+    <Bind to="door_metal_sheet_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+
+    <Bind to="door_grate_02_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+
+    <Bind to="gate_metal_sheet_locked">
+		<eqp name="fl_ChargerFeet"/>
+	</Bind>
+</Entities>

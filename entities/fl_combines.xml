@@ -1,0 +1,138 @@
+<Entities>
+	<Entity name="fl_CombineOrdinal" type="Human" editorAutoHeight="false" editorTags="friendly">
+        <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="150"/>
+		<Human type="GoodGuy"
+			unit="fl_Combine"
+			class="fl_CombineOrdinal"
+			expendable="true">
+
+			<Id name="fl_CombineOrdinal" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="fl_combine_ordinal"/>
+			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.2"/>
+			<Brain suppressionRecovery="45.0"/>
+
+			<Mobility>
+				<MoveSpeed min="1.2" defaultMetersPerSec="2.3" max="10"/>
+				<TurnSpeed min="6.1" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Concealment default="0" canHide="false"/>
+
+			<Equipment>
+				<Item name="Crowbar"/>
+			</Equipment>
+		</Human>
+	</Entity>
+	
+	<Entity name="fl_CombineCharger" type="Human" editorAutoHeight="false" editorTags="friendly">
+        <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="250"/>
+		<Human type="GoodGuy"
+			unit="fl_Combine"
+			class="fl_CombineCharger"
+			expendable="true">
+
+			<Id name="fl_CombineCharger" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.5"/>
+			<Brain suppressionRecovery="85.0"/>
+
+			<Mobility>
+				<MoveSpeed min="1.0" defaultMetersPerSec="1.8" max="10"/>
+				<TurnSpeed min="6.0" defaultMetersPerSec="12" max="20"/>
+			</Mobility>
+
+			<Concealment default="0" canHide="false"/>
+
+			<Equipment>
+				<Item name="fl_ChargerFeet"/>
+
+				<Item name="fl_HeavyShotgun"/>
+				<Item name="fl_StunBaton"/>
+
+				<Item name="fl_ChargerArmor"/>
+			</Equipment>
+		</Human>
+	</Entity>
+
+	<Entity name="fl_CombineSuppressor" type="Human" editorAutoHeight="false" editorTags="friendly">
+        <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="200"/>
+		<Human type="GoodGuy"
+			unit="fl_Combine"
+			class="fl_CombineSuppressor"
+			expendable="true">
+
+			<Id name="fl_CombineSuppressor" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="male_very_american"/>
+			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.2"/>
+			<Brain suppressionRecovery="55.0"/>
+
+			<Mobility>
+				<MoveSpeed min="1.0" defaultMetersPerSec="1.8" max="10"/>
+				<TurnSpeed min="6.0" defaultMetersPerSec="12" max="20"/>
+			</Mobility>
+
+			<Concealment default="0" canHide="false"/>
+
+			<Equipment>
+				<Item name="Crowbar"/>
+			</Equipment>
+		</Human>
+	</Entity>
+	
+	<Entity name="fl_CombineGrunt" type="Human" editorAutoHeight="false" editorTags="friendly">
+        <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="fl_Combine"
+			class="fl_CombineGrunt"
+			expendable="true">
+
+			<Id name="fl_CombineGrunt" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="fl_combine_grunt"/>
+			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.0"/>
+			<Brain suppressionRecovery="30.0"/>
+
+			<Mobility>
+				<MoveSpeed min="1.2" defaultMetersPerSec="2.3" max="10"/>
+				<TurnSpeed min="6.1" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Concealment default="0" canHide="false"/>
+
+			<Equipment>
+				<Item name="Crowbar"/>
+
+				<Item name="fl_PulseSMG"/>
+			</Equipment>
+		</Human>
+	</Entity>
+
+	<Entity name="fl_CombinePolice" type="Human" editorAutoHeight="false" editorTags="friendly">
+        <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
+		<PhysicalParams health="100"/>
+		<Human type="GoodGuy"
+			unit="fl_Combine"
+			class="fl_CombinePolice"
+			expendable="true">
+
+			<Id name="fl_CombinePolice" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="fl_combine_grunt"/>
+			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.0"/>
+			<Brain suppressionRecovery="20.0"/>
+
+			<Mobility>
+				<MoveSpeed min="1.2" defaultMetersPerSec="2.3" max="10"/>
+				<TurnSpeed min="6.1" defaultMetersPerSec="13" max="20"/>
+			</Mobility>
+
+			<Concealment default="0" canHide="false"/>
+
+			<Equipment>
+				<Item name="Crowbar"/>
+			</Equipment>
+		</Human>
+	</Entity>
+</Entities>

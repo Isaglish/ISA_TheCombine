@@ -1,0 +1,66 @@
+<HumanIdentities>
+	<Portrait tex="data/textures/portraits/fl_combine_ordinal.dds" unit="fl_Combine" class="fl_CombineOrdinal" customName="Ordinal" gender="0"/>
+	<Portrait tex="data/textures/portraits/fl_combine_charger.dds" unit="fl_Combine" class="fl_CombineCharger" customName="Spikewall" gender="0"/>
+	<Portrait tex="data/textures/portraits/fl_combine_suppressor.dds" unit="fl_Combine" class="fl_CombineSuppressor" customName="APF" gender="0"/>
+	<Portrait tex="data/textures/portraits/fl_combine_grunt.dds" unit="fl_Combine" class="fl_CombineGrunt" gender="0"/>
+	<Portrait tex="data/textures/portraits/fl_combine_police.dds" unit="fl_Combine" class="fl_CombinePolice" gender="0"/>
+    
+    <UnitNames unit0="fl_Combine">
+		<Gender value="0">
+			<Name n="Defender-1"/>
+			<Name n="Defender-2"/>
+			<Name n="Defender-3"/>
+			<Name n="Defender-4"/>
+			<Name n="Defender-5"/>
+			<Name n="Defender-6"/>
+			<Name n="Defender-7"/>
+			<Name n="Defender-8"/>
+			<Name n="Defender-9"/>
+			<Name n="Echo-1"/>
+			<Name n="Echo-2"/>
+			<Name n="Echo-3"/>
+			<Name n="Echo-4"/>
+			<Name n="Echo-5"/>
+			<Name n="Echo-6"/>
+			<Name n="Echo-7"/>
+			<Name n="Echo-8"/>
+			<Name n="Echo-9"/>
+			<Name n="Hero-1"/>
+			<Name n="Hero-2"/>
+			<Name n="Hero-3"/>
+			<Name n="Hero-4"/>
+			<Name n="Hero-5"/>
+			<Name n="Hero-6"/>
+			<Name n="Hero-7"/>
+			<Name n="Hero-8"/>
+			<Name n="Hero-9"/>
+			<Name n="Jury-1"/>
+			<Name n="Jury-2"/>
+			<Name n="Jury-3"/>
+			<Name n="Jury-4"/>
+			<Name n="Jury-5"/>
+			<Name n="Jury-6"/>
+			<Name n="Jury-7"/>
+			<Name n="Jury-8"/>
+			<Name n="Jury-9"/>
+			<Name n="King-1"/>
+			<Name n="King-2"/>
+			<Name n="King-3"/>
+			<Name n="King-4"/>
+			<Name n="King-5"/>
+			<Name n="King-6"/>
+			<Name n="King-7"/>
+			<Name n="King-8"/>
+			<Name n="King-9"/>
+			<Name n="Victor-1"/>
+			<Name n="Victor-2"/>
+			<Name n="Victor-3"/>
+			<Name n="Victor-4"/>
+			<Name n="Victor-5"/>
+			<Name n="Victor-6"/>
+			<Name n="Victor-7"/>
+			<Name n="Victor-8"/>
+			<Name n="Victor-9"/>
+		</Gender>
+	</UnitNames>
+</HumanIdentities>

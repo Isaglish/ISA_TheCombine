@@ -1,0 +1,44 @@
+<Sounds>
+	<!-- MUSIC -->
+	<Sound ID="music_main_menu" channel="music" stream="true">
+		<Path name="data/sounds/music/mainmenu1.ogg"/>
+	</Sound>
+
+	<Sound ID="music_ingame" channel="music" stream="true" preload="true">
+		<Path name="data/sounds/music/ingame1.ogg"/>
+		<Path name="data/sounds/music/ingame2.ogg"/>
+		<Path name="data/sounds/music/ingame3.ogg"/>
+		<Path name="data/sounds/music/ingame4.ogg"/>
+		<Path name="data/sounds/music/ingame5.ogg"/>
+		<Path name="data/sounds/music/ingame6.ogg"/>
+		<Path name="data/sounds/music/ingame7.ogg"/>
+		<Path name="data/sounds/music/ingame8.ogg"/>
+	</Sound>
+
+	<Sound ID="music_win" channel="music" stream="true">
+		<Path name="data/sounds/music/win1.ogg"/>
+		<Path name="data/sounds/music/win2.ogg"/>
+	</Sound>
+
+	<Sound ID="music_fail" channel="music" stream="true">
+		<Path name="data/sounds/music/lose1.ogg"/>
+		<Path name="data/sounds/music/lose2.ogg"/>
+		<Path name="data/sounds/music/lose3.ogg"/>
+	</Sound>
+	
+	<!-- WEAPONS -->
+    <Sound ID="pulse_smg_fire" channel="game" preload="false">
+        <Path name="data/sounds/sfx/weapons/pulse_smg_fire_01.ogg"/>
+		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_02.ogg"/>
+		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_03.ogg"/>
+		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_04.ogg"/>
+		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_05.ogg"/>
+    </Sound>
+
+	<Sound ID="heavy_shotgun_fire" channel="game" preload="false">
+        <Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_01.ogg"/>
+		<Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_02.ogg"/>
+		<Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_03.ogg"/>
+		<Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_04.ogg"/>
+    </Sound>
+</Sounds>

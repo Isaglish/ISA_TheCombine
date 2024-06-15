@@ -1,0 +1,67 @@
+<Equipment>
+    <FeetOfSteel name="fl_ChargerFeet" inventoryBinding="SupportGear3">
+		<ModifiableParams
+			efficiencyPercent="100"
+			audibleSoundRadius="12.0"
+			timePerKickMsec="1500"
+			damagePerKick="100"
+			damageType="2"
+		/>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+	</FeetOfSteel>
+
+	<!-- <Bind eqp="fl_HealthPen">
+		<to name="fl_CombineOrdinal"/>
+		<to name="fl_CombineCharger"/>
+		<to name="fl_CombineSuppressor"/>
+		<to name="fl_CombineGrunt"/>
+	</Bind>
+	<Grenade name="fl_HealthPen" inventoryBinding="UtilityPouch" quantity="1" unlockCostBH="2" 
+
+			tooltip="@odst_biofoam_name"
+			description="@odst_biofoam_desc"
+			img="data/models/equipment/odst_biofoam_ui.dds"
+			img_tooltip="data/models/equipment/breaching_charge_ui_ttip.tga"
+
+			animationSet="generic_device"
+			crouchOnUse="true"
+
+		>
+		<ConcealmentModifier add="0"/>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="0"/>
+
+		<ModifiableParams
+			changeInTime="600"
+			changeOutTime="400"
+			throwTime="4000"
+			throwTimeCorner="600"
+		/>
+
+		<Projectile
+			bodyTemplate="InvisibleProjectile"
+
+			soundUse="jsoc_zipper"
+			soundExplosion="odst_medkit"
+
+
+			friendlyFire="true"
+			triggerOnImpact="true"
+			triggerTimeAfterTargetHitMsec="0"
+
+			minVelocity="0.0"
+			maxVelocity="0.1"
+			acceleration="0.1"
+			mass="10.0"
+
+			physicsDetonationForce="0"
+			audibleLaunchSoundRadius="3"
+			audibleDetonationSoundRadius="0">
+
+			<EffectRange radiusMeters="0.97">
+				<DamageEffect chancePercent="100" damage="-50" damageType="1"/>
+				<ScatterEffect chancePercent="100" armorPenetration="6"/>
+				<SmokeEffect durationMSec="0" />
+			</EffectRange>
+		</Projectile>
+	</Grenade> -->
+</Equipment>

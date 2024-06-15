@@ -1,0 +1,97 @@
+<Equipment>
+    <Ammo name="fl_StunBaton_Ammo"
+			tooltip="@ammo_fl_blunt_electric_name"
+			description="@ammo_fl_blunt_electric_desc"
+			img="data/models/weapons/attachments/fl_blunt_electric_ui.dds"
+		>
+
+        <!-- Suppression doesn't work for Melee weapons because they use the Stagger effect?  - Isaglish -->
+		<Params roundsPerSecond="1.4"
+				audibleSoundRadius="10"
+				physicsImpactForce="3.5"
+                suppressionScale="999"
+				>
+
+			<Damage start="40" end="5" startDist="0" endDist="4"/>
+			<CriticalChancePercent start="0" end="0" startDist="0" endDist="5"/>
+			<ArmorPenetration start="5" end="5" startDist="0" endDist="20"/>
+		</Params>
+	</Ammo>
+    
+    <Bind eqp="fl_StunBaton">
+		<to name="fl_CombineCharger"/>
+		<to name="fl_CombinePolice"/>
+        
+		<to name="fl_StunBaton_Ammo"/>
+
+		<to name="fl_StunBaton_Sights"/>
+	</Bind>
+ 	<Firearm name="fl_StunBaton" inventoryBinding="SecondaryWeapon" category="melee" unlockCost="0"
+			tooltip="@melee_fl_stun_baton_name"
+			description="@melee_fl_stun_baton_desc"
+			img="data/models/equipment/fl_stun_baton_ui.dds"
+
+			animationSet="dynamic_hammer"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-5" turnSpeedModifierPercent="-2"/>
+		<ConcealmentModifier add="-3" />
+		<RenderObject3D model="data/models/equipment/hammer_dynamic.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/hammer_dynamic.dds">
+			<Specular shininess="32" intensity="4.0"/>
+		</RenderObject3D>
+
+		<!-- Suppression doesn't work for Melee weapons because they use the Stagger effect?  - Isaglish -->
+		<ModifiableParams
+			changeInTime="800"
+			changeOutTime="600"
+			efficiencyPercent="100"
+			audibleSoundRadius="12.0"
+			
+			meleeDamageBonus="40"
+			meleeReach="1.2"
+			meleeAttackCooldown="850"
+			meleeAttackDuration="600"
+            meleeStunBonus="-100"
+			roundsPerMagazine="0"
+			
+			numPellets="1"
+
+			reloadTime="5"
+			reloadEmptyTime="5"
+			readyTime="350"
+			guardTime="200"
+
+			accuracyStart="100"
+			accuracyEnd="10"
+			accuracyStartDist="0"
+			accuracyEndDist="5"
+
+			suppressionScale="999"
+		/>
+
+		<Params
+            caliberInfoText="@firearm_caliber_fl_stun_baton_name"
+            operationInfoText="@firearm_operation_singleshot_name"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_PumpAimedFire" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Pistol">
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_01" />
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_02" />
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_03" />
+			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_04" />
+		</MuzzleFlash>
+
+		<Sounds> <!-- max 4 variants for each action -->
+			<Equip name="870br_eqp"/>
+			<Unequip name="870br_neqp"/>
+			<Reload name="870br_reld"/>
+			<ReloadEmpty name="870br_reld"/>
+			<!-- <Fire name="m500_fire"/> -->
+			<!-- <ShellDrop name="shotgun_shell_drop"/> -->
+			<!-- <Empty name="gen_empty"/> -->
+		</Sounds>
+	</Firearm>
+</Equipment>

@@ -1,0 +1,22 @@
+<Equipment>
+    <Ammo name="fl_HeavyShotgun_Ammo"
+			tooltip="@ammo_12GANO4BUCK_name"
+			description="@ammo_12GANO4BUCK_desc"
+			img="data/models/weapons/attachments/m257_buckshot_ammo24_ui.dds"
+		>
+
+		<Params roundsPerSecond="0.8"
+				audibleSoundRadius="75"
+				physicsImpactForce="1.0"
+                damageType="0"
+				numPellets="12"
+				suppressionScale="0.12"
+				accuracyMultiplier="100" 	
+				>
+
+			<Damage start="100" end="1" startDist="0" endDist="30"/>
+			<CriticalChancePercent start="0" end="0" startDist="0" endDist="10"/>
+			<ArmorPenetration start="10" end="2" startDist="0" endDist="10"/>
+		</Params>
+	</Ammo>
+</Equipment>

@@ -1,0 +1,18 @@
+<Equipment>
+    <Bind eqp="fl_ChargerArmor">
+		<to name="fl_CombineCharger"/>
+	</Bind>
+	<Armor name="fl_ChargerArmor" inventoryBinding="Armor" unlockCost="0"
+			tooltip="@armor_fl_charger_name"
+			description="@armor_fl_charger_desc"
+			img="data/models/equipment/armor_noplates_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-30" turnSpeedModifierPercent="-20"/>
+
+		<Params protectionInfoText="@equipment_protect2">
+			<ProtectionArc degrees="90" coveragePercent="90" piercingProtectionLevel="999"/>
+			<ProtectionArc degrees="270" coveragePercent="65" piercingProtectionLevel="999"/>
+			<ProtectionArc degrees="360" coveragePercent="50" piercingProtectionLevel="999"/>
+		</Params>
+	</Armor>
+</Equipment>

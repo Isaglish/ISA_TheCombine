@@ -1,0 +1,13 @@
+<Particles>
+    <ParticleSystem name="Tracer_OSIPR" poolSize="80">
+        <Emitter name="trail" emitDelay="1.000">
+            <Particle lifetime="0.060"/>
+            <Initial scaleMax="1.300" sizeX="0.110" sizeY="0.600" sizeZ="1.050"/>
+            <Movement scaleStart="0.700" scaleEnd="1.400"/>
+            <Tracer/>
+            <Material fadeIn="0.450" fadeOut="0.999" blendMode="add_masked" mainTex="data/textures/fx/trail_bullet1.dds" colorize="2A65E4FF">
+                <GradientMapped gradingTex="data/textures/fx/ramp_bullet1.tga"/>
+            </Material>
+        </Emitter>
+    </ParticleSystem>
+</Particles>

@@ -1,0 +1,2 @@
+# game.xml
+@menu_game_fl_charger_feet_ttip=Kick and destroy the lock!
