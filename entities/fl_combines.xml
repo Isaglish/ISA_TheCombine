@@ -34,7 +34,7 @@
 			class="fl_CombineCharger"
 			expendable="true">
 
-			<Id name="fl_CombineCharger" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="male_very_american"/>
+			<Id name="fl_CombineCharger" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="fl_combine_charger"/>
 			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.5"/>
 			<Brain suppressionRecovery="85.0"/>
 
