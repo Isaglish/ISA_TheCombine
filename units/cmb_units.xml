@@ -38,7 +38,7 @@
 			<Rank name="@unit_combine_rank_6" xpNeeded="38400" 	badgeTex="data/textures/gui/customization/cmb_rank_07.dds"/>
 			<Rank name="@unit_combine_rank_7" xpNeeded="60200" 	badgeTex="data/textures/gui/customization/cmb_rank_08.dds"/>
 			<Rank name="@unit_combine_rank_8" xpNeeded="86400" 	badgeTex="data/textures/gui/customization/cmb_rank_09.dds"/>
-			<Rank name="@unit_combine_rank_9" xpNeeded="126400" 	badgeTex="data/textures/gui/customization/cmb_rank_10.dds"/>
+			<Rank name="@unit_combine_rank_9" xpNeeded="126400" badgeTex="data/textures/gui/customization/cmb_rank_10.dds"/>
 		</TrooperRanks>
 
 		<Ranks>
