@@ -135,7 +135,7 @@
         </Item>
     </Item>
 
-    <Item name="Menu_Main_Background_cmb_Combine" hidden="true">
+    <Item name="Menu_Main_Background_TheCombine" hidden="true">
         <!-- global speed with which the layers move around in their default animation -->
         <Item name="#parallax_speed" origin="2.0 0.0"/>  <!-- the layers go out of screen in 16:10, no Y movement -->
         <!--<Item name="#parallax_speed" origin="0.0 0"/>-->
