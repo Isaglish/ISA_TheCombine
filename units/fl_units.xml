@@ -60,7 +60,7 @@
 			<Rank xpNeeded="800000" badgeTex=""/>
 		</Ranks>
 
-		<Doctrine doctrinePointsPerSquadLevel="1">
+		<Doctrine doctrinePointsPerSquadLevel="2">
 		</Doctrine>
 	</Unit>
 </Units>
