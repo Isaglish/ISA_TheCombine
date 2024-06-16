@@ -11,10 +11,10 @@
 	</FeetOfSteel>
 
 	<!-- <Bind eqp="cmb_HealthPen">
-		<to name="cmb_CombineOrdinal"/>
-		<to name="cmb_CombineCharger"/>
-		<to name="cmb_CombineSuppressor"/>
-		<to name="cmb_CombineGrunt"/>
+		<to name="CombineOrdinal"/>
+		<to name="CombineCharger"/>
+		<to name="CombineSuppressor"/>
+		<to name="CombineGrunt"/>
 	</Bind>
 	<Grenade name="cmb_HealthPen" inventoryBinding="UtilityPouch" quantity="1" unlockCostBH="2" 
 

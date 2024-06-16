@@ -19,8 +19,8 @@
 	</Ammo>
     
     <Bind eqp="cmb_StunBaton">
-		<to name="cmb_CombineCharger"/>
-		<to name="cmb_CombinePolice"/>
+		<to name="CombineCharger"/>
+		<to name="CombinePolice"/>
         
 		<to name="cmb_StunBaton_Ammo"/>
 

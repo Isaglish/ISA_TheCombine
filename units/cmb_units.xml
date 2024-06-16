@@ -5,14 +5,14 @@
 		'supply' is how much a single trooper from that class will count in total supply allowed for a map. One slot = 100 supply
 	-->
 	<Unit
-		name="cmb_Combine"
-		nameUI="@unit_cmb_combine_name"
-		description="@unit_cmb_combine_description"
-		flagTex="data/textures/gui/cmb_combine_bg.dds"
+		name="TheCombine"
+		nameUI="@unit_combine_name"
+		description="@unit_combine_description"
+		flagTex="data/textures/gui/combine_bg.dds"
 		flagColor="f0be51"
 		movie=""
 		rndNameEntry="@#squadnamecombine"
-		voicepack="cmb_combine_grunt">
+		voicepack="combine_grunt">
 
 		<Classes>
 			<!--
@@ -21,24 +21,24 @@
 				Upgrades are defined trooper_upgrades.xml (they are declared as doctrine nodes). The UI expects them in the order given here, but it doesn't otherwise matter.
 				You can have up to 6 upgrades, with maxUpgradeable limiting how many you can choose.
 			-->
-			<Class name="cmb_CombineOrdinal" nameUI="@unit_cmb_combine_ordinal" numSlots="1" supply="100" description="@class_cmb_combine_ordinal" iconTex="data/textures/gui/deploy/class_icon_cmb_vortigaunt.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
-			<Class name="cmb_CombineCharger" nameUI="@unit_cmb_combine_charger" numSlots="1" supply="200" description="@class_cmb_combine_charger" iconTex="data/textures/gui/deploy/class_icon_cmb_claw.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
-			<Class name="cmb_CombineSuppressor" nameUI="@unit_cmb_combine_suppressor" numSlots="1" supply="200" description="@class_cmb_combine_suppressor" iconTex="data/textures/gui/deploy/class_icon_cmb_insignia.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
-			<Class name="cmb_CombineGrunt" nameUI="@unit_cmb_combine_grunt" numSlots="8" supply="100" description="@class_cmb_combine_grunt" iconTex="data/textures/gui/deploy/class_icon_cmb_insignia.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
-			<Class name="cmb_CombinePolice" nameUI="@unit_cmb_combine_police" numSlots="12" supply="50" description="@class_cmb_combine_police" iconTex="data/textures/gui/deploy/class_icon_cmb_c17.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
+			<Class name="CombineOrdinal" nameUI="@unit_combine_ordinal" numSlots="1" supply="100" description="@class_combine_ordinal" iconTex="data/textures/gui/deploy/class_icon_cmb_vortigaunt.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
+			<Class name="CombineCharger" nameUI="@unit_combine_charger" numSlots="1" supply="200" description="@class_combine_charger" iconTex="data/textures/gui/deploy/class_icon_cmb_claw.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
+			<Class name="CombineSuppressor" nameUI="@unit_combine_suppressor" numSlots="1" supply="200" description="@class_combine_suppressor" iconTex="data/textures/gui/deploy/class_icon_cmb_insignia.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
+			<Class name="CombineGrunt" nameUI="@unit_combine_grunt" numSlots="8" supply="100" description="@class_combine_grunt" iconTex="data/textures/gui/deploy/class_icon_cmb_insignia.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
+			<Class name="CombinePolice" nameUI="@unit_combine_police" numSlots="12" supply="50" description="@class_combine_police" iconTex="data/textures/gui/deploy/class_icon_cmb_c17.dds" upgrades="BH_Defence1, BH_Offence1, BH_Defence2, BH_Offence2" maxUpgradeable="2"/>
 		</Classes>
 
 		<TrooperRanks>
-			<Rank name="@unit_cmb_combine_rank_0" xpNeeded="0" 		badgeTex="data/textures/gui/customization/cmb_rank_01.dds"/>
-			<Rank name="@unit_cmb_combine_rank_1" xpNeeded="700" 	badgeTex="data/textures/gui/customization/cmb_rank_02.dds"/>
-			<Rank name="@unit_cmb_combine_rank_2" xpNeeded="2300" 	badgeTex="data/textures/gui/customization/cmb_rank_03.dds"/>
-			<Rank name="@unit_cmb_combine_rank_3" xpNeeded="5600" 	badgeTex="data/textures/gui/customization/cmb_rank_04.dds"/>
-			<Rank name="@unit_cmb_combine_rank_4" xpNeeded="11800" 	badgeTex="data/textures/gui/customization/cmb_rank_05.dds"/>
-			<Rank name="@unit_cmb_combine_rank_5" xpNeeded="22400" 	badgeTex="data/textures/gui/customization/cmb_rank_06.dds"/>
-			<Rank name="@unit_cmb_combine_rank_6" xpNeeded="38400" 	badgeTex="data/textures/gui/customization/cmb_rank_07.dds"/>
-			<Rank name="@unit_cmb_combine_rank_7" xpNeeded="60200" 	badgeTex="data/textures/gui/customization/cmb_rank_08.dds"/>
-			<Rank name="@unit_cmb_combine_rank_8" xpNeeded="86400" 	badgeTex="data/textures/gui/customization/cmb_rank_09.dds"/>
-			<Rank name="@unit_cmb_combine_rank_9" xpNeeded="126400" 	badgeTex="data/textures/gui/customization/cmb_rank_10.dds"/>
+			<Rank name="@unit_combine_rank_0" xpNeeded="0" 		badgeTex="data/textures/gui/customization/cmb_rank_01.dds"/>
+			<Rank name="@unit_combine_rank_1" xpNeeded="700" 	badgeTex="data/textures/gui/customization/cmb_rank_02.dds"/>
+			<Rank name="@unit_combine_rank_2" xpNeeded="2300" 	badgeTex="data/textures/gui/customization/cmb_rank_03.dds"/>
+			<Rank name="@unit_combine_rank_3" xpNeeded="5600" 	badgeTex="data/textures/gui/customization/cmb_rank_04.dds"/>
+			<Rank name="@unit_combine_rank_4" xpNeeded="11800" 	badgeTex="data/textures/gui/customization/cmb_rank_05.dds"/>
+			<Rank name="@unit_combine_rank_5" xpNeeded="22400" 	badgeTex="data/textures/gui/customization/cmb_rank_06.dds"/>
+			<Rank name="@unit_combine_rank_6" xpNeeded="38400" 	badgeTex="data/textures/gui/customization/cmb_rank_07.dds"/>
+			<Rank name="@unit_combine_rank_7" xpNeeded="60200" 	badgeTex="data/textures/gui/customization/cmb_rank_08.dds"/>
+			<Rank name="@unit_combine_rank_8" xpNeeded="86400" 	badgeTex="data/textures/gui/customization/cmb_rank_09.dds"/>
+			<Rank name="@unit_combine_rank_9" xpNeeded="126400" 	badgeTex="data/textures/gui/customization/cmb_rank_10.dds"/>
 		</TrooperRanks>
 
 		<Ranks>

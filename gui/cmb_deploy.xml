@@ -8,16 +8,16 @@
 		</EventActionBatch>
 	-->
 	<EventActionBatch name="GAME_GUI_LOADTIME_ACTIONS">
-		<Action type="Show" target="cmb_Combine"/>
+		<Action type="Show" target="TheCombine"/>
 	</EventActionBatch>
 
-	<Item name="cmb_Combine" origin="0 -312" hidden="true" align="rt" sizeX="380">
+	<Item name="TheCombine" origin="0 -312" hidden="true" align="rt" sizeX="380">
 		<OnOpen>
 			<Action type="AddMeToParent" target="#unit_header"/>
 		</OnOpen>
 
 		<!-- Ordinal -->
-		<StaticImage name="cmb_CombineOrdinal" origin="0 -75">
+		<StaticImage name="CombineOrdinal" origin="0 -75">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="148" color="211e1dcc"/>
 
@@ -52,7 +52,7 @@
 		</StaticImage>
 
 		<!-- Charger -->
-		<StaticImage name="cmb_CombineCharger" origin="-97 -233">
+		<StaticImage name="CombineCharger" origin="-97 -233">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="185" sizeY="148" color="211e1dcc"/>
 
@@ -87,7 +87,7 @@
 		</StaticImage>
 
 		<!-- Suppressor -->
-		<StaticImage name="cmb_CombineSuppressor" origin="97 -233">
+		<StaticImage name="CombineSuppressor" origin="97 -233">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="185" sizeY="148" color="211e1dcc"/>
 
@@ -117,7 +117,7 @@
 		</StaticImage>
 
 		<!-- Grunt -->
-		<StaticImage name="cmb_CombineGrunt" origin="0 -439">
+		<StaticImage name="CombineGrunt" origin="0 -439">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="242" color="211e1dcc"/>
 
@@ -175,7 +175,7 @@
 		</StaticImage>
 
 		<!-- Civil Protection -->
-		<StaticImage name="cmb_CombinePolice" origin="0 -738">
+		<StaticImage name="CombinePolice" origin="0 -738">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="336" color="211e1dcc"/>
 

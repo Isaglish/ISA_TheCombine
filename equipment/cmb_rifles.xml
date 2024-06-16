@@ -1,10 +1,10 @@
 <Equipment>
 	<Bind eqp="Frag Grenade">
-		<to name="cmb_CombineGrunt"/>
+		<to name="CombineGrunt"/>
 	</Bind>
 	
     <Bind eqp="cmb_HeavyShotgun">
-		<to name="cmb_CombineCharger"/>
+		<to name="CombineCharger"/>
 		
 		<to name="cmb_HeavyShotgun_Ammo"/>
 
@@ -76,7 +76,7 @@
 	</Firearm>
 
 	<Bind eqp="cmb_PulseSMG">
-		<to name="cmb_CombineGrunt"/>
+		<to name="CombineGrunt"/>
 
 		<to name="919FMJM882_Mp5ASMG"/>
 

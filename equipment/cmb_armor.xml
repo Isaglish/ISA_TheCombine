@@ -1,6 +1,6 @@
 <Equipment>
     <Bind eqp="cmb_ChargerArmor">
-		<to name="cmb_CombineCharger"/>
+		<to name="CombineCharger"/>
 	</Bind>
 	<Armor name="cmb_ChargerArmor" inventoryBinding="Armor" unlockCost="0"
 			tooltip="@armor_cmb_charger_name"

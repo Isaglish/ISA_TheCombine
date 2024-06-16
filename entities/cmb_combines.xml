@@ -1,14 +1,14 @@
 <Entities>
-	<Entity name="cmb_CombineOrdinal" type="Human" editorAutoHeight="false" editorTags="friendly">
+	<Entity name="CombineOrdinal" type="Human" editorAutoHeight="false" editorTags="friendly">
         <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="150"/>
 		<Human type="GoodGuy"
-			unit="cmb_Combine"
-			class="cmb_CombineOrdinal"
+			unit="TheCombine"
+			class="CombineOrdinal"
 			expendable="true">
 
-			<Id name="cmb_CombineOrdinal" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="cmb_combine_ordinal"/>
+			<Id name="CombineOrdinal" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_ordinal"/>
 			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.2"/>
 			<Brain suppressionRecovery="45.0"/>
 
@@ -25,16 +25,16 @@
 		</Human>
 	</Entity>
 	
-	<Entity name="cmb_CombineCharger" type="Human" editorAutoHeight="false" editorTags="friendly">
+	<Entity name="CombineCharger" type="Human" editorAutoHeight="false" editorTags="friendly">
         <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="250"/>
 		<Human type="GoodGuy"
-			unit="cmb_Combine"
-			class="cmb_CombineCharger"
+			unit="TheCombine"
+			class="CombineCharger"
 			expendable="true">
 
-			<Id name="cmb_CombineCharger" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="cmb_combine_charger"/>
+			<Id name="CombineCharger" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_charger"/>
 			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.5"/>
 			<Brain suppressionRecovery="85.0"/>
 
@@ -56,16 +56,16 @@
 		</Human>
 	</Entity>
 
-	<Entity name="cmb_CombineSuppressor" type="Human" editorAutoHeight="false" editorTags="friendly">
+	<Entity name="CombineSuppressor" type="Human" editorAutoHeight="false" editorTags="friendly">
         <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="200"/>
 		<Human type="GoodGuy"
-			unit="cmb_Combine"
-			class="cmb_CombineSuppressor"
+			unit="TheCombine"
+			class="CombineSuppressor"
 			expendable="true">
 
-			<Id name="cmb_CombineSuppressor" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="cmb_combine_suppressor"/>
+			<Id name="CombineSuppressor" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_suppressor"/>
 			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.2"/>
 			<Brain suppressionRecovery="55.0"/>
 
@@ -82,16 +82,16 @@
 		</Human>
 	</Entity>
 	
-	<Entity name="cmb_CombineGrunt" type="Human" editorAutoHeight="false" editorTags="friendly">
+	<Entity name="CombineGrunt" type="Human" editorAutoHeight="false" editorTags="friendly">
         <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="cmb_Combine"
-			class="cmb_CombineGrunt"
+			unit="TheCombine"
+			class="CombineGrunt"
 			expendable="true">
 
-			<Id name="cmb_CombineGrunt" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="cmb_combine_grunt"/>
+			<Id name="CombineGrunt" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_grunt"/>
 			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.0"/>
 			<Brain suppressionRecovery="30.0"/>
 
@@ -110,16 +110,16 @@
 		</Human>
 	</Entity>
 
-	<Entity name="cmb_CombinePolice" type="Human" editorAutoHeight="false" editorTags="friendly">
+	<Entity name="CombinePolice" type="Human" editorAutoHeight="false" editorTags="friendly">
         <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
-			unit="cmb_Combine"
-			class="cmb_CombinePolice"
+			unit="TheCombine"
+			class="CombinePolice"
 			expendable="true">
 
-			<Id name="cmb_CombinePolice" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="cmb_combine_grunt"/>
+			<Id name="CombinePolice" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_grunt"/>
 			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.0"/>
 			<Brain suppressionRecovery="20.0"/>
 
