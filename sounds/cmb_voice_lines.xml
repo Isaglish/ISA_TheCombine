@@ -1,5 +1,5 @@
 <Sounds>
-	<Pack name="fl_combine_ordinal">
+	<Pack name="cmb_combine_ordinal">
 		<!-- <Sound ID="VOX_TRPR_ABORT" 					Path="data/sounds/voice/rangers/vox_trpr_01_abort.wav" /> -->
 		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSED" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defused.wav" /> -->
 		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSING" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defusing.wav" /> -->
@@ -326,7 +326,7 @@
 		</Sound> -->
 	</Pack>
 
-	<Pack name="fl_combine_charger">
+	<Pack name="cmb_combine_charger">
 		<!-- <Sound ID="VOX_TRPR_ABORT" 					Path="data/sounds/voice/rangers/vox_trpr_01_abort.wav" /> -->
 		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSED" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defused.wav" /> -->
 		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSING" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defusing.wav" /> -->
@@ -653,7 +653,7 @@
 		</Sound> -->
 	</Pack>
 
-	<Pack name="fl_combine_suppressor">
+	<Pack name="cmb_combine_suppressor">
 		<!-- <Sound ID="VOX_TRPR_ABORT" 					Path="data/sounds/voice/rangers/vox_trpr_01_abort.wav" /> -->
 		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSED" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defused.wav" /> -->
 		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSING" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defusing.wav" /> -->
@@ -983,7 +983,7 @@
 		</Sound> -->
 	</Pack>
 
-	<Pack name="fl_combine_grunt">
+	<Pack name="cmb_combine_grunt">
 		<!-- Commander -->
 		<Sound ID="VOX_CMDR_ALPHA" Path="data/sounds/voice/grunt/gocode_alpha_01.ogg" channel="game" preload="true"/>
 		<Sound ID="VOX_CMDR_BRAVO" Path="data/sounds/voice/grunt/gocode_bravo_01.ogg" channel="game" preload="true"/>

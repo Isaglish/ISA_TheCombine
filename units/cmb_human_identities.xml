@@ -1,11 +1,11 @@
 <HumanIdentities>
-	<Portrait tex="data/textures/portraits/fl_combine_ordinal.dds" unit="fl_Combine" class="fl_CombineOrdinal" customName="Ordinal" gender="0"/>
-	<Portrait tex="data/textures/portraits/fl_combine_charger.dds" unit="fl_Combine" class="fl_CombineCharger" customName="Spikewall" gender="0"/>
-	<Portrait tex="data/textures/portraits/fl_combine_suppressor.dds" unit="fl_Combine" class="fl_CombineSuppressor" customName="APF" gender="0"/>
-	<Portrait tex="data/textures/portraits/fl_combine_grunt.dds" unit="fl_Combine" class="fl_CombineGrunt" gender="0"/>
-	<Portrait tex="data/textures/portraits/fl_combine_police.dds" unit="fl_Combine" class="fl_CombinePolice" gender="0"/>
+	<Portrait tex="data/textures/portraits/cmb_combine_ordinal.dds" unit="cmb_Combine" class="cmb_CombineOrdinal" customName="Ordinal" gender="0"/>
+	<Portrait tex="data/textures/portraits/cmb_combine_charger.dds" unit="cmb_Combine" class="cmb_CombineCharger" customName="Spikewall" gender="0"/>
+	<Portrait tex="data/textures/portraits/cmb_combine_suppressor.dds" unit="cmb_Combine" class="cmb_CombineSuppressor" customName="APF" gender="0"/>
+	<Portrait tex="data/textures/portraits/cmb_combine_grunt.dds" unit="cmb_Combine" class="cmb_CombineGrunt" gender="0"/>
+	<Portrait tex="data/textures/portraits/cmb_combine_police.dds" unit="cmb_Combine" class="cmb_CombinePolice" gender="0"/>
     
-    <UnitNames unit0="fl_Combine">
+    <UnitNames unit0="cmb_Combine">
 		<Gender value="0">
 			<Name n="Defender-1"/>
 			<Name n="Defender-2"/>

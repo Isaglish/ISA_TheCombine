@@ -8,16 +8,16 @@
 		</EventActionBatch>
 	-->
 	<EventActionBatch name="GAME_GUI_LOADTIME_ACTIONS">
-		<Action type="Show" target="fl_Combine"/>
+		<Action type="Show" target="cmb_Combine"/>
 	</EventActionBatch>
 
-	<Item name="fl_Combine" origin="0 -312" hidden="true" align="rt" sizeX="380">
+	<Item name="cmb_Combine" origin="0 -312" hidden="true" align="rt" sizeX="380">
 		<OnOpen>
 			<Action type="AddMeToParent" target="#unit_header"/>
 		</OnOpen>
 
 		<!-- Ordinal -->
-		<StaticImage name="fl_CombineOrdinal" origin="0 -75">
+		<StaticImage name="cmb_CombineOrdinal" origin="0 -75">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="148" color="211e1dcc"/>
 
@@ -47,12 +47,12 @@
 
 			<!-- Class icon -->
 			<StaticImage name="" origin="200 -48" align="l">
-				<RenderObject2D texture="data/textures/gui/deploy/class_icon_fl_vortigaunt.dds"/>
+				<RenderObject2D texture="data/textures/gui/deploy/class_icon_cmb_vortigaunt.dds"/>
 			</StaticImage>
 		</StaticImage>
 
 		<!-- Charger -->
-		<StaticImage name="fl_CombineCharger" origin="-97 -233">
+		<StaticImage name="cmb_CombineCharger" origin="-97 -233">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="185" sizeY="148" color="211e1dcc"/>
 
@@ -81,13 +81,13 @@
 
 				<!-- Class icon -->
 				<StaticImage name="" origin="16 -24" align="l">
-					<RenderObject2D texture="data/textures/gui/deploy/class_icon_fl_claw.dds"/>
+					<RenderObject2D texture="data/textures/gui/deploy/class_icon_cmb_claw.dds"/>
 				</StaticImage>
 			</Item>
 		</StaticImage>
 
 		<!-- Suppressor -->
-		<StaticImage name="fl_CombineSuppressor" origin="97 -233">
+		<StaticImage name="cmb_CombineSuppressor" origin="97 -233">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="185" sizeY="148" color="211e1dcc"/>
 
@@ -111,13 +111,13 @@
 
 				<!-- Class icon -->
 				<StaticImage name="" origin="16 -24" align="l">
-					<RenderObject2D texture="data/textures/gui/deploy/class_icon_fl_insignia.dds"/>
+					<RenderObject2D texture="data/textures/gui/deploy/class_icon_cmb_insignia.dds"/>
 				</StaticImage>
 			</Item>
 		</StaticImage>
 
 		<!-- Grunt -->
-		<StaticImage name="fl_CombineGrunt" origin="0 -439">
+		<StaticImage name="cmb_CombineGrunt" origin="0 -439">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="242" color="211e1dcc"/>
 
@@ -140,7 +140,7 @@
 			<StaticText name="#ClassName" origin="-6 98" text="" align="r" font="header_4" textColor="211e1d"/>
 
 			<StaticImage name="" origin="8 -7" align="lt">
-				<RenderObject2D texture="data/textures/gui/deploy/class_icon_fl_insignia.dds"/>
+				<RenderObject2D texture="data/textures/gui/deploy/class_icon_cmb_insignia.dds"/>
 			</StaticImage>
 
 			<Item origin="-138 23">
@@ -175,7 +175,7 @@
 		</StaticImage>
 
 		<!-- Civil Protection -->
-		<StaticImage name="fl_CombinePolice" origin="0 -738">
+		<StaticImage name="cmb_CombinePolice" origin="0 -738">
 			<!-- Transparent Dark Gray Background -->
 			<RenderObject2D texture="data/textures/gui/square.tga" sizeX="380" sizeY="336" color="211e1dcc"/>
 
@@ -198,7 +198,7 @@
 			<StaticText name="#ClassName" origin="-6 144" text="" align="r" font="header_4" textColor="211e1d"/>
 
 			<StaticImage name="" origin="8 -7" align="lt">
-				<RenderObject2D texture="data/textures/gui/deploy/class_icon_fl_c17.dds"/>
+				<RenderObject2D texture="data/textures/gui/deploy/class_icon_cmb_c17.dds"/>
 			</StaticImage>
 
 			<Item origin="-138 70">

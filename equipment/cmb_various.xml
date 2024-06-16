@@ -1,5 +1,5 @@
 <Equipment>
-    <FeetOfSteel name="fl_ChargerFeet" inventoryBinding="SupportGear3">
+    <FeetOfSteel name="cmb_ChargerFeet" inventoryBinding="SupportGear3">
 		<ModifiableParams
 			efficiencyPercent="100"
 			audibleSoundRadius="12.0"
@@ -10,13 +10,13 @@
 		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
 	</FeetOfSteel>
 
-	<!-- <Bind eqp="fl_HealthPen">
-		<to name="fl_CombineOrdinal"/>
-		<to name="fl_CombineCharger"/>
-		<to name="fl_CombineSuppressor"/>
-		<to name="fl_CombineGrunt"/>
+	<!-- <Bind eqp="cmb_HealthPen">
+		<to name="cmb_CombineOrdinal"/>
+		<to name="cmb_CombineCharger"/>
+		<to name="cmb_CombineSuppressor"/>
+		<to name="cmb_CombineGrunt"/>
 	</Bind>
-	<Grenade name="fl_HealthPen" inventoryBinding="UtilityPouch" quantity="1" unlockCostBH="2" 
+	<Grenade name="cmb_HealthPen" inventoryBinding="UtilityPouch" quantity="1" unlockCostBH="2" 
 
 			tooltip="@odst_biofoam_name"
 			description="@odst_biofoam_desc"

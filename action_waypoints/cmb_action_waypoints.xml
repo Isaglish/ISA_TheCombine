@@ -1,8 +1,8 @@
 <ActionWaypoints>
 	<wp
 		type="FEET_OF_STEEL"
-		equipment="fl_ChargerFeet"
+		equipment="cmb_ChargerFeet"
 		ui_prefix="data/textures/gui_ingame/waypoints/feet_of_steel"
-		ttip="@menu_game_fl_charger_feet_ttip"
+		ttip="@menu_game_cmb_charger_feet_ttip"
 		ttip_disabled="@menu_game_tool_disabled_ttip"/>
 </ActionWaypoints>

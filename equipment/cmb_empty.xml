@@ -1,0 +1,19 @@
+<Equipment>
+    <!-- <Bind eqp="EmptyUtility" to="cmb_Combine"/> -->
+
+    <!-- <Bind eqp="EmptyPrimary"> -->
+        <!-- <to name="cmb_CombinePolice"/> -->
+    <!-- </Bind> -->
+    <!-- <Bind eqp="EmptySecondary" to="cmb_Combine"/> -->
+
+    <!-- <Bind eqp="EmptyHelmet" to="cmb_Combine"/> -->
+    <!-- <Bind eqp="EmptyHelmetNVG" to="cmb_Combine"/> -->
+
+    <!-- <Bind eqp="EmptyArmor" to="cmb_Combine"/> -->
+    <!-- <Unbind eqp="EmptyArmor" to="cmb_CombineCharger"/> -->
+    <!--  -->
+    <!-- <Bind eqp="EmptySupportGear" to="cmb_Combine"/> -->
+
+    <!-- <Bind eqp="EmptyPrimaryMuzzle" to="cmb_Combine"/> -->
+    <!-- <Bind eqp="EmptySecondaryMuzzle" to="cmb_Combine"/> -->
+</Equipment>

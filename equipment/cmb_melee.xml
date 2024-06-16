@@ -1,8 +1,8 @@
 <Equipment>
-    <Ammo name="fl_StunBaton_Ammo"
-			tooltip="@ammo_fl_blunt_electric_name"
-			description="@ammo_fl_blunt_electric_desc"
-			img="data/models/weapons/attachments/fl_blunt_electric_ui.dds"
+    <Ammo name="cmb_StunBaton_Ammo"
+			tooltip="@ammo_cmb_blunt_electric_name"
+			description="@ammo_cmb_blunt_electric_desc"
+			img="data/models/weapons/attachments/cmb_blunt_electric_ui.dds"
 		>
 
         <!-- Suppression doesn't work for Melee weapons because they use the Stagger effect?  - Isaglish -->
@@ -18,18 +18,18 @@
 		</Params>
 	</Ammo>
     
-    <Bind eqp="fl_StunBaton">
-		<to name="fl_CombineCharger"/>
-		<to name="fl_CombinePolice"/>
+    <Bind eqp="cmb_StunBaton">
+		<to name="cmb_CombineCharger"/>
+		<to name="cmb_CombinePolice"/>
         
-		<to name="fl_StunBaton_Ammo"/>
+		<to name="cmb_StunBaton_Ammo"/>
 
-		<to name="fl_StunBaton_Sights"/>
+		<to name="cmb_StunBaton_Sights"/>
 	</Bind>
- 	<Firearm name="fl_StunBaton" inventoryBinding="SecondaryWeapon" category="melee" unlockCost="0"
-			tooltip="@melee_fl_stun_baton_name"
-			description="@melee_fl_stun_baton_desc"
-			img="data/models/equipment/fl_stun_baton_ui.dds"
+ 	<Firearm name="cmb_StunBaton" inventoryBinding="SecondaryWeapon" category="melee" unlockCost="0"
+			tooltip="@melee_cmb_stun_baton_name"
+			description="@melee_cmb_stun_baton_desc"
+			img="data/models/equipment/cmb_stun_baton_ui.dds"
 
 			animationSet="dynamic_hammer"
 		>
@@ -69,7 +69,7 @@
 		/>
 
 		<Params
-            caliberInfoText="@firearm_caliber_fl_stun_baton_name"
+            caliberInfoText="@firearm_caliber_cmb_stun_baton_name"
             operationInfoText="@firearm_operation_singleshot_name"
 		/>
 

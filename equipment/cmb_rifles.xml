@@ -1,16 +1,16 @@
 <Equipment>
 	<Bind eqp="Frag Grenade">
-		<to name="fl_CombineGrunt"/>
+		<to name="cmb_CombineGrunt"/>
 	</Bind>
 	
-    <Bind eqp="fl_HeavyShotgun">
-		<to name="fl_CombineCharger"/>
+    <Bind eqp="cmb_HeavyShotgun">
+		<to name="cmb_CombineCharger"/>
 		
-		<to name="fl_HeavyShotgun_Ammo"/>
+		<to name="cmb_HeavyShotgun_Ammo"/>
 
 		<to name="IronSights"/>
 	</Bind>
- 	<Firearm name="fl_HeavyShotgun" inventoryBinding="PrimaryWeapon" category="shotgun" unlockCost="0"
+ 	<Firearm name="cmb_HeavyShotgun" inventoryBinding="PrimaryWeapon" category="shotgun" unlockCost="0"
 			tooltip="@firearm_m500pp_name"
 			description="@firearm_m500pp_desc"
 			img="data/models/weapons/m500_ui.dds"
@@ -75,17 +75,17 @@
 		</Sounds>
 	</Firearm>
 
-	<Bind eqp="fl_PulseSMG">
-		<to name="fl_CombineGrunt"/>
+	<Bind eqp="cmb_PulseSMG">
+		<to name="cmb_CombineGrunt"/>
 
 		<to name="919FMJM882_Mp5ASMG"/>
 
 		<to name="IronSights"/>
 	</Bind>
-	<Firearm name="fl_PulseSMG" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
-			tooltip="@firearm_fl_pulse_smg_name"
-			description="@firearm_fl_pulse_smg_desc"
-			img="data/models/weapons/fl_pulse_smg_ui.dds"
+	<Firearm name="cmb_PulseSMG" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
+			tooltip="@firearm_cmb_pulse_smg_name"
+			description="@firearm_cmb_pulse_smg_desc"
+			img="data/models/weapons/cmb_pulse_smg_ui.dds"
 
 			animationSet="rifle"
 		>
@@ -112,7 +112,7 @@
 		/>
 
 		<Params
-			caliberInfoText="@firearm_caliber_fl_pulse_smg_name"
+			caliberInfoText="@firearm_caliber_cmb_pulse_smg_name"
 			operationInfoText="@firearm_operation_mp5navy_name"
 			ai_rangeMin="1.0"
 			ai_rangeOptimal="10.0"

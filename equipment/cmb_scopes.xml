@@ -1,8 +1,8 @@
 <Equipment>
-	<Scope name="fl_StunBaton_Sights"
+	<Scope name="cmb_StunBaton_Sights"
 			inventoryBinding="SecondaryWeaponScope"
-			tooltip="@scope_fl_stun_baton_name"
-			description="@scope_fl_stun_baton_desc"
+			tooltip="@scope_cmb_stun_baton_name"
+			description="@scope_cmb_stun_baton_desc"
 			img="data/models/weapons/attachments/iron_sights_ui.dds"
 		>
 		<Params/>

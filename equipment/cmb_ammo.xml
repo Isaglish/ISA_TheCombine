@@ -1,5 +1,5 @@
 <Equipment>
-    <Ammo name="fl_HeavyShotgun_Ammo"
+    <Ammo name="cmb_HeavyShotgun_Ammo"
 			tooltip="@ammo_12GANO4BUCK_name"
 			description="@ammo_12GANO4BUCK_desc"
 			img="data/models/weapons/attachments/m257_buckshot_ammo24_ui.dds"

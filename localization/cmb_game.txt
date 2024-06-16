@@ -1,0 +1,66 @@
+####################
+# UNITS
+####################
+@unit_cmb_combine_name=THE COMBINE
+@unit_cmb_combine_description=Comprised of volunteers, the Combine Overwatch's transhuman forces are tasked with eliminating anti-citizen activity.
+
+@unit_cmb_combine_ordinal=ORDINAL
+@unit_cmb_combine_charger=WALLHAMMER
+@unit_cmb_combine_suppressor=APF
+@unit_cmb_combine_grunt=ECHO ONE
+@unit_cmb_combine_police=CIVIL PROTECTION
+
+@unit_cmb_combine_rank_0=Recruit
+@unit_cmb_combine_rank_1=Novice
+@unit_cmb_combine_rank_2=Adept
+@unit_cmb_combine_rank_3=Proficient
+@unit_cmb_combine_rank_4=Skilled
+@unit_cmb_combine_rank_5=Seasoned
+@unit_cmb_combine_rank_6=Expert
+@unit_cmb_combine_rank_7=Veteran
+@unit_cmb_combine_rank_8=Master
+@unit_cmb_combine_rank_9=Elite
+
+@class_cmb_combine_ordinal=The Combine Ordinal, also known as "Combine Captain" and \n"Combine Officer", is a high-ranking transhuman officer class \nof the Combine Overwatch.\n\nProtect but use as force multiplier.
+@class_cmb_combine_charger=The Combine Charger, also called the "Combine Heavy" and \nreferred to as "Wallhammer" in Combine terminology, is a \nspecialized transhuman soldier class of the Combine Overwatch.\n\nUse them to rush the enemy and act as a bullet sponge.
+@class_cmb_combine_suppressor=The Combine Suppressor, referred to as "APF" or "Antibody \nProtection Force" in Combine terminology, is a specialized \ntranshuman soldier class of the Combine Overwatch.\n\nUse to fix the enemy in place or cut down enemy assaults. 
+@class_cmb_combine_grunt=Combine Grunts, referred to as "Echo One" in Combine \nterminology are the most common soldiers of the Combine.\nThey are the most playful and human in the transhuman force.\n\nUse them to maneuver, dominate and gain vital ground.
+@class_cmb_combine_police=Civil Protection, also known as "Metro Police", is the \nCombine's oppressive human police force in all Combine-\ncontrolled urban areas on Earth. Part of the Combine, \nMetro Cops are ordinary human volunteers \nwho have willingly joined the Combine. \nThey have not been subject to biomechanical modification \nin any way, unlike the transhuman forces.\n\nBoost your numbers as they only cost half a Deploy Point.
+
+
+####################
+# ARMOR
+####################
+@armor_cmb_charger_name=Charger Plates
+@armor_cmb_charger_desc=description...
+
+
+####################
+# FIREARMS
+####################
+@firearm_cmb_pulse_smg_name=Pulse SMG
+@firearm_cmb_pulse_smg_desc=description...
+
+@firearm_caliber_cmb_pulse_smg_name=Power Cell
+@firearm_caliber_cmb_stun_baton_name=50M Volts
+
+
+####################
+# MELEE
+####################
+@melee_cmb_stun_baton_name=Hammer
+@melee_cmb_stun_baton_desc=The Hammer is an electrified baton used by the Civil Protection to enforce the law on unruly citizens, as well as restrain, harass or simply beat them.
+
+
+####################
+# AMMO
+####################
+@ammo_cmb_blunt_electric_name=Blunt / Electric
+@ammo_cmb_blunt_electric_desc=Delivers a forceful impact, capable of subduing targets with a few strikes whilst also shocking anyone unlucky enough to get the short end of the stick.
+
+
+####################
+# SCOPES
+####################
+@scope_cmb_stun_baton_name=Nothing to see here...
+@scope_cmb_stun_baton_desc=What are you lookin' at? Why would you put a scope on something you're going to use to bash someone's head in?

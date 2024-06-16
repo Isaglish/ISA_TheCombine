@@ -1,10 +1,10 @@
 <Equipment>
-    <Bind eqp="fl_ChargerArmor">
-		<to name="fl_CombineCharger"/>
+    <Bind eqp="cmb_ChargerArmor">
+		<to name="cmb_CombineCharger"/>
 	</Bind>
-	<Armor name="fl_ChargerArmor" inventoryBinding="Armor" unlockCost="0"
-			tooltip="@armor_fl_charger_name"
-			description="@armor_fl_charger_desc"
+	<Armor name="cmb_ChargerArmor" inventoryBinding="Armor" unlockCost="0"
+			tooltip="@armor_cmb_charger_name"
+			description="@armor_cmb_charger_desc"
 			img="data/models/equipment/armor_noplates_ui.dds"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-30" turnSpeedModifierPercent="-20"/>
