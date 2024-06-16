@@ -26,18 +26,18 @@
 	</Sound>
 	
 	<!-- WEAPONS -->
-    <Sound ID="pulse_smg_fire" channel="game" preload="false">
-        <Path name="data/sounds/sfx/weapons/pulse_smg_fire_01.ogg"/>
-		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_02.ogg"/>
-		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_03.ogg"/>
-		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_04.ogg"/>
-		<Path name="data/sounds/sfx/weapons/pulse_smg_fire_05.ogg"/>
+    <Sound ID="cmb_pulse_smg_fire" channel="game" preload="false">
+        <Path name="data/sounds/sfx/weapons/cmb_pulse_smg_fire_01.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_pulse_smg_fire_02.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_pulse_smg_fire_03.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_pulse_smg_fire_04.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_pulse_smg_fire_05.ogg"/>
     </Sound>
 
-	<Sound ID="heavy_shotgun_fire" channel="game" preload="false">
-        <Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_01.ogg"/>
-		<Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_02.ogg"/>
-		<Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_03.ogg"/>
-		<Path name="data/sounds/sfx/weapons/heavy_shotgun_fire_04.ogg"/>
+	<Sound ID="cmb_heavy_shotgun_fire" channel="game" preload="false">
+        <Path name="data/sounds/sfx/weapons/cmb_heavy_shotgun_fire_01.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_heavy_shotgun_fire_02.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_heavy_shotgun_fire_03.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_heavy_shotgun_fire_04.ogg"/>
     </Sound>
 </Sounds>

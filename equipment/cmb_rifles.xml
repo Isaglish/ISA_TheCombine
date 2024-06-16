@@ -70,7 +70,7 @@
 			<Unequip name="870br_neqp"/>
 			<Reload name="870br_reld"/>
 			<ReloadEmpty name="870br_reld"/>
-			<Fire name="heavy_shotgun_fire"/>
+			<Fire name="cmb_heavy_shotgun_fire"/>
 			<Empty name="gen_empty"/>
 		</Sounds>
 	</Firearm>
@@ -142,7 +142,7 @@
 			<Unequip name="smg_neqp"/>
 			<Reload name="smg_reld"/>
 			<ReloadEmpty name="smg_reldempt"/>
-			<Fire name="pulse_smg_fire"/>
+			<Fire name="cmb_pulse_smg_fire"/>
 			<Empty name="gen_empty"/>
 		</Sounds>
 	</Firearm>
