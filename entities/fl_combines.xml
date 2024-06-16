@@ -65,7 +65,7 @@
 			class="fl_CombineSuppressor"
 			expendable="true">
 
-			<Id name="fl_CombineSuppressor" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="male_very_american"/>
+			<Id name="fl_CombineSuppressor" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="fl_combine_suppressor"/>
 			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.2"/>
 			<Brain suppressionRecovery="55.0"/>
 

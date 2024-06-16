@@ -653,6 +653,336 @@
 		</Sound> -->
 	</Pack>
 
+	<Pack name="fl_combine_suppressor">
+		<!-- <Sound ID="VOX_TRPR_ABORT" 					Path="data/sounds/voice/rangers/vox_trpr_01_abort.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSED" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defused.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_BOMB_DEFUSING" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_defusing.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_BOMB_LOCATED" 			Path="data/sounds/voice/rangers/vox_trpr_01_bomb_located.wav" /> -->
+		<Sound ID="VOX_TRPR_CANT"> <!-- unabletocommence -->
+			<Path 									name="data/sounds/voice/suppressor/cant_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/cant_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/cant_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/cant_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/cant_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/cant_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/cant_07.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_CIV_DOWN" 				Path="data/sounds/voice/rangers/vox_trpr_01_civ_down.wav" /> -->
+		<Sound ID="VOX_TRPR_CLEAR"> <!-- reconnoiter_finish -->
+			<Path 									name="data/sounds/voice/suppressor/clear_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_09.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_10.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_11.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_12.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_13.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_14.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_15.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_16.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_17.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_18.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_19.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/clear_20.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_COMPROMISED" 			Path="data/sounds/voice/rangers/vox_trpr_01_compromised.wav" /> -->
+		<Sound ID="VOX_TRPR_COME"> <!-- retreat -->
+			<Path 									name="data/sounds/voice/suppressor/regroup_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_09.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/regroup_10.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_DOOR_LOCKED" 			Path="data/sounds/voice/rangers/vox_trpr_01_door_locked.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_DOOR_UNLOCKED" 			Path="data/sounds/voice/rangers/vox_trpr_01_door_unlocked.wav" /> -->
+		<Sound ID="VOX_DYING" preload="true"> <!-- die -->
+			<Path 									name="data/sounds/voice/suppressor/die_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/die_09.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_EVID_DESTR">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_evid_destr_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_evid_destr_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_evid_destr_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_EYESONTARGET" 			Path="data/sounds/voice/rangers/vox_trpr_01_eyesontarget.wav" /> -->
+		<Sound ID="VOX_TRPR_FREEZE"> <!-- taunt -->
+			<Path 									name="data/sounds/voice/suppressor/taunt_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_09.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_10.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_11.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_12.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_13.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_14.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_15.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_16.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_17.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_18.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_19.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_20.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_21.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_22.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_23.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_24.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_25.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_26.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_27.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_28.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_29.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_30.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_31.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_32.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_33.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_34.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_35.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_36.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_37.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_38.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_39.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_40.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_41.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_42.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_43.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_44.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_45.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_46.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_47.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_48.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_49.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_50.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_51.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_52.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_53.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_54.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_55.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_56.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_57.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_58.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_59.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/taunt_60.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_GEAR_CHARGE_PLACE" 		Path="data/sounds/voice/rangers/vox_trpr_01_gear_charge_place.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_GEAR_CHARGE_RDY">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gear_charge_rdy_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gear_charge_rdy_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gear_charge_rdy_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_GEAR_FLASH" 					Path="data/sounds/voice/rangers/vox_trpr_01_gear_flash.wav" /> -->
+		<!-- <Sound ID="VOX_GEAR_FRAG"> announceattack_grenade
+			<Path 									name="data/sounds/voice/ordinal/grenade_01.ogg"/>
+			<Path 									name="data/sounds/voice/ordinal/grenade_02.ogg"/>
+			<Path 									name="data/sounds/voice/ordinal/grenade_03.ogg"/>
+			<Path 									name="data/sounds/voice/ordinal/grenade_04.ogg"/>
+			<Path 									name="data/sounds/voice/ordinal/grenade_05.ogg"/>
+			<Path 									name="data/sounds/voice/ordinal/grenade_06.ogg"/>
+			<Path 									name="data/sounds/voice/ordinal/grenade_07.ogg"/>
+		</Sound> -->
+		<!-- <Sound ID="VOX_GEAR_STINGER" 				Path="data/sounds/voice/rangers/vox_trpr_01_gear_stinger.wav" /> -->
+		<!-- <Sound ID="VOX_GEAR_SMOKE" 					Path="data/sounds/voice/rangers/vox_trpr_01_gear_flash.wav" /> -->
+		<Sound ID="VOX_TRPR_GETDOWN"> <!-- coverme -->
+			<Path 									name="data/sounds/voice/suppressor/getdown_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/getdown_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/getdown_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/getdown_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/getdown_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/getdown_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/getdown_07.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_GOCODE_ALFA">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_alfa_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_alfa_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_alfa_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_GOCODE_BRAVO">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_bravo_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_bravo_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_bravo_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_GOCODE_CHARLIE">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_charlie_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_charlie_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_charlie_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_GOCODE_DELTA">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_delta_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_delta_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_gocode_delta_03.wav" />
+		</Sound> -->
+		<Sound ID="VOX_TRPR_HANDCUFF"> <!-- fakeout_success -->
+			<Path 									name="data/sounds/voice/suppressor/handcuff_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/handcuff_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/handcuff_03.ogg"/>
+		</Sound>
+		<Sound ID="VOX_TRPR_HOLDING"> <!-- overwatch -->
+			<Path 									name="data/sounds/voice/suppressor/holding_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_09.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_10.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_11.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_12.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_13.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_14.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_15.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_16.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_17.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_18.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_19.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/holding_20.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_HOST_DOWN" 				Path="data/sounds/voice/rangers/vox_trpr_01_host_down.wav" /> -->
+		<Sound ID="VOX_INJURED" preload="true"> <!-- injured + pain -->
+			<Path 									name="data/sounds/voice/suppressor/injured_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_09.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_10.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_11.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_12.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_13.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/injured_14.ogg"/>
+		</Sound>
+		<Sound ID="VOX_TRPR_MANDOWN"> <!-- squadmemberlost -->
+			<Path 									name="data/sounds/voice/suppressor/mandown_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_09.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/mandown_10.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_MOVING" 				Path="data/sounds/voice/rangers/vox_trpr_01_moving.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_NOTANGOS">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_notangos_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_notangos_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_notangos_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_ONTARGET">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_ontarget_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_ontarget_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_ontarget_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_ORDERS">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_orders_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_orders_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_orders_03.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_orders_04.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_POSITION" 				Path="data/sounds/voice/rangers/vox_trpr_01_position_01.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_PUMP" 					Path="data/sounds/voice/rangers/vox_trpr_01_pump_01.wav" /> -->
+		<Sound ID="VOX_RELOAD">
+			<Path 									name="data/sounds/voice/suppressor/reload_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_09.ogg"/>
+		</Sound>
+		<Sound ID="VOX_RELOAD_PUMP">
+			<Path 									name="data/sounds/voice/suppressor/reload_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_06.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_07.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_08.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/reload_09.ogg"/>
+		</Sound>		
+		<Sound ID="VOX_TRPR_ROGER"> <!-- orderresponse_positive -->
+			<Path 									name="data/sounds/voice/suppressor/roger_01.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/roger_02.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/roger_03.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/roger_04.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/roger_05.ogg"/>
+			<Path 									name="data/sounds/voice/suppressor/roger_06.ogg"/>
+		</Sound>
+		<!-- <Sound ID="VOX_TRPR_TANGODOWN">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_tangodown_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_tangodown_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_tangodown_03.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_tangodown_04.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_tangodown_05.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_tangodown_06.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_tangodown_07.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_TARGET">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_target_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_target_02.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_VIP_DEAD">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_vip_dead_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_vip_dead_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_vip_dead_03.wav" />
+		</Sound>		 -->
+		<Sound ID="VOX_TRPR_TIME_TO_GO"				Path="data/sounds/voice/grunt/gogogo_01.ogg"/>
+		<Sound ID="VOX_TRPR_GO_GO_GO"				Path="data/sounds/voice/grunt/gogogo_01.ogg"/>
+		<Sound ID="VOX_TRPR_EVAC"					Path="data/sounds/voice/grunt/gogogo_01.ogg"/>
+		<!-- <Sound ID="VOX_TRPR_DONE_HERE"				Path="data/sounds/voice/rangers/vox_trpr_01_donehere.wav" /> -->
+		<Sound ID="VOX_TRPR_SUSP_SEC" 				Path="data/sounds/voice/grunt/target_sec_01.ogg"/>
+		<Sound ID="VOX_TRPR_TARGET_SEC" 			Path="data/sounds/voice/grunt/target_sec_01.ogg"/>
+		<Sound ID="VOX_TRPR_HOST_SEC" 			Path="data/sounds/voice/grunt/target_sec_01.ogg"/>
+		<Sound ID="VOX_TRPR_INTEL_SEC" 			Path="data/sounds/voice/grunt/intel_sec_01.ogg"/>
+		<!-- <Sound ID="VOX_TRPR_INTEL_SEC">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_intel_sec_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_intel_sec_02.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_CIV_SEC" 				Path="data/sounds/voice/rangers/vox_trpr_01_civ_sec.wav" /> -->
+		<!-- <Sound ID="VOX_TRPR_EVID_SEC">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_evid_sec_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_evid_sec_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_evid_sec_03.wav" />
+		</Sound> -->
+		<!-- <Sound ID="VOX_TRPR_WAIT">
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_host_wait_01.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_host_wait_02.wav" />
+			<Path 									name="data/sounds/voice/rangers/vox_trpr_01_host_wait_03.wav" />
+		</Sound> -->
+		
+		<!-- <Sound ID="VOX_VIP_ACTIVATED">
+			<Path 									name="data/sounds/voice/others/FO_VOICE_HSTGEM_5.wav" />
+		</Sound> -->
+	</Pack>
+
 	<Pack name="fl_combine_grunt">
 		<!-- Commander -->
 		<Sound ID="VOX_CMDR_ALPHA" Path="data/sounds/voice/grunt/gocode_alpha_01.ogg" channel="game" preload="true"/>
