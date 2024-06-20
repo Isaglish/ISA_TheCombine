@@ -22,6 +22,8 @@
 			<Equipment>
 				<Item name="FeetOfSteel"/>
 			</Equipment>
+
+			<Doctrine name="cmb_Leadership"/>
 		</Human>
 	</Entity>
 	

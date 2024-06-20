@@ -61,6 +61,19 @@
 		</Ranks>
 
 		<Doctrine doctrinePointsPerSquadLevel="2">
+			<!-- training -->
+			
+			<!-- technology -->
+			<Node name="cmb_Propaganda" numLevels="4"/>
+			
+			<!-- skills -->
+			<Node name="cmb_Intimidation">
+				<Node name="cmb_Coercion">
+				</Node>
+			</Node>
+
+			<!-- elite -->
+			<Node name="cmb_Interrogation" minSquadLevel="14"/>
 		</Doctrine>
 	</Unit>
 </Units>

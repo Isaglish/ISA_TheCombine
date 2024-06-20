@@ -1,0 +1,42 @@
+<DoctrineNodes>
+    <Node name="cmb_Leadership">
+		<GiveBuff nodeName="cmb_Coordinated" target="friends_in_radius" radius="7.0" durationMs="15000"/>
+	</Node>
+	
+	<Node name="cmb_Coordinated" nameUI="" description="@buff_cmb_coordinated">
+        <EquipmentModifier target="all"
+			changeOutTime="+50" 
+		/>
+		<EquipmentModifier
+			suppressionRecoveryAdd="50"
+		/>
+        <AttackTypeModifier minRange="0" maxRange="30"
+			accuracyAdd="+40" 
+		/>
+        <AttackTypeModifier minRange="1" maxRange="10"
+			critChanceAdd="10"
+		/>
+	</Node>
+
+    <!-- TRAINING -->
+
+    <!-- TECHNOLOGY -->
+    <Node name="cmb_Propaganda" nameUI="@doctrine_combine_propaganda_name" description="@doctrine_combine_propaganda_desc" texturePrefix="data/textures/gui/doctrines/doctrine_empty">
+        <EquipmentModifier
+            suppressionRecoveryAdd="5" 
+        />
+    </Node>
+    
+    <!-- SKILLS -->
+    <Node name="cmb_Intimidation" nameUI="@doctrine_combine_intimidation_name" description="@doctrine_combine_intimidation_desc" texturePrefix="data/textures/gui/doctrines/doctrine_cmb_intimidation">
+    </Node>
+
+    <Node name="cmb_Coercion" nameUI="@doctrine_combine_coercion_name" description="@doctrine_combine_coercion_desc" texturePrefix="data/textures/gui/doctrines/doctrine_empty">
+        <Enable name="AdvancedLanguage"/>
+    </Node>
+
+    <!-- ELITE -->
+    <Node name="cmb_Interrogation" nameUI="@doctrine_combine_interrogation_name" description="@doctrine_combine_interrogation_desc" texturePrefix="data/textures/gui/doctrines/doctrine_empty">
+        <Enable name="Persuasion" value="100"/>
+    </Node>
+</DoctrineNodes>

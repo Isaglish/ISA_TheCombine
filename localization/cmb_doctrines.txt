@@ -1,0 +1,5 @@
+@doctrine_combine_intimidation_name=Intimidation
+@doctrine_combine_intimidation_desc=Intimidation description...
+
+
+@buff_cmb_coordinated=Coordinated
