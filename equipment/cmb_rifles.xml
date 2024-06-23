@@ -1,8 +1,4 @@
 <Equipment>
-	<Bind eqp="Frag Grenade">
-		<to name="CombineGrunt"/>
-	</Bind>
-	
     <Bind eqp="cmb_HeavyShotgun">
 		<to name="CombineCharger"/>
 		

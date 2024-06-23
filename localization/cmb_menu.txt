@@ -1,5 +1,7 @@
 # game.xml
 @menu_game_cmb_charger_feet_ttip=Kick and destroy the lock!
+@menu_game_cmb_grenade_ttip=Throw bouncer
+@menu_game_cmb_grenade_none_ttip=Out of bouncers
 
 
 # doctrine.xml

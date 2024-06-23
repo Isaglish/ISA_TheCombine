@@ -25,6 +25,19 @@
 		<Path name="data/sounds/music/lose3.ogg"/>
 	</Sound>
 	
+	<!-- EQUIPMENT -->
+	<Sound ID="cmb_grenade_use" Path="data/sounds/sfx/equipment/cmb_grenade_use.ogg" channel="game" preload="true"/>
+
+	<!-- EXPLOSIONS -->
+	<Sound ID="cmb_grenade_tick_loop" Path="data/sounds/sfx/explosions/cmb_grenade_tick_loop.ogg" channel="game" preload="true"/>
+	<Sound ID="cmb_grenade_expl" channel="game" preload="true">
+		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_01.ogg"/>
+		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_02.ogg"/>
+		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_03.ogg"/>
+		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_04.ogg"/>
+		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_05.ogg"/>
+	</Sound>
+
 	<!-- WEAPONS -->
     <Sound ID="cmb_pulse_smg_fire" channel="game" preload="false">
         <Path name="data/sounds/sfx/weapons/cmb_pulse_smg_fire_01.ogg"/>
