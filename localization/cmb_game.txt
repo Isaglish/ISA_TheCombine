@@ -70,4 +70,4 @@
 # EQUIPMENT
 ####################
 @grenade_cmb_grenade_name=2x Bouncer
-@grenade_cmb_grenade_desc=Your standard grenade, also referred to as Bouncer or Extractor, is an offensive hand grenade used by the Combine to EXTRACT people's soul by using shockwave and shrapnels. Does not discriminate between friends and foes.\n\nUse Bouncers to take out enemies hidden in cover, don't mind the non-hostiles. They might be anti-citizens anyway.\n\nFuse time: 3s\nKill Range: 3m\nInjury Range: 5m
+@grenade_cmb_grenade_desc=Your standard grenade, also referred to as Bouncer or Extractor, is an offensive hand grenade used by the Combine to EXTRACT people's soul and to BOUNCE their inners around by using shockwave and shrapnels. Does not discriminate between friends and foes.\n\nUse Bouncers to take out enemies hidden in cover, don't mind the non-hostiles. They might be anti-citizens anyway.\n\nFuse time: 3s\nKill Range: 3m\nInjury Range: 5m
