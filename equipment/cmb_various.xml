@@ -54,7 +54,7 @@
 			audibleDetonationSoundRadius="32">
 
 			<FX
-				particles="FragGrenade"
+				particles="cmb_Grenade"
 				entity1="ExplosionLight"
 				entity2="explosion_mark"
 				randRotation2="true"
