@@ -128,14 +128,6 @@
                 <TextureAnimation frameWidth="256" frameHeight="256"/>
             </Material>
         </Emitter>
-        <Emitter name="explosion" duration="0.100" emitDelay="1.000" spawnOffsetY="1.400">
-            <Particle lifetime="0.900" lifetimeMax="1.000"/>
-            <Initial scale="1.600" orient="0.000" orientMax="360.000"/>
-            <Movement scaleStart="0.800" scaleEnd="1.800"/>
-            <Material softThickness="0.100" fadeIn="0.100" fadeOut="0.600" blendMode="add_masked" mainTex="data/textures/fx/explosion_stinger.dds" colorize="FFFEFEFF">
-                <TextureAnimation frameWidth="128" frameHeight="128"/>
-            </Material>
-        </Emitter>
         <Emitter name="explosion_fire" duration="0.100" emitDelay="1.000" spawnOffsetY="1.000">
             <Particle lifetime="1.000" mesh="data/models/fx/plane_tessellated_16.khm"/>
             <Initial scaleMax="1.200" sizeX="2.000" sizeY="2.000" sizeZ="2.000" orient="0.000" orientMax="360.000"/>
