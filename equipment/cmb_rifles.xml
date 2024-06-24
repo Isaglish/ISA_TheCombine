@@ -126,7 +126,7 @@
 			<AttackType name="Rangers_CarbineAimedFireXX" rangeMeters="9999"/>
 		</AttackTypes>
 
-		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="cmb_Tracer_OSIPR">
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
