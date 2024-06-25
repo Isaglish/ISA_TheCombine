@@ -83,10 +83,10 @@
 			description="@firearm_cmb_pulse_smg_desc"
 			img="data/models/weapons/cmb_pulse_smg_ui.dds"
 
-			animationSet="rifle"
+			animationSet="cmb_rifle"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
-		<RenderObject3D model="data/models/weapons/mp5a3.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/mp5a3.dds"/>
+		<RenderObject3D model="data/models/weapons/cmb_pulse_smg.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_pulse_smg.dds"/>
 
 		<ModifiableParams
 			numPellets="1"

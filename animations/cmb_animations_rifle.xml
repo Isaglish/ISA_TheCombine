@@ -1,0 +1,5 @@
+<Animations>
+    <Animation name="cmb_rifle_character_idle_low" loop="true">
+		<File name="data/animations/khm/rifle/idle_low.khm" />
+	</Animation>
+</Animations>

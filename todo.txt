@@ -1,0 +1,2 @@
+- Redraw Pulse SMG UI
+- Draw Ammo UI
