@@ -2,4 +2,9 @@
     <Animation name="cmb_rifle_character_idle_low" loop="true">
 		<File name="data/animations/khm/rifle/idle_low.khm" />
 	</Animation>
+
+	<Animation name="cmb_rifle_character_reload" endFrame="30">
+		<File name="data/animations/khm/rifle/reload_aim.khm"/>
+		<Event frame="6"/> <!-- drops the mag -->
+	</Animation>
 </Animations>

@@ -29,8 +29,8 @@
 
 		<Animation handle="fire" name="rifle_character_fire" />
 		<Animation handle="fire_blind" name="rifle_character_blind_fire" />
-		<Animation handle="reload" name="rifle_character_reload" />
-		<Animation handle="reloadempty" name="rifle_character_reload" />
+		<Animation handle="reload" name="cmb_rifle_character_reload" />
+		<Animation handle="reloadempty" name="cmb_rifle_character_reload" />
 		<Animation handle="melee" name="rifle_character_hit" />
 
 		<Animation handle="break_window" name="break_window_rifle" />

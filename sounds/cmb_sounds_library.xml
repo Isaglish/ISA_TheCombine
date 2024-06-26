@@ -38,6 +38,9 @@
 		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_05.ogg"/>
 	</Sound>
 
+	<!-- WEAPONS GENERAL -->
+	<Sound ID="cmb_pulse_smg_reld" Path="data/sounds/sfx/weapons_general/cmb_smg_reld.ogg" channel="game" preload="false"/>
+
 	<!-- WEAPONS -->
     <Sound ID="cmb_pulse_smg_fire" channel="game" preload="false">
         <Path name="data/sounds/sfx/weapons/cmb_pulse_smg_fire_01.ogg"/>

@@ -94,8 +94,8 @@
 			closedBolt="0"
 
 			cyclicReload="0"
-			reloadTime="2700"
-			reloadEmptyTime="2700"
+			reloadTime="1900"
+			reloadEmptyTime="1900"
 			changeInTime="0"
 			changeOutTime="0"
 			readyTime="350"
@@ -136,8 +136,8 @@
 		<Sounds> 
 			<Equip name="smg_eqp"/>
 			<Unequip name="smg_neqp"/>
-			<Reload name="smg_reld"/>
-			<ReloadEmpty name="smg_reldempt"/>
+			<Reload name="cmb_pulse_smg_reld"/>
+			<ReloadEmpty name="cmb_pulse_smg_reld"/>
 			<Fire name="cmb_pulse_smg_fire"/>
 			<Empty name="gen_empty"/>
 		</Sounds>
