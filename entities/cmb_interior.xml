@@ -1,0 +1,6 @@
+<Entities>
+    <Entity name="cmb_pulse_smg_mag" type="BasicEntity" editorTags="weapon" >
+        <PhysicalParams physicsEnabled="true" density="100" solid="false"/>
+        <RenderObject3D model="data/models/environment/interior/cmb_pulse_smg_mag.khm" diffuseTex="data/models/environment/interior/cmb_pulse_smg_mag.dds"/>
+    </Entity>
+</Entities>

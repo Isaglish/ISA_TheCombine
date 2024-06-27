@@ -110,6 +110,7 @@
 		<Params
 			caliberInfoText="@firearm_caliber_cmb_pulse_smg_name"
 			operationInfoText="@firearm_operation_mp5navy_name"
+			magazineEntity="cmb_pulse_smg_mag"
 			ai_rangeMin="1.0"
 			ai_rangeOptimal="10.0"
 			ai_rangeMax="25.0"
@@ -139,7 +140,7 @@
 			<Reload name="cmb_pulse_smg_reld"/>
 			<ReloadEmpty name="cmb_pulse_smg_reld"/>
 			<Fire name="cmb_pulse_smg_fire"/>
-			<Empty name="gen_empty"/>
+			<Empty name="cmb_gen_empty"/>
 		</Sounds>
 	</Firearm>
 </Equipment>
