@@ -1,14 +1,14 @@
 <FirearmAttackTypes>
-    <AttackType name="CMB_GeneCoded">
+    <AttackType name="CMB_PulseSMG_BurstFire">
 		<ModifiableParams
-			minAimTime="9999"
-			maxAimTime="9999"
-			minShots="0"
-			maxShots="0"
-			resetTime="9999"
-			accuracyAdd="0"
-			followupShotAccuracyAdd="0"
-			critChanceAdd="0"
+			minAimTime="350"
+			maxAimTime="350"
+			minShots="3"
+			maxShots="7"
+			resetTime="400"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-20"
+			critChanceAdd="2"
 		/>
 	</AttackType>
 </FirearmAttackTypes>

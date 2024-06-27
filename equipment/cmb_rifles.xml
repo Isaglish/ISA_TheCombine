@@ -118,7 +118,8 @@
 		/>
 
 		<AttackTypes>
-			<AttackType name="CMB_GeneCoded" rangeMeters="9999"/>
+			<AttackType name="CMB_PulseSMG_BurstFire" rangeMeters="100" disabled="true"/>
+			<AttackType name="GENE_CODED" rangeMeters="9999"/> <!-- This attack type does not exist, it's only here to stop enemies from using the weapon. -->
 		</AttackTypes>
 
 		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="CMB_Tracer_OSIPR">

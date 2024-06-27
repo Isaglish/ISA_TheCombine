@@ -18,6 +18,11 @@
 		/>
 	</Node>
 
+    <Node name="CMB_Authorized_Gene">
+        <!-- Enable attack types only for Combine transhuman units -->
+        <Enable name="CMB_PulseSMG_BurstFire"/>
+    </Node>
+
     <!-- TRAINING -->
 
     <!-- TECHNOLOGY -->
