@@ -1,1 +1,6 @@
 Sly
+    - Provided sounds and models
+    - Helped with the Combine soldier animation and rigging
+
+.UBERCHAD
+    - Gave the idea to simulate the "gene-coded" weapons
