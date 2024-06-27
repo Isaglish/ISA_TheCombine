@@ -74,7 +74,7 @@
 	<Bind eqp="cmb_PulseSMG">
 		<to name="CombineGrunt"/>
 
-		<to name="919FMJM882_Mp5ASMG"/>
+		<to name="cmb_PulseSMG_Ammo"/>
 
 		<to name="IronSights"/>
 	</Bind>
