@@ -39,9 +39,9 @@
 # FIREARMS
 ####################
 @firearm_cmb_pulse_smg_name=Pulse SMG
-@firearm_cmb_pulse_smg_desc=description...
+@firearm_cmb_pulse_smg_desc=The Combine SMG is a rapid-fire compact dark energy pulse weapon that can be easily wielded with one hand.\n\nThere seems to be a problem in this dimension that breaks the gene-coding of the Combine's weaponry, keep this in mind as the anti-citizens are more than likely to steal one of these for themselves.
 
-@firearm_caliber_cmb_pulse_smg_name=Power Cell
+@firearm_caliber_cmb_energy_pulse_name=Energy Pulse
 @firearm_caliber_cmb_stun_baton_name=50M Volts
 
 

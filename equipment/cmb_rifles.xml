@@ -108,7 +108,7 @@
 		/>
 
 		<Params
-			caliberInfoText="@firearm_caliber_cmb_pulse_smg_name"
+			caliberInfoText="@firearm_caliber_cmb_energy_pulse_name"
 			operationInfoText="@firearm_operation_mp5navy_name"
 			magazineEntity="cmb_pulse_smg_mag"
 			ai_rangeMin="1.0"
