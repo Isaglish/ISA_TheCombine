@@ -1,0 +1,14 @@
+<FirearmAttackTypes>
+    <AttackType name="CMB_GeneCoded">
+		<ModifiableParams
+			minAimTime="9999"
+			maxAimTime="9999"
+			minShots="0"
+			maxShots="0"
+			resetTime="9999"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+</FirearmAttackTypes>

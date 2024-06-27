@@ -1,5 +1,5 @@
 <Equipment>
-    <FeetOfSteel name="cmb_ChargerFeet" inventoryBinding="SupportGear3">
+    <FeetOfSteel name="CMB_ChargerFeet" inventoryBinding="SupportGear3">
 		<ModifiableParams
 			efficiencyPercent="100"
 			audibleSoundRadius="12.0"
@@ -10,11 +10,11 @@
 		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
 	</FeetOfSteel>
 
-	<Bind eqp="cmb_Grenade">
+	<Bind eqp="CMB_Grenade">
 		<to name="CombineOrdinal"/>
 		<to name="CombineGrunt"/>
 	</Bind>
-	<Grenade name="cmb_Grenade" inventoryBinding="UtilityPouch"
+	<Grenade name="CMB_Grenade" inventoryBinding="UtilityPouch"
 			quantity="2"
 
 			tooltip="@grenade_cmb_grenade_name"
@@ -38,7 +38,7 @@
 		/>
 
 		<Projectile
-			bodyTemplate="cmb_Grenade"
+			bodyTemplate="CMB_Grenade"
 			pathIconTexture="data/textures/gui/contextual/pathicon_stinger_active.tga"
 
 			soundExplosion="cmb_grenade_expl"
@@ -54,7 +54,7 @@
 			audibleDetonationSoundRadius="32">
 
 			<FX
-				particles="cmb_Grenade"
+				particles="CMB_Grenade"
 				entity1="ExplosionLight"
 				entity2="explosion_mark"
 				randRotation2="true"
@@ -87,13 +87,13 @@
 		</Projectile>
 	</Grenade>
 
-	<!-- <Bind eqp="cmb_HealthPen">
+	<!-- <Bind eqp="CMB_HealthPen">
 		<to name="CombineOrdinal"/>
 		<to name="CombineCharger"/>
 		<to name="CombineSuppressor"/>
 		<to name="CombineGrunt"/>
 	</Bind>
-	<Grenade name="cmb_HealthPen" inventoryBinding="UtilityPouch" quantity="1" unlockCostBH="2" 
+	<Grenade name="CMB_HealthPen" inventoryBinding="UtilityPouch" quantity="1" unlockCostBH="2" 
 
 			tooltip="@odst_biofoam_name"
 			description="@odst_biofoam_desc"

@@ -1,8 +1,8 @@
 <Equipment>
-    <Bind eqp="cmb_ChargerArmor">
+    <Bind eqp="CMB_ChargerArmor">
 		<to name="CombineCharger"/>
 	</Bind>
-	<Armor name="cmb_ChargerArmor" inventoryBinding="Armor" unlockCost="0"
+	<Armor name="CMB_ChargerArmor" inventoryBinding="Armor" unlockCost="0"
 			tooltip="@armor_cmb_charger_name"
 			description="@armor_cmb_charger_desc"
 			img="data/models/equipment/armor_noplates_ui.dds"

@@ -1,5 +1,5 @@
 <Particles>
-    <ParticleSystem name="cmb_Tracer_OSIPR" poolSize="80">
+    <ParticleSystem name="CMB_Tracer_OSIPR" poolSize="80">
         <Emitter name="trail" emitDelay="1.000">
             <Particle lifetime="0.025"/>
             <Initial scaleMax="1.200" sizeX="0.110" sizeY="0.600" sizeZ="1.050"/>
@@ -21,7 +21,7 @@
         </Emitter>
     </ParticleSystem>
 
-    <ParticleSystem name="cmb_Grenade" poolSize="8">
+    <ParticleSystem name="CMB_Grenade" poolSize="8">
         <Emitter name="radial dust" duration="0.100" emitDelay="1.000" spawnOffsetY="0.100">
             <Particle lifetime="0.700"/>
             <Initial scale="2.500" orient="0.000" orientMax="360.000"/>

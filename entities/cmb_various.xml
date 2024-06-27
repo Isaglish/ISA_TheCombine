@@ -1,38 +1,38 @@
 <Entities>
     <Bind to="door_wood_01_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
     <Bind to="door_wood_old_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
     <Bind to="door_flat_01_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
     <Bind to="gate_poor_01_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
     <Bind to="door_grate_01_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
     <Bind to="door_metal_sheet_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
     <Bind to="door_grate_02_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
     <Bind to="gate_metal_sheet_locked">
-		<eqp name="cmb_ChargerFeet"/>
+		<eqp name="CMB_ChargerFeet"/>
 	</Bind>
 
 	<!-- Projectiles -->
-	<Entity name="cmb_Grenade" type="Projectile" hideInEditor="true">
+	<Entity name="CMB_Grenade" type="Projectile" hideInEditor="true">
 		<PhysicalParams solid="false"/>
 		<RenderObject3D model="data/models/equipment/cmb_grenade.khm" skipGOSSAO="true" disableDecals="true" diffuseTex="data/models/equipment/cmb_grenade.dds"/>
 		<RenderObject2D texture="data/textures/fx/police_light.tga" blendMode="add" color="ff0000" sizeX="1.0" sizeY="1.0" disableDepthTest="true" billboard="true">

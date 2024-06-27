@@ -1,5 +1,5 @@
 <Equipment>
-    <Ammo name="cmb_StunBaton_Ammo"
+    <Ammo name="CMB_StunBaton_Ammo"
 			tooltip="@ammo_cmb_blunt_electric_name"
 			description="@ammo_cmb_blunt_electric_desc"
 			img="data/models/weapons/attachments/cmb_blunt_electric_ui.dds"
@@ -18,15 +18,15 @@
 		</Params>
 	</Ammo>
     
-    <Bind eqp="cmb_StunBaton">
+    <Bind eqp="CMB_StunBaton">
 		<to name="CombineCharger"/>
 		<to name="CombinePolice"/>
         
-		<to name="cmb_StunBaton_Ammo"/>
+		<to name="CMB_StunBaton_Ammo"/>
 
-		<to name="cmb_StunBaton_Sights"/>
+		<to name="CMB_StunBaton_Sights"/>
 	</Bind>
- 	<Firearm name="cmb_StunBaton" inventoryBinding="SecondaryWeapon" category="melee" unlockCost="0"
+ 	<Firearm name="CMB_StunBaton" inventoryBinding="SecondaryWeapon" category="melee" unlockCost="0"
 			tooltip="@melee_cmb_stun_baton_name"
 			description="@melee_cmb_stun_baton_desc"
 			img="data/models/equipment/cmb_stun_baton_ui.dds"

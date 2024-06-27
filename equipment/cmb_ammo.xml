@@ -1,5 +1,5 @@
 <Equipment>
-    <Ammo name="cmb_HeavyShotgun_Ammo"
+    <Ammo name="CMB_HeavyShotgun_Ammo"
 			tooltip="@ammo_12GANO4BUCK_name"
 			description="@ammo_12GANO4BUCK_desc"
 			img="data/models/weapons/attachments/m257_buckshot_ammo24_ui.dds"
@@ -20,7 +20,7 @@
 		</Params>
 	</Ammo>
 
-	<Ammo name="cmb_PulseSMG_Ammo"
+	<Ammo name="CMB_PulseSMG_Ammo"
 			tooltip="@ammo_cmb_pulse_smg_ammo_name"
 			description="@ammo_cmb_pulse_smg_ammo_desc"
 			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"

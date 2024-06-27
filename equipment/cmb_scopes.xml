@@ -1,5 +1,5 @@
 <Equipment>
-	<Scope name="cmb_StunBaton_Sights"
+	<Scope name="CMB_StunBaton_Sights"
 			inventoryBinding="SecondaryWeaponScope"
 			tooltip="@scope_cmb_stun_baton_name"
 			description="@scope_cmb_stun_baton_desc"

@@ -70,7 +70,7 @@
                 <StaticText text="@menu_doctrine_branch_cmb_technology" origin="0 0" align="t" font="header_3" textColor="f0e3cc"/>
             </StaticImage>
 
-            <Item name="cmb_Propaganda" origin="0 -160" align="ct">
+            <Item name="CMB_Propaganda" origin="0 -160" align="ct">
             </Item>
         </Item>
 
@@ -94,7 +94,7 @@
                 <StaticText text="@menu_doctrine_branch_cmb_skills" origin="0 0" align="t" font="header_3" textColor="f0e3cc"/>
             </StaticImage>
             
-            <Item name="cmb_Intimidation" origin="80 -160" align="lt">
+            <Item name="CMB_Intimidation" origin="80 -160" align="lt">
                 <Item name="#child_link_inactive">
                     <StaticImage origin="0 -60" align="t">
                         <RenderObject2D texture="data/textures/gui/square.tga" sizeX="8" sizeY="44" color="716b5f"/>
@@ -113,7 +113,7 @@
                     </StaticImage>
                 </Item>
             </Item>
-            <Item name="cmb_Coercion" origin="80 -340" align="lt">
+            <Item name="CMB_Coercion" origin="80 -340" align="lt">
             </Item>
         </Item>
 
@@ -168,7 +168,7 @@
                 </StaticImage>
             </StaticImage>
 
-            <Item name="cmb_Interrogation" origin="260 -160" align="lt">
+            <Item name="CMB_Interrogation" origin="260 -160" align="lt">
             </Item>
         </Item>
     </Item>

@@ -21,10 +21,10 @@
 			<Equipment>
 				<Item name="FeetOfSteel"/>
 
-				<Item name="cmb_Grenade"/>
+				<Item name="CMB_Grenade"/>
 			</Equipment>
 
-			<Doctrine name="cmb_Leadership"/>
+			<Doctrine name="CMB_Leadership"/>
 		</Human>
 	</Entity>
 	
@@ -48,12 +48,12 @@
 			<Concealment default="0" canHide="false"/>
 
 			<Equipment>
-				<Item name="cmb_ChargerFeet"/>
+				<Item name="CMB_ChargerFeet"/>
 
-				<Item name="cmb_HeavyShotgun"/>
-				<Item name="cmb_StunBaton"/>
+				<Item name="CMB_HeavyShotgun"/>
+				<Item name="CMB_StunBaton"/>
 
-				<Item name="cmb_ChargerArmor"/>
+				<Item name="CMB_ChargerArmor"/>
 			</Equipment>
 		</Human>
 	</Entity>
@@ -105,9 +105,9 @@
 			<Equipment>
 				<Item name="FeetOfSteel"/>
 
-				<Item name="cmb_PulseSMG"/>
+				<Item name="CMB_PulseSMG"/>
 
-				<Item name="cmb_Grenade"/>
+				<Item name="CMB_Grenade"/>
 			</Equipment>
 		</Human>
 	</Entity>

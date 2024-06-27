@@ -64,16 +64,16 @@
 			<!-- training -->
 			
 			<!-- technology -->
-			<Node name="cmb_Propaganda" numLevels="4"/>
+			<Node name="CMB_Propaganda" numLevels="4"/>
 			
 			<!-- skills -->
-			<Node name="cmb_Intimidation">
-				<Node name="cmb_Coercion">
+			<Node name="CMB_Intimidation">
+				<Node name="CMB_Coercion">
 				</Node>
 			</Node>
 
 			<!-- elite -->
-			<Node name="cmb_Interrogation" minSquadLevel="14"/>
+			<Node name="CMB_Interrogation" minSquadLevel="14"/>
 		</Doctrine>
 	</Unit>
 </Units>

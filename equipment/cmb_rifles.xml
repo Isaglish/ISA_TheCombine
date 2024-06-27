@@ -1,12 +1,12 @@
 <Equipment>
-    <Bind eqp="cmb_HeavyShotgun">
+    <Bind eqp="CMB_HeavyShotgun">
 		<to name="CombineCharger"/>
 		
-		<to name="cmb_HeavyShotgun_Ammo"/>
+		<to name="CMB_HeavyShotgun_Ammo"/>
 
 		<to name="IronSights"/>
 	</Bind>
- 	<Firearm name="cmb_HeavyShotgun" inventoryBinding="PrimaryWeapon" category="shotgun" unlockCost="0"
+ 	<Firearm name="CMB_HeavyShotgun" inventoryBinding="PrimaryWeapon" category="shotgun" unlockCost="0"
 			tooltip="@firearm_m500pp_name"
 			description="@firearm_m500pp_desc"
 			img="data/models/weapons/m500_ui.dds"
@@ -71,14 +71,14 @@
 		</Sounds>
 	</Firearm>
 
-	<Bind eqp="cmb_PulseSMG">
+	<Bind eqp="CMB_PulseSMG">
 		<to name="CombineGrunt"/>
 
-		<to name="cmb_PulseSMG_Ammo"/>
+		<to name="CMB_PulseSMG_Ammo"/>
 
 		<to name="IronSights"/>
 	</Bind>
-	<Firearm name="cmb_PulseSMG" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
+	<Firearm name="CMB_PulseSMG" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
 			tooltip="@firearm_cmb_pulse_smg_name"
 			description="@firearm_cmb_pulse_smg_desc"
 			img="data/models/weapons/cmb_pulse_smg_ui.dds"
@@ -118,16 +118,10 @@
 		/>
 
 		<AttackTypes>
-			<AttackType name="Rangers_SMGAutoFire" rangeMeters="4" disabled="true"/>
-			<AttackType name="Rangers_RapidFire" rangeMeters="7"/>	
-			<AttackType name="Rangers_SMGBurstFire" rangeMeters="7" disabled="true"/>
-			<AttackType name="Rangers_RapidFireMed" rangeMeters="12"/>
-			<AttackType name="Rangers_SMGBurstFireLong" rangeMeters="12" disabled="true"/>
-			<AttackType name="Rangers_CarbineAimedFire" rangeMeters="20"/>
-			<AttackType name="Rangers_CarbineAimedFireXX" rangeMeters="9999"/>
+			<AttackType name="CMB_GeneCoded" rangeMeters="9999"/>
 		</AttackTypes>
 
-		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="cmb_Tracer_OSIPR">
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="CMB_Tracer_OSIPR">
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
