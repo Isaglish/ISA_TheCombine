@@ -1,14 +1,66 @@
 <FirearmAttackTypes>
-    <AttackType name="CMB_PulseSMG_BurstFire">
+    <AttackType name="CMB_PulseSMG_BurstFireClose">
 		<ModifiableParams
 			minAimTime="350"
 			maxAimTime="350"
-			minShots="3"
-			maxShots="7"
+			minShots="7"
+			maxShots="15"
 			resetTime="400"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseSMG_BurstFire">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="400"
+			minShots="4"
+			maxShots="8"
+			resetTime="400"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseSMG_BurstFireLong">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="500"
+			minShots="2"
+			maxShots="7"
+			resetTime="450"
 			accuracyAdd="-100"
-			followupShotAccuracyAdd="-20"
-			critChanceAdd="2"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseSMG_BurstFireLongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="800"
+			minShots="2"
+			maxShots="5"
+			resetTime="300"
+			accuracyAdd="-150"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseSMG_BurstFireTooFar">
+		<ModifiableParams
+			minAimTime="1200"
+			maxAimTime="1500"
+			minShots="2"
+			maxShots="5"
+			resetTime="500"
+			accuracyAdd="-200"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="-50"
 		/>
 	</AttackType>
 </FirearmAttackTypes>

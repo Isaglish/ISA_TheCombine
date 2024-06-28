@@ -118,8 +118,13 @@
 		/>
 
 		<AttackTypes>
-			<AttackType name="CMB_PulseSMG_BurstFire" rangeMeters="100" disabled="true"/>
-			<AttackType name="GENE_CODED" rangeMeters="9999"/> <!-- This attack type does not exist, it's only here to stop enemies from using the weapon. -->
+			<AttackType name="CMB_PulseSMG_BurstFireClose" rangeMeters="7" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFire" rangeMeters="14" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFireLong" rangeMeters="20" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFireLongXX" rangeMeters="55" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFireTooFar" rangeMeters="120" disabled="true"/>
+			<!-- This attack type does not exist, it's only here to stop enemies from using the weapon. Can also act as "can't shoot, target too far." -->
+			<AttackType name="GENE_CODED" rangeMeters="9999"/>
 		</AttackTypes>
 
 		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="CMB_Tracer_OSIPR">
