@@ -21,8 +21,8 @@
 	</Ammo>
 
 	<Ammo name="CMB_PulseSMG_Ammo"
-			tooltip="@ammo_cmb_pulse_smg_ammo_name"
-			description="@ammo_cmb_pulse_smg_ammo_desc"
+			tooltip="@ammo_cmb_dark_energy_name"
+			description="@ammo_cmb_dark_energy_desc"
 			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
 		>
 

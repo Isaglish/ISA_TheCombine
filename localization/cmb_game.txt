@@ -57,8 +57,8 @@
 ####################
 @ammo_cmb_blunt_electric_name=Blunt / Electric
 @ammo_cmb_blunt_electric_desc=Delivers a forceful impact, capable of subduing targets with a few strikes whilst also shocking anyone unlucky enough to get the short end of the stick.
-@ammo_cmb_pulse_smg_ammo_name=Dark Energy
-@ammo_cmb_pulse_smg_ammo_desc=This Dark Energy plasma is the basis for many examples of Combine's technology, in fact, the entire Combine civilization appears to be dependent on it.\n\nIt is extremely hot, and can impart a massive amount of kinetic force.\n\nMetal-based weapons and armor can be rendered useless due to melting or explosive damage.
+@ammo_cmb_dark_energy_name=Dark Energy
+@ammo_cmb_dark_energy_desc=This Dark Energy plasma is the basis for many examples of Combine's technology, in fact, the entire Combine civilization appears to be dependent on it.\n\nIt is extremely hot, and can impart a massive amount of kinetic force.\n\nMetal-based weapons and armor can be rendered useless due to melting or explosive damage.
 
 
 ####################
