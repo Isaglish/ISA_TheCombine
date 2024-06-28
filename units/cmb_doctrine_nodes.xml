@@ -1,6 +1,6 @@
 <DoctrineNodes>
     <Node name="CMB_Leadership">
-		<GiveBuff nodeName="CMB_Coordinated" target="friends_in_radius" radius="7.0" durationMs="15000"/>
+		<GiveBuff nodeName="CMB_Coordinated" target="friends_in_radius" radius="7.0" durationMs="5000"/>
 	</Node>
 	
 	<Node name="CMB_Coordinated" nameUI="" description="@buff_cmb_coordinated">
