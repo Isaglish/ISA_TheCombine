@@ -7,11 +7,11 @@
 		<to name="IronSights"/>
 	</Bind>
  	<Firearm name="CMB_HeavyShotgun" inventoryBinding="PrimaryWeapon" category="shotgun" unlockCost="0"
-			tooltip="@firearm_m500pp_name"
-			description="@firearm_m500pp_desc"
-			img="data/models/weapons/m500_ui.dds"
+			tooltip="@firearm_cmb_heavy_shotgun_name"
+			description="@firearm_cmb_heavy_shotgun_desc"
+			img="data/models/weapons/cmb_heavy_shotgun_ui.dds"
 
-			animationSet="shotgun_pump"
+			animationSet="cmb_rifle"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-1"/>
 		<RenderObject3D model="data/models/weapons/m500pp.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/m500pp.dds"/>
@@ -39,13 +39,12 @@
 		/>
 
 		<Params
-			caliberInfoText="@firearm_caliber_12gauge_name"
-			operationInfoText="@firearm_operation_pumpaction_name"
+			caliberInfoText="@firearm_caliber_cmb_energy_pulse_name"
+			operationInfoText="@firearm_operation_semiauto_name"
 			ai_rangeMin="1.0"
 			ai_rangeOptimal="6.0"
 			ai_rangeMax="10.0"
 			ai_stopWhenShooting="false"
-			hasLaser="true"
 		/>
 
 		<AttackTypes>
@@ -67,7 +66,7 @@
 			<Reload name="870br_reld"/>
 			<ReloadEmpty name="870br_reld"/>
 			<Fire name="cmb_heavy_shotgun_fire"/>
-			<Empty name="gen_empty"/>
+			<Empty name="cmb_gen_empty"/>
 		</Sounds>
 	</Firearm>
 

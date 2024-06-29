@@ -40,6 +40,8 @@
 ####################
 @firearm_cmb_pulse_smg_name=Pulse SMG
 @firearm_cmb_pulse_smg_desc=The Combine SMG is a rapid-fire compact dark energy pulse weapon that can be easily wielded with one hand.\n\nThe SMGs are "gene-coded" like all other Combine weapons, so they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
+@firearm_cmb_heavy_shotgun_name=Heavy Shotgun
+@firearm_cmb_heavy_shotgun_desc=desc.
 
 @firearm_caliber_cmb_energy_pulse_name=Energy Pulse
 @firearm_caliber_cmb_stun_baton_name=50M Volts

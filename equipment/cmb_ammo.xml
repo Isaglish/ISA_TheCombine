@@ -1,8 +1,8 @@
 <Equipment>
     <Ammo name="CMB_HeavyShotgun_Ammo"
-			tooltip="@ammo_12GANO4BUCK_name"
-			description="@ammo_12GANO4BUCK_desc"
-			img="data/models/weapons/attachments/m257_buckshot_ammo24_ui.dds"
+			tooltip="@ammo_cmb_dark_energy_name"
+			description="@ammo_cmb_dark_energy_desc"
+			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
 		>
 
 		<Params roundsPerSecond="0.8"
