@@ -33,7 +33,7 @@
 
 			animationSet="dynamic_hammer"
 		>
-		<MobilityModifiers moveSpeedModifierPercent="-5" turnSpeedModifierPercent="-2"/>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-2"/>
 		<ConcealmentModifier add="-3" />
 		<RenderObject3D model="data/models/equipment/hammer_dynamic.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/hammer_dynamic.dds">
 			<Specular shininess="32" intensity="4.0"/>

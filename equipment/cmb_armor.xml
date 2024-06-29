@@ -7,7 +7,7 @@
 			description="@armor_cmb_charger_desc"
 			img="data/models/equipment/armor_noplates_ui.dds"
 		>
-		<MobilityModifiers moveSpeedModifierPercent="-30" turnSpeedModifierPercent="-20"/>
+		<MobilityModifiers moveSpeedModifierPercent="-10" turnSpeedModifierPercent="-15"/>
 
 		<Params protectionInfoText="@equipment_protect2">
 			<ProtectionArc degrees="90" coveragePercent="90" piercingProtectionLevel="999"/>
