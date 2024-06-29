@@ -12,6 +12,8 @@
 		<Path name="data/sounds/music/ingame5.ogg"/>
 		<Path name="data/sounds/music/ingame6.ogg"/>
 		<Path name="data/sounds/music/ingame7.ogg"/>
+		<Path name="data/sounds/music/ingame8.ogg"/>
+		<Path name="data/sounds/music/ingame9.ogg"/>
 	</Sound>
 
 	<Sound ID="music_win" channel="music" stream="true">
@@ -22,7 +24,6 @@
 	<Sound ID="music_fail" channel="music" stream="true">
 		<Path name="data/sounds/music/lose1.ogg"/>
 		<Path name="data/sounds/music/lose2.ogg"/>
-		<Path name="data/sounds/music/lose3.ogg"/>
 	</Sound>
 	
 	<!-- EQUIPMENT -->

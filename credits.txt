@@ -1,6 +1,16 @@
+Valve
+    - For Half-Life: Alyx assets
+
 Sly
-    - Provided sounds and models
+    - Provided HL:A sounds and models
     - Helped with the Combine soldier animation and rigging
 
 .UBERCHAD
     - Gave the idea to simulate the "gene-coded" weapons
+
+Aaron F. Bianchi Jupiter
+    - For music
+        - The Only Thing They Fear is V
+        - Death From Above
+        - BLOOD OVERDRIVE
+        - HELLHACKER
