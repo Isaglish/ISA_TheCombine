@@ -1,4 +1,77 @@
 <Equipment>
+	<Bind eqp="CMB_PulseRifle">
+		<to name="CombineOrdinal"/>
+
+		<to name="CMB_PulseSMG_Ammo"/>
+
+		<to name="IronSights"/>
+	</Bind>
+	<Firearm name="CMB_PulseRifle" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
+			tooltip="@firearm_cmb_pulse_rifle_name"
+			description="@firearm_cmb_pulse_rifle_desc"
+			img="data/models/weapons/cmb_pulse_rifle_ui.dds"
+
+			animationSet="cmb_rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="0"/>
+		<RenderObject3D model="data/models/weapons/cmb_pulse_smg.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_pulse_smg.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="30"
+			closedBolt="0"
+
+			cyclicReload="0"
+			reloadTime="2000"
+			reloadEmptyTime="2000"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="500"
+			guardTime="250"
+
+			accuracyStart="230"
+			accuracyEnd="200"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_cmb_energy_pulse_name"
+			operationInfoText="@firearm_operation_fullauto_name"
+			magazineEntity="cmb_pulse_smg_mag"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="40.0"
+			ai_rangeMax="100.0"
+			ai_stopWhenShooting="false"
+		/>
+
+		<AttackTypes>
+			<AttackType name="CMB_PulseSMG_BurstFireClose" rangeMeters="7" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFire" rangeMeters="14" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFireLong" rangeMeters="20" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFireLongXX" rangeMeters="55" disabled="true"/>
+			<AttackType name="CMB_PulseSMG_BurstFireTooFar" rangeMeters="120" disabled="true"/>
+			<!-- This attack type does not exist, it's only here to stop enemies from using the weapon. Can also act as "can't shoot, target too far." -->
+			<AttackType name="GENE_CODED" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="CMB_Tracer_OSIPR">
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
+		</MuzzleFlash>
+
+		<Sounds> 
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="cmb_pulse_smg_reld"/>
+			<ReloadEmpty name="cmb_pulse_smg_reld"/>
+			<Fire name="cmb_pulse_smg_fire"/>
+			<Empty name="cmb_gen_empty"/>
+		</Sounds>
+	</Firearm>
+	
     <Bind eqp="CMB_HeavyShotgun">
 		<to name="CombineCharger"/>
 		
@@ -111,8 +184,8 @@
 			operationInfoText="@firearm_operation_fullauto_name"
 			magazineEntity="cmb_pulse_smg_mag"
 			ai_rangeMin="1.0"
-			ai_rangeOptimal="10.0"
-			ai_rangeMax="25.0"
+			ai_rangeOptimal="15.0"
+			ai_rangeMax="50.0"
 			ai_stopWhenShooting="false"
 		/>
 
