@@ -4,11 +4,8 @@
 	</Node>
 	
 	<Node name="CMB_Coordinated" nameUI="" description="@buff_cmb_coordinated">
-        <EquipmentModifier target="all"
-			changeOutTime="+50" 
-		/>
 		<EquipmentModifier
-			suppressionRecoveryAdd="50"
+			suppressionRecoveryAdd="10"
 		/>
         <AttackTypeModifier minRange="0" maxRange="30"
 			accuracyAdd="+40" 
