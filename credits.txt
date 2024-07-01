@@ -14,3 +14,7 @@ Aaron F. Bianchi Jupiter
         - Death From Above
         - BLOOD OVERDRIVE
         - HELLHACKER
+
+Briz
+    - Remodeling HL:A models to a low-poly one and baking the textures
+        - Pulse SMG
