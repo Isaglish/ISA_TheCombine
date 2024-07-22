@@ -206,7 +206,8 @@
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
 		</MuzzleFlash>
 
-		<Sounds> 
+		<Sounds>
+			<!-- TODO: Rework equip sounds? -->
 			<Equip name="smg_eqp"/>
 			<Unequip name="smg_neqp"/>
 			<Reload name="cmb_pulse_smg_reld"/>

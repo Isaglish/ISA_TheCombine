@@ -1,4 +1,8 @@
 <Equipment>
+	<!-- TODO: Civil Protection armor, similar to Soft Armor or Level IIIA of Rangers. -->
+	<!-- TODO: Ordinal armor, coverage similar to Sapper's Vest. -->
+	<!-- TODO: Suppressor armor, similar to Charger armor but with less protection and coverage. -->
+	
     <Bind eqp="CMB_ChargerArmor">
 		<to name="CombineCharger"/>
 	</Bind>

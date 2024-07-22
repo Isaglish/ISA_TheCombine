@@ -1,4 +1,5 @@
 <Equipment>
+	<!-- TODO: Redraw small and big UI, rename ammo name and desc-->
     <Ammo name="CMB_HeavyShotgun_Ammo"
 			tooltip="@ammo_cmb_dark_energy_name"
 			description="@ammo_cmb_dark_energy_desc"
@@ -20,6 +21,7 @@
 		</Params>
 	</Ammo>
 
+	<!-- TODO: Redraw big UI, rename ammo name and desc -->
 	<Ammo name="CMB_PulseSMG_Ammo"
 			tooltip="@ammo_cmb_dark_energy_name"
 			description="@ammo_cmb_dark_energy_desc"
