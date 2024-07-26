@@ -27,7 +27,7 @@
 
             <Item>
                 <StaticImage origin="0 -100" hidden="false">
-                    <RenderObject2D texture="data/textures/gui/keyart_TheCombine/combine_bg_01_scrolling_dust.dds" texRepeatX="3" texRepeatY="1" sizeX="4300" sizeY="1300" color="ffe2b040" blendMode="screen"/>
+                    <RenderObject2D texture="data/textures/gui/keyart_TheCombine/combine_bg_01_scrolling_dust.dds" texRepeatX="3" texRepeatY="1" sizeX="4300" sizeY="1300" color="cdbfafcc" blendMode="add_masked"/>
                     <ImageAnim type="scroll" speed="0.08" direction="1 0"/>
                     <Item name="#parallax_layer_speed" origin="6.0 0"/>
                 </StaticImage>
@@ -56,16 +56,16 @@
 
             <Item>
                 <StaticImage origin="0 200" hidden="false">
-                    <RenderObject2D texture="data/textures/gui/keyart_TheCombine/combine_bg_01_scrolling_dust.dds" texRepeatX="2" sizeX="4300" sizeY="2000" color="ffe2b020" blendMode="add_masked"/>
-                    <ImageAnim type="scroll" speed="0.05" direction="1 0"/>
+                    <RenderObject2D texture="data/textures/gui/keyart_TheCombine/combine_bg_01_scrolling_dust.dds" texRepeatX="2" sizeX="4300" sizeY="2000" flipX="true" color="c48f5e20" blendMode="add_masked"/>
+                    <ImageAnim type="scroll" speed="0.05" direction="-1 0"/>
                     <Item name="#parallax_layer_speed" origin="25 0"/>
                 </StaticImage>
             </Item>
 
             <Item>
                 <StaticImage origin="0 200" hidden="false">
-                    <RenderObject2D texture="data/textures/gui/keyart_TheCombine/combine_bg_01_scrolling_dust.dds" texRepeatX="2" sizeX="4100" sizeY="2000" flipX="true" color="ffe2b010" blendMode="add_masked"/>
-                    <ImageAnim type="scroll" speed="0.01" direction="-1 0"/>
+                    <RenderObject2D texture="data/textures/gui/keyart_TheCombine/combine_bg_01_scrolling_dust.dds" texRepeatX="2" sizeX="4100" sizeY="2000" color="c48f5e10" blendMode="add_masked"/>
+                    <ImageAnim type="scroll" speed="0.01" direction="1 0"/>
                     <Item name="#parallax_layer_speed" origin="40 0"/>
                 </StaticImage>
             </Item>
