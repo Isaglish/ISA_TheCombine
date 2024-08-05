@@ -21,6 +21,8 @@
 			<Equipment>
 				<Item name="FeetOfSteel"/>
 
+				<Item name="CMB_PulseRifle"/>
+
 				<Item name="CMB_Grenade"/>
 			</Equipment>
 
@@ -89,7 +91,9 @@
 	</Entity>
 	
 	<Entity name="CombineGrunt" type="Human" editorAutoHeight="false" editorTags="friendly">
-        <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
+        <RenderObject3D model="data/models/humans/combine_grunt_body.khm" diffuseTex="data/models/humans/combine_grunt_body.dds"/>
+        <RenderObject3D model="data/models/humans/combine_grunt_tank.khm" diffuseTex="data/models/humans/combine_grunt_body.dds"/>
+        <RenderObject3D model="data/models/humans/combine_grunt_head.khm" diffuseTex="data/models/humans/combine_grunt_head.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
 		<PhysicalParams health="100"/>
 		<Human type="GoodGuy"
