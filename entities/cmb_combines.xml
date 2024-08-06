@@ -2,7 +2,7 @@
 	<Entity name="CombineOrdinal" type="Human" editorAutoHeight="false" editorTags="friendly">
         <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
-		<PhysicalParams health="150"/>
+		<PhysicalParams health="125"/>
 		<Human type="GoodGuy"
 			unit="TheCombine"
 			class="CombineOrdinal">
@@ -34,7 +34,7 @@
 	<Entity name="CombineCharger" type="Human" editorAutoHeight="false" editorTags="friendly">
         <RenderObject3D model="data/models/humans/cia_undercover.khm" diffuseTex="data/models/humans/civilian_male_war_correspondent.dds"/>
 		<Breakable template="GenericTrooperGibs" breakOnDamage="explosive" deleteOnDeath="false"/>
-		<PhysicalParams health="250"/>
+		<PhysicalParams health="200"/>
 		<Human type="GoodGuy"
 			unit="TheCombine"
 			class="CombineCharger">
