@@ -113,9 +113,10 @@
 
 			<Equipment>
 				<Item name="FeetOfSteel"/>
-
+				
 				<Item name="CMB_PulseSMG"/>
-
+				
+				<Item name="CMB_GruntHelmet"/>
 				<Item name="CMB_Grenade"/>
 			</Equipment>
 

@@ -1,0 +1,17 @@
+<Equipment>
+    <Bind eqp="CMB_GruntHelmet">
+		<to name="CombineGrunt"/>
+	</Bind>
+	<Helmet name="CMB_GruntHelmet" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_cmb_gas_mask"
+			description="@helmet_cmb_grunt_desc"
+			img="data/models/humans/attachments/cmb_grunt_helmet_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="0" />
+
+		<Params>
+			<ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+		</Params>
+	</Helmet>
+</Equipment>

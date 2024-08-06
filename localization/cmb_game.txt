@@ -36,6 +36,14 @@
 
 
 ####################
+# HELMET
+####################
+@helmet_cmb_gas_mask=Gas Mask
+@helmet_cmb_grunt_desc=Upon taking extreme damage to the head, a Grunt's mask may be partially or even completely blown off, revealing heavy cybernetic surgery underneath.\n\nIncludes face plate underneath along with mechanical wiring connecting to the eyepieces of the mask from the wearer's eye sockets.
+
+
+
+####################
 # FIREARMS
 ####################
 @firearm_cmb_pulse_smg_name=Pulse SMG
