@@ -28,14 +28,14 @@
 			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
 		>
 
-		<Params roundsPerSecond="12"
+		<Params roundsPerSecond="9"
 				audibleSoundRadius="50"
 				physicsImpactForce="2.5"
 				>
 
-			<Damage start="25" end="20" startDist="0" endDist="100"/>
-			<CriticalChancePercent start="25" end="20" startDist="0" endDist="30"/>
-			<ArmorPenetration start="35" end="35" startDist="0" endDist="100"/>
+			<Damage start="30" end="24" startDist="0" endDist="100"/>
+			<CriticalChancePercent start="25" end="20" startDist="0" endDist="40"/>
+			<ArmorPenetration start="40" end="40" startDist="0" endDist="100"/>
 		</Params>
 	</Ammo>
 </Equipment>
