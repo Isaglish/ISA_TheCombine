@@ -93,7 +93,7 @@
 		<to name="CombineSuppressor"/>
 		<to name="CombineGrunt"/>
 	</Bind>
-	<Grenade name="CMB_HealthPen" inventoryBinding="UtilityPouch" unlockCostBH="0"
+	<Grenade name="CMB_HealthPen" inventoryBinding="UtilityPouch" unlockCostBH="2"
 			quantity="1"
 
 			tooltip="@cmb_health_pen_name"
