@@ -3,7 +3,13 @@ Valve
 
 Sly
     - Provided HL:A sounds and models
-    - Helped with the Combine soldier animation and rigging
+    - Helped with rigging and animation
+
+    - Rigging
+        - Combine Grunt
+    
+    - Animation
+        - Health Pen
 
 .UBERCHAD
     - Gave the idea to simulate the "gene-coded" weapons
