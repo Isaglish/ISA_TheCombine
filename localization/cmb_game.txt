@@ -42,7 +42,6 @@
 @helmet_cmb_grunt_desc=Upon taking extreme damage to the head, a Grunt's mask may be partially or even completely blown off, revealing heavy cybernetic surgery underneath.\n\nIncludes face plate underneath along with mechanical wiring connecting to the eyepieces of the mask from the wearer's eye sockets.
 
 
-
 ####################
 # FIREARMS
 ####################
@@ -85,3 +84,5 @@
 ####################
 @grenade_cmb_grenade_name=2x Bouncer
 @grenade_cmb_grenade_desc=Your standard grenade, also referred to as Bouncer or Extractor, is an offensive hand grenade used by the Combine to EXTRACT people's soul and to BOUNCE their inners around by using shockwave and shrapnels. Does not discriminate between friends and foes.\n\nUse Bouncers to take out enemies hidden in cover, don't mind the non-hostiles. They might be anti-citizens anyway.\n\nFuse time: 3s\nKill Range: 3m\nInjury Range: 5m
+@cmb_health_pen_name=1x Stimdose
+@cmb_health_pen_desc=The Health Pen, called a Stim or Stimdose in Combine terminology, is a syringe containing a healing substance used for medical treatment.\n\nYour foot hurts? Stab this anywhere in your body! Heck! Stab your eye with it and you'll be completely fine!\n\nInjection time: 2s\nHeal Amount: 50hp

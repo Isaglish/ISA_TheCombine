@@ -79,4 +79,14 @@
 		<Animation handle="interact5" name="rifle_character_idle_low_2" />
 		<Animation handle="interact6" name="rifle_character_idle_low_2" />
 	</AnimationSet>
+
+	<AnimationSet name="cmb_health_pen" inherit="default">
+		<!-- Override the left animations because they're pretty much the same -->
+		<Animation handle="grenade_throw_low_right" name="cmb_health_pen_use_low_right" />
+		<Animation handle="grenade_throw_low_left" name="cmb_health_pen_use_low_right" />
+		<Animation handle="grenade_throw_top_right" name="cmb_health_pen_use_top_right" />
+		<Animation handle="grenade_throw_corner_right" name="cmb_health_pen_use_corner_right" />
+		<Animation handle="grenade_throw_corner_left" name="cmb_health_pen_use_corner_right" />
+		<Animation handle="grenade_crouched" name="cmb_health_pen_use_crouched" />
+	</AnimationSet>
 </AnimationSets>

@@ -30,6 +30,11 @@
 	<Sound ID="cmb_grenade_use" Path="data/sounds/sfx/equipment/cmb_grenade_use.ogg" channel="game" preload="true"/>
 
 	<!-- EXPLOSIONS -->
+	<Sound ID="cmb_health_pen_inject" channel="game" preload="true">
+		<Path name="data/sounds/sfx/explosions/cmb_health_pen_inject_01.ogg"/>
+		<Path name="data/sounds/sfx/explosions/cmb_health_pen_inject_02.ogg"/>
+	</Sound>
+	 
 	<Sound ID="cmb_grenade_tick_loop" Path="data/sounds/sfx/explosions/cmb_grenade_tick_loop.ogg" channel="game" preload="true"/>
 	<Sound ID="cmb_grenade_expl" channel="game" preload="true">
 		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_01.ogg"/>

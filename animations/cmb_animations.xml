@@ -1,0 +1,21 @@
+<Animations>
+    <Animation name="cmb_health_pen_use_low_right" speed="1" startFrame="10" endFrame="50">
+        <File name="data/animations/khm/unarmed/cmb_health_pen_use.khm"/>
+        <Event frame="23"/>
+    </Animation>
+
+    <Animation name="cmb_health_pen_use_top_right" speed="1" startFrame="10" endFrame="50">
+        <File name="data/animations/khm/unarmed/cmb_health_pen_use.khm"/>
+        <Event frame="30"/>
+    </Animation>
+
+    <Animation name="cmb_health_pen_use_corner_right" speed="1" startFrame="10" endFrame="50">
+        <File name="data/animations/khm/unarmed/cmb_health_pen_use.khm"/>
+        <Event frame="23"/>
+    </Animation>
+
+    <Animation name="cmb_health_pen_use_crouched" speed="1" startFrame="10" endFrame="50">
+        <File name="data/animations/khm/unarmed/cmb_health_pen_use.khm"/>
+        <Event frame="17"/>
+    </Animation>
+</Animations>
