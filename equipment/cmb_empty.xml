@@ -1,19 +1,27 @@
 <Equipment>
-    <!-- <Bind eqp="EmptyUtility" to="TheCombine"/> -->
+    <Bind eqp="EmptyUtility">
+    </Bind>
 
-    <!-- <Bind eqp="EmptyPrimary"> -->
-        <!-- <to name="CombinePolice"/> -->
-    <!-- </Bind> -->
-    <!-- <Bind eqp="EmptySecondary" to="TheCombine"/> -->
+    <Bind eqp="EmptyPrimary">
+    </Bind>
+    <Bind eqp="EmptySecondary">
+        <to name="CombineGrunt"/>
+    </Bind>
 
-    <!-- <Bind eqp="EmptyHelmet" to="TheCombine"/> -->
-    <!-- <Bind eqp="EmptyHelmetNVG" to="TheCombine"/> -->
+    <Bind eqp="EmptyHelmet">
+    </Bind>
+    <Bind eqp="EmptyHelmetNVG">
+    </Bind>
 
-    <!-- <Bind eqp="EmptyArmor" to="TheCombine"/> -->
-    <!-- <Unbind eqp="EmptyArmor" to="CombineCharger"/> -->
-    <!--  -->
-    <!-- <Bind eqp="EmptySupportGear" to="TheCombine"/> -->
-
-    <!-- <Bind eqp="EmptyPrimaryMuzzle" to="TheCombine"/> -->
-    <!-- <Bind eqp="EmptySecondaryMuzzle" to="TheCombine"/> -->
+    <Bind eqp="EmptyArmor">
+        <to name="CombineGrunt"/>
+    </Bind>
+    <Bind eqp="EmptySupportGear">
+        <to name="CombineGrunt"/>
+    </Bind>
+    
+    <Bind eqp="EmptyPrimaryMuzzle">
+    </Bind>
+    <Bind eqp="EmptySecondaryMuzzle">
+    </Bind>
 </Equipment>
