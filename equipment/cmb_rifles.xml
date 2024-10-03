@@ -2,7 +2,7 @@
 	<Bind eqp="CMB_PulseRifle">
 		<to name="CombineOrdinal"/>
 
-		<to name="CMB_PulseSMG_Ammo"/>
+		<to name="CMB_PulseRifle_Ammo"/>
 
 		<to name="IronSights"/>
 	</Bind>
@@ -46,11 +46,10 @@
 		/>
 
 		<AttackTypes>
-			<AttackType name="CMB_PulseSMG_BurstFireClose" rangeMeters="7" disabled="true"/>
-			<AttackType name="CMB_PulseSMG_BurstFire" rangeMeters="14" disabled="true"/>
-			<AttackType name="CMB_PulseSMG_BurstFireLong" rangeMeters="20" disabled="true"/>
-			<AttackType name="CMB_PulseSMG_BurstFireLongXX" rangeMeters="55" disabled="true"/>
-			<AttackType name="CMB_PulseSMG_BurstFireTooFar" rangeMeters="120" disabled="true"/>
+			<AttackType name="CMB_PulseRifle_FireClose" rangeMeters="7" disabled="true"/>
+			<AttackType name="CMB_PulseRifle_Fire" rangeMeters="15" disabled="true"/>
+			<AttackType name="CMB_PulseRifle_FireLong" rangeMeters="35" disabled="true"/>
+			<AttackType name="CMB_PulseRifle_FireLongXX" rangeMeters="90" disabled="true"/>
 			<!-- This attack type does not exist, it's only here to stop enemies from using the weapon. Can also act as "can't shoot, target too far." -->
 			<AttackType name="GENE_CODED" rangeMeters="9999"/>
 		</AttackTypes>
@@ -65,9 +64,9 @@
 		<Sounds> 
 			<Equip name="rifle_eqp"/>
 			<Unequip name="rifle_neqp"/>
-			<Reload name="cmb_pulse_smg_reld"/>
-			<ReloadEmpty name="cmb_pulse_smg_reld"/>
-			<Fire name="cmb_pulse_smg_fire"/>
+			<Reload name="cmb_pulse_rifle_reld"/>
+			<ReloadEmpty name="cmb_pulse_rifle_reld"/>
+			<Fire name="cmb_pulse_rifle_fire"/>
 			<Empty name="cmb_gen_empty"/>
 		</Sounds>
 	</Firearm>

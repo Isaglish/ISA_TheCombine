@@ -12,7 +12,7 @@
 			<Brain suppressionRecovery="45.0"/>
 
 			<Mobility>
-				<MoveSpeed min="1.2" defaultMetersPerSec="2.3" max="10"/>
+				<MoveSpeed min="1.6" defaultMetersPerSec="2.5" max="10"/>
 				<TurnSpeed min="6.1" defaultMetersPerSec="13" max="20"/>
 			</Mobility>
 
@@ -44,7 +44,7 @@
 			<Brain suppressionRecovery="85.0"/>
 
 			<Mobility>
-				<MoveSpeed min="1.0" defaultMetersPerSec="1.8" max="10"/>
+				<MoveSpeed min="1.1" defaultMetersPerSec="1.8" max="10"/>
 				<TurnSpeed min="6.0" defaultMetersPerSec="12" max="20"/>
 			</Mobility>
 
@@ -76,7 +76,7 @@
 			<Brain suppressionRecovery="55.0"/>
 
 			<Mobility>
-				<MoveSpeed min="1.0" defaultMetersPerSec="1.8" max="10"/>
+				<MoveSpeed min="1.1" defaultMetersPerSec="1.8" max="10"/>
 				<TurnSpeed min="6.0" defaultMetersPerSec="12" max="20"/>
 			</Mobility>
 
@@ -105,7 +105,7 @@
 			<Brain suppressionRecovery="30.0"/>
 
 			<Mobility>
-				<MoveSpeed min="1.2" defaultMetersPerSec="2.3" max="10"/>
+				<MoveSpeed min="1.5" defaultMetersPerSec="2.4" max="10"/>
 				<TurnSpeed min="6.1" defaultMetersPerSec="13" max="20"/>
 			</Mobility>
 
@@ -137,8 +137,8 @@
 			<Brain suppressionRecovery="20.0"/>
 
 			<Mobility>
-				<MoveSpeed min="1.2" defaultMetersPerSec="2.3" max="10"/>
-				<TurnSpeed min="6.1" defaultMetersPerSec="13" max="20"/>
+				<MoveSpeed min="1.1" defaultMetersPerSec="2.28" max="10"/>
+				<TurnSpeed min="6" defaultMetersPerSec="13" max="20"/>
 			</Mobility>
 
 			<Concealment default="0" canHide="false"/>

@@ -1,8 +1,69 @@
 <FirearmAttackTypes>
+
+<!-- PulseRifle -->
+	<AttackType name="CMB_PulseRifle_FireClose">
+		<ModifiableParams
+			minAimTime="200"
+			maxAimTime="200"
+			roundsPerSecondOverride="9"
+			minShots="2"
+			maxShots="5"
+			resetTime="400"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="-10"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseRifle_Fire">
+		<ModifiableParams
+			minAimTime="250"
+			maxAimTime="250"
+			roundsPerSecondOverride="6"
+			minShots="1"
+			maxShots="2"
+			resetTime="450"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="5"
+			critChanceAdd="-5"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseRifle_FireLong">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="400"
+			roundsPerSecondOverride="3"
+			minShots="1"
+			maxShots="1"
+			resetTime="450"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="10"
+			critChanceAdd="-1"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseRifle_FireLongXX">
+		<ModifiableParams
+			minAimTime="750"
+			maxAimTime="800"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="500"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+<!-- PulseSMG -->
+	
+	<!-- BurstFire -->
     <AttackType name="CMB_PulseSMG_BurstFireClose">
 		<ModifiableParams
-			minAimTime="350"
-			maxAimTime="350"
+			minAimTime="300"
+			maxAimTime="300"
 			minShots="7"
 			maxShots="15"
 			resetTime="400"
@@ -14,8 +75,8 @@
 
 	<AttackType name="CMB_PulseSMG_BurstFire">
 		<ModifiableParams
-			minAimTime="350"
-			maxAimTime="400"
+			minAimTime="300"
+			maxAimTime="350"
 			minShots="4"
 			maxShots="8"
 			resetTime="400"
@@ -27,8 +88,8 @@
 
 	<AttackType name="CMB_PulseSMG_BurstFireLong">
 		<ModifiableParams
-			minAimTime="400"
-			maxAimTime="500"
+			minAimTime="350"
+			maxAimTime="450"
 			minShots="2"
 			maxShots="7"
 			resetTime="450"
@@ -44,7 +105,7 @@
 			maxAimTime="800"
 			minShots="2"
 			maxShots="5"
-			resetTime="300"
+			resetTime="500"
 			accuracyAdd="-150"
 			followupShotAccuracyAdd="20"
 			critChanceAdd="-20"

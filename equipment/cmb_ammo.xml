@@ -1,4 +1,22 @@
 <Equipment>
+	<!-- TODO: Redraw big UI, rename ammo name and desc -->
+	<Ammo name="CMB_PulseRifle_Ammo"
+			tooltip="@ammo_cmb_dark_energy_name"
+			description="@ammo_cmb_dark_energy_desc"
+			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
+		>
+
+		<Params roundsPerSecond="7"
+				audibleSoundRadius="75"
+				physicsImpactForce="2.5"
+				>
+
+			<Damage start="60" end="50" startDist="0" endDist="200"/>
+			<CriticalChancePercent start="40" end="35" startDist="0" endDist="60"/>
+			<ArmorPenetration start="45" end="45" startDist="0" endDist="200"/>
+		</Params>
+	</Ammo>
+	
 	<!-- TODO: Redraw small and big UI, rename ammo name and desc-->
     <Ammo name="CMB_HeavyShotgun_Ammo"
 			tooltip="@ammo_cmb_dark_energy_name"
@@ -7,7 +25,7 @@
 		>
 
 		<Params roundsPerSecond="0.8"
-				audibleSoundRadius="75"
+				audibleSoundRadius="100"
 				physicsImpactForce="1.0"
                 damageType="0"
 				numPellets="12"
