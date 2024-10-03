@@ -6,6 +6,7 @@
 
 		<to name="IronSights"/>
 	</Bind>
+	<!-- TODO: Finish CMB_PulseRifle model and texture baking -->
 	<Firearm name="CMB_PulseRifle" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
 			tooltip="@firearm_cmb_pulse_rifle_name"
 			description="@firearm_cmb_pulse_rifle_desc"
