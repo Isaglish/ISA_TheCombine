@@ -50,8 +50,8 @@
 			<AttackType name="CMB_PulseRifle_FireClose" rangeMeters="7" disabled="true"/>
 			<AttackType name="CMB_PulseRifle_Fire" rangeMeters="14" disabled="true"/>
 			<AttackType name="CMB_PulseRifle_FireLong" rangeMeters="20" disabled="true"/>
-			<AttackType name="CMB_PulseRifle_FireLongXX" rangeMeters="50" disabled="true"/>
-			<AttackType name="CMB_PulseRifle_FireTooFar" rangeMeters="100" disabled="true"/>
+			<AttackType name="CMB_PulseRifle_FireLongXX" rangeMeters="55" disabled="true"/>
+			<AttackType name="CMB_PulseRifle_FireTooFar" rangeMeters="150" disabled="true"/>
 			<!-- This attack type does not exist, it's only here to stop enemies from using the weapon. Can also act as "can't shoot, target too far." -->
 			<AttackType name="GENE_CODED" rangeMeters="9999"/>
 		</AttackTypes>
