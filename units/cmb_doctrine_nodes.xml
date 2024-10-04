@@ -21,6 +21,7 @@
         <Enable name="CMB_PulseRifle_Fire"/>
         <Enable name="CMB_PulseRifle_FireLong"/>
         <Enable name="CMB_PulseRifle_FireLongXX"/>
+        <Enable name="CMB_PulseRifle_FireTooFar"/>
          
         <Enable name="CMB_PulseSMG_BurstFireClose"/>
         <Enable name="CMB_PulseSMG_BurstFire"/>

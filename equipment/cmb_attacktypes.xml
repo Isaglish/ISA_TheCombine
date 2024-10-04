@@ -4,7 +4,7 @@
 	<AttackType name="CMB_PulseRifle_FireClose">
 		<ModifiableParams
 			minAimTime="200"
-			maxAimTime="200"
+			maxAimTime="250"
 			roundsPerSecondOverride="9"
 			minShots="2"
 			maxShots="5"
@@ -18,7 +18,7 @@
 	<AttackType name="CMB_PulseRifle_Fire">
 		<ModifiableParams
 			minAimTime="250"
-			maxAimTime="250"
+			maxAimTime="300"
 			roundsPerSecondOverride="6"
 			minShots="1"
 			maxShots="2"
@@ -31,8 +31,8 @@
 
 	<AttackType name="CMB_PulseRifle_FireLong">
 		<ModifiableParams
-			minAimTime="300"
-			maxAimTime="400"
+			minAimTime="350"
+			maxAimTime="450"
 			roundsPerSecondOverride="3"
 			minShots="1"
 			maxShots="1"
@@ -45,7 +45,7 @@
 
 	<AttackType name="CMB_PulseRifle_FireLongXX">
 		<ModifiableParams
-			minAimTime="750"
+			minAimTime="800"
 			maxAimTime="800"
 			roundsPerSecondOverride="1"
 			minShots="1"
@@ -54,6 +54,20 @@
 			accuracyAdd="-100"
 			followupShotAccuracyAdd="20"
 			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_PulseRifle_FireTooFar">
+		<ModifiableParams
+			minAimTime="1200"
+			maxAimTime="1200"
+			roundsPerSecondOverride="1"
+			minShots="1"
+			maxShots="1"
+			resetTime="550"
+			accuracyAdd="-200"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="-50"
 		/>
 	</AttackType>
 
