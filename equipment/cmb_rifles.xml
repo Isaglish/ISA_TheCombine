@@ -39,7 +39,7 @@
 		/>
 
 		<Params
-			caliberInfoText="@firearm_caliber_cmb_energy_pulse_name"
+			caliberInfoText="@firearm_caliber_cmb_pulse_orb_name"
 			operationInfoText="@firearm_operation_fullauto_name"
 			magazineEntity="cmb_pulse_smg_mag"
 			ai_rangeMin="1.0"
@@ -95,7 +95,7 @@
 			friendlyFire="true"
 			triggerOnImpact="true"
 
-			roundsPerSecond="2.0"
+			roundsPerSecond="1.0"
 			accuracyPercent="100"
 			physicsDetonationForce="100"
 			audibleLaunchSoundRadius="2"
@@ -175,7 +175,7 @@
 		/>
 
 		<Params
-			caliberInfoText="@firearm_caliber_cmb_energy_pulse_name"
+			caliberInfoText="@firearm_caliber_12gauge_name"
 			operationInfoText="@firearm_operation_semiauto_name"
 			ai_rangeMin="1.0"
 			ai_rangeOptimal="6.0"
@@ -243,7 +243,7 @@
 		/>
 
 		<Params
-			caliberInfoText="@firearm_caliber_cmb_energy_pulse_name"
+			caliberInfoText="@firearm_caliber_cmb_pulse_name"
 			operationInfoText="@firearm_operation_fullauto_name"
 			magazineEntity="cmb_pulse_smg_mag"
 			ai_rangeMin="1.0"

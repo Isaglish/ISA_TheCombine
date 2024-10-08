@@ -52,7 +52,8 @@
 @firearm_cmb_pulse_rifle_name=OSIPR
 @firearm_cmb_pulse_rifle_desc=desc..
 
-@firearm_caliber_cmb_energy_pulse_name=Energy Pulse
+@firearm_caliber_cmb_pulse_name=Pulse
+@firearm_caliber_cmb_pulse_orb_name=Pulse/Pulse Orb
 @firearm_caliber_cmb_stun_baton_name=50M Volts
 
 

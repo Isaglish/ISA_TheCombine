@@ -6,7 +6,7 @@
 			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
 		>
 
-		<Params roundsPerSecond="7"
+		<Params roundsPerSecond="10"
 				audibleSoundRadius="75"
 				physicsImpactForce="2.5"
 				>
@@ -24,7 +24,7 @@
 			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
 		>
 
-		<Params roundsPerSecond="0.8"
+		<Params roundsPerSecond="2"
 				audibleSoundRadius="100"
 				physicsImpactForce="1.0"
                 damageType="0"
@@ -46,7 +46,7 @@
 			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
 		>
 
-		<Params roundsPerSecond="9"
+		<Params roundsPerSecond="13"
 				audibleSoundRadius="50"
 				physicsImpactForce="2.5"
 				>
