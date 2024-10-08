@@ -149,4 +149,21 @@
             <Material fadeIn="0.100" fadeOut="0.400" blendMode="add_masked" depthTested="0" mainTex="data/textures/fx/glow_far.dds" colorize="D94716FF"/>
         </Emitter>
     </ParticleSystem>
+
+    <ParticleSystem name="CMB_PulseOrb" poolSize="8">
+        <Emitter name="trail" loop="true" duration="1.000" emitDelay="0.010" spawnBoxSizeX="0.500" spawnBoxSizeY="0.020" spawnBoxSizeZ="0.500" worldSpace="1">
+            <Particle lifetime="0.200" lifetimeMax="0.500" mesh="data/models/fx/fire_mesh_01.khm"/>
+            <Initial scale="0.100" scaleMax="0.400" sizeZ="1.410"/>
+            <Movement scaleEnd="0.300"/>
+            <Material softThickness="0.100" fadeIn="0.060" fadeOut="0.849" blendMode="add_masked" depthSorted="1" mainTex="data/textures/fx/flamespark.dds" colorize="FF9141FF">
+                <TextureAnimation frameWidth="64" frameHeight="128" startFrame="4" endFrame="32" animSpeed="0.25"/>
+            </Material>
+        </Emitter>
+        <Emitter name="heat glow" loop="true" spawnOffsetZ="-0.200">
+            <Particle lifetime="0.600" lifetimeMax="1.300"/>
+            <Initial orient="0.000" orientMax="15.000"/>
+            <Movement/>
+            <Material blendMode="add_masked" mainTex="data/textures/fx/light_flare_long_01.dds" colorize="54A3FFFF"/>
+        </Emitter>
+    </ParticleSystem>
 </Particles>

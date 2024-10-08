@@ -40,8 +40,21 @@
 		</RenderObject2D>
 	</Entity>
 
+	<Entity name="CMB_PulseOrb" type="Projectile" hideInEditor="true">
+		<PhysicalParams solid="false"/>
+		<RenderObject3D model="data/textures/fx/cmb_pulse_orb.khm" diffuseTex="" windAnimated="1" skipCastShadows="true" disableLighting="true"/>
+		<RenderObject3D model="data/textures/fx/grenade_trail.khm" diffuseTex="data/textures/fx/cmb_pulse_orb_trail.dds" skipGOSSAO="true" blendMode="normal" scale="0.6"/>
+	</Entity>
+
 	<Entity name="InvisibleProjectile" type="Projectile" hideInEditor="true">
 		<PhysicalParams solid="false"/>
 		<RenderObject3D model="data/models/nomodel.khm" skipGOSSAO="true" disableDecals="true" diffuseTex=""/>
+	</Entity>
+
+	<!-- Lights -->
+	<Entity name="CMB_Light_PulseOrb" type="Light" editorAutoHeight="false" initialHeight="1">
+		<PhysicalParams solid="false"/>
+		<RenderObject2D texture="data/textures/editor/light_point.tga" sizeX="0.5" sizeY="0.5" hideInGame="true" disableDepthTest="true"/>
+		<Light type="Point" colorMultiplier="16" color="54A3FFFF" radiusMeters="2" animation="flicker" animRate="3.3" animAmount="0.3" animRandomStart="true"/>
 	</Entity>
 </Entities>

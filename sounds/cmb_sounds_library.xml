@@ -44,6 +44,12 @@
 		<Path name="data/sounds/sfx/explosions/cmb_grenade_expl_05.ogg"/>
 	</Sound>
 
+	<Sound ID="cmb_pulse_orb_expl" channel="game" preload="true">
+		<Path name="data/sounds/sfx/explosions/cmb_pulse_orb_expl_01.ogg"/>
+		<Path name="data/sounds/sfx/explosions/cmb_pulse_orb_expl_02.ogg"/>
+		<Path name="data/sounds/sfx/explosions/cmb_pulse_orb_expl_03.ogg"/>
+	</Sound>
+
 	<!-- WEAPONS GENERAL -->
 	<Sound ID="cmb_gen_empty" channel="game" preload="false">
 		<Path name="data/sounds/sfx/weapons_general/cmb_ar2_empty_01.ogg"/>
@@ -60,6 +66,10 @@
 		<Path name="data/sounds/sfx/weapons/cmb_pulse_rifle_fire_02.ogg"/>
 		<Path name="data/sounds/sfx/weapons/cmb_pulse_rifle_fire_03.ogg"/>
 		<Path name="data/sounds/sfx/weapons/cmb_pulse_rifle_fire_04.ogg"/>
+    </Sound>
+
+	<Sound ID="cmb_pulse_orb_fire" channel="game" preload="false">
+        <Path name="data/sounds/sfx/weapons/cmb_pulse_orb_fire_01.ogg"/>
     </Sound>
 	 
     <Sound ID="cmb_pulse_smg_fire" channel="game" preload="false">

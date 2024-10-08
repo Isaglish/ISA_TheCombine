@@ -22,6 +22,8 @@
 			roundsPerMagazine="30"
 			closedBolt="0"
 
+			projectilesPerMagazine="3"
+
 			cyclicReload="0"
 			reloadTime="2000"
 			reloadEmptyTime="2000"
@@ -56,6 +58,11 @@
 			<AttackType name="GENE_CODED" rangeMeters="9999"/>
 		</AttackTypes>
 
+		<AttackTypesProjectile>
+			<AttackType name="RPG_QuickAimClose" rangeMeters="15"/>
+			<AttackType name="RPG_QuickAim" rangeMeters="9999"/>
+		</AttackTypesProjectile>
+
 		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="CMB_Tracer_OSIPR">
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
@@ -71,6 +78,61 @@
 			<Fire name="cmb_pulse_rifle_fire"/>
 			<Empty name="cmb_gen_empty"/>
 		</Sounds>
+
+		<Projectile
+			bodyTemplate="CMB_PulseOrb"
+			trailParticles="CMB_PulseOrb"
+			lightTemplate="CMB_Light_PulseOrb"
+
+			soundExplosion="cmb_pulse_orb_expl"
+			soundOnSpawn="cmb_pulse_orb_fire"
+			soundFollow=""
+
+			minVelocity="12500.0"
+			maxVelocity="12500.0"
+			acceleration="0.0"
+			mass="0.0"
+			friendlyFire="true"
+			triggerOnImpact="true"
+
+			roundsPerSecond="2.0"
+			accuracyPercent="100"
+			physicsDetonationForce="100"
+			audibleLaunchSoundRadius="2"
+			audibleDetonationSoundRadius="20"
+			>
+
+			<FX
+				particles="CMB_Grenade"
+				entity1="ExplosionLight"
+				entity2="explosion_mark"
+				randRotation2="true"
+				entity3="FX_dust_large"
+				deleteAfterMS3="35000"
+				anim2D="">
+			</FX>
+
+			<EffectRange radiusMeters="1.7">
+				<StunEffect chancePercent="100" innerRangeTimeMSec="1500" outerRangeTimeMSec="1500"/>
+				<DamageEffect chancePercent="100" damage="999" damageType="2"/>
+				<ScatterEffect chancePercent="100" armorPenetration="50"/>
+				<SuppressEffect amount="50"/>
+				<SmokeEffect durationMSec="1030" />
+			</EffectRange>
+
+			<EffectRange radiusMeters="2.3">
+				<StunEffect chancePercent="100" innerRangeTimeMSec="1500" outerRangeTimeMSec="1500"/>
+				<DamageEffect chancePercent="100" damage="999" damageType="1"/>
+				<ScatterEffect chancePercent="100" armorPenetration="30"/>
+				<SuppressEffect amount="50"/>
+			</EffectRange>
+
+			<EffectRange radiusMeters="5">
+				<StunEffect chancePercent="100" innerRangeTimeMSec="1000" outerRangeTimeMSec="300"/>
+				<ScatterEffect chancePercent="100"/>
+				<SuppressEffect amount="15"/>
+			</EffectRange>
+		</Projectile>
 	</Firearm>
 	
     <Bind eqp="CMB_HeavyShotgun">
