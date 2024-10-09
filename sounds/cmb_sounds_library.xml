@@ -5,15 +5,15 @@
 	</Sound>
 
 	<Sound ID="music_ingame" channel="music" stream="true" preload="true">
-		<Path name="data/sounds/music/ingame1.ogg"/>
-		<Path name="data/sounds/music/ingame2.ogg"/>
-		<Path name="data/sounds/music/ingame3.ogg"/>
-		<Path name="data/sounds/music/ingame4.ogg"/>
-		<Path name="data/sounds/music/ingame5.ogg"/>
-		<Path name="data/sounds/music/ingame6.ogg"/>
-		<Path name="data/sounds/music/ingame7.ogg"/>
-		<Path name="data/sounds/music/ingame8.ogg"/>
-		<Path name="data/sounds/music/ingame9.ogg"/>
+		<Path name="data/sounds/music/ingame1.ogg"/> <!-- Arena Roller -->
+		<Path name="data/sounds/music/ingame2.ogg"/> <!-- Combine Battle -->
+		<Path name="data/sounds/music/ingame3.ogg"/> <!-- Station Street Battle -->
+		<Path name="data/sounds/music/ingame4.ogg"/> <!-- The Only Thing They Fear is V -->
+		<Path name="data/sounds/music/ingame5.ogg"/> <!-- Death From Above -->
+		<Path name="data/sounds/music/ingame6.ogg"/> <!-- BLOOD OVERDRIVE -->
+		<Path name="data/sounds/music/ingame7.ogg"/> <!-- HELLHACKER -->
+		<Path name="data/sounds/music/ingame8.ogg"/> <!-- Duplicate of ingame4 -->
+		<Path name="data/sounds/music/ingame9.ogg"/> <!-- Duplicate of ingame5 -->
 	</Sound>
 
 	<Sound ID="music_win" channel="music" stream="true">
