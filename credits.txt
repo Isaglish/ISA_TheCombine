@@ -1,7 +1,7 @@
 Valve
     - For Half-Life: Alyx assets
 
-Sly
+Sly (Discord)
     - Provided HL:A sounds and models
     - Helped with rigging and animation
 
@@ -11,16 +11,20 @@ Sly
     - Animation
         - Health Pen
 
-.UBERCHAD
+.UBERCHAD (Discord)
     - Gave the idea to simulate the "gene-coded" weapons
 
-Aaron F. Bianchi Jupiter
+Aaron F. Bianchi Jupiter (YouTube)
     - For music
         - The Only Thing They Fear is V
         - Death From Above
         - BLOOD OVERDRIVE
         - HELLHACKER
 
-Briz
+HDSounDI (YouTube)
+    - For music
+        - GOD MODE
+
+Briz (Discord)
     - Remodeling HL:A models to a low-poly one and baking the textures
         - Pulse SMG

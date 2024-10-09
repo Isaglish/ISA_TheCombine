@@ -12,7 +12,7 @@
 		<Path name="data/sounds/music/ingame5.ogg"/> <!-- Death From Above -->
 		<Path name="data/sounds/music/ingame6.ogg"/> <!-- BLOOD OVERDRIVE -->
 		<Path name="data/sounds/music/ingame7.ogg"/> <!-- HELLHACKER -->
-		<Path name="data/sounds/music/ingame8.ogg"/> <!-- Duplicate of ingame4 -->
+		<Path name="data/sounds/music/ingame8.ogg"/> <!-- GOD MODE -->
 		<Path name="data/sounds/music/ingame9.ogg"/> <!-- Duplicate of ingame5 -->
 	</Sound>
 
