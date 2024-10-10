@@ -1,5 +1,5 @@
 <AnimationSets>
-    <AnimationSet name="cmb_rifle" inherit="default">
+    <AnimationSet name="cmb_pulse_rifle" inherit="default">
 		<Animation handle="idle" name="rifle_character_idle_aim" />
 		<Animation handle="idle_low" name="cmb_rifle_character_idle_low" />
 		<Animation handle="idle_crouch" name="rifle_character_crouch_idle" />
@@ -32,6 +32,87 @@
 		<Animation handle="reload" name="cmb_rifle_character_reload" />
 		<Animation handle="reloadempty" name="cmb_rifle_character_reload" />
 		<Animation handle="melee" name="rifle_character_hit" />
+
+		<Animation handle="break_window" name="break_window_rifle" />
+		<Animation handle="break_curtain" name="break_curtain_rifle" />
+		<Animation handle="jump_over_obstacle" name="jump_over_obstacle_rifle" />
+
+		<Animation handle="point_at_raised" name="rifle_point_aim" />
+		<Animation handle="point_at_lowered" name="rifle_point_low" />
+
+		<Animation handle="raiseweapon" name="rifle_character_raise_weapon" />
+		<Animation handle="lowerweapon" name="rifle_character_lower_weapon" />
+		<Animation handle="raiseweapon_blind" name="rifle_character_blind_aim" />
+		<Animation handle="lowerweapon_blind" name="rifle_character_blind_aim_reverse" />
+		<Animation handle="change_out" name="rifle_character_change_out" />
+		<Animation handle="change_in" name="rifle_character_change_in" />
+
+		<Animation handle="die_f" name="rifle_character_die_f1" />
+		<Animation handle="die_f2" name="rifle_character_die_f2" />
+		<Animation handle="die_f3" name="rifle_character_die_f3" />
+
+		<Animation handle="die_b" name="rifle_character_die_b1" />
+		<Animation handle="die_b2" name="rifle_character_die_b2" />
+		<Animation handle="die_b3" name="rifle_character_die_b3" />
+
+		<Animation handle="die_l" name="rifle_character_die_l1" />
+		<Animation handle="die_l2" name="rifle_character_die_l2" />
+		<Animation handle="die_l3" name="rifle_character_die_l3" />
+
+		<Animation handle="die_r" name="rifle_character_die_r1" />
+		<Animation handle="die_r2" name="rifle_character_die_r2" />
+		<Animation handle="die_r3" name="rifle_character_die_r3" />
+
+		<Animation handle="stunned" name="rifle_character_stunned" />
+		<Animation handle="stunned_crouched" name="rifle_character_stunned" />
+		<Animation handle="knocked_back" name="rifle_character_stumble_back" />
+
+		<Animation handle="hurt_back" name="rifle_character_hurt_back" />
+		<Animation handle="hurt_forward" name="rifle_character_hurt_forward" />
+		<Animation handle="hurt_left" name="rifle_character_hurt_left" />
+		<Animation handle="hurt_right" name="rifle_character_hurt_right" />
+
+		<Animation handle="interact1" name="rifle_character_idle_low_1" />
+		<Animation handle="interact2" name="rifle_character_idle_low_1" />
+		<Animation handle="interact3" name="rifle_character_idle_low_1" />
+		<Animation handle="interact4" name="rifle_character_idle_low_2" />
+		<Animation handle="interact5" name="rifle_character_idle_low_2" />
+		<Animation handle="interact6" name="rifle_character_idle_low_2" />
+	</AnimationSet>
+
+	<AnimationSet name="cmb_pulse_smg" inherit="default">
+		<Animation handle="idle" name="rifle_character_idle_aim" />
+		<Animation handle="idle_low" name="cmb_rifle_character_idle_low" />
+		<Animation handle="idle_crouch" name="rifle_character_crouch_idle" />
+		<Animation handle="idle_blind" name="rifle_character_blind_idle" />
+
+		<Animation handle="walk" name="rifle_character_walk_aim_f" />
+		<Animation handle="walk_low" name="rifle_character_walk_low_f" />
+		<Animation handle="walk_b" name="rifle_character_walk_aim_b" />
+		<Animation handle="walk_crouch" name="rifle_character_crouch_walk" />
+		<Animation handle="walk_crouch_b" name="rifle_character_crouch_walk_b" />
+
+		<Animation handle="strafe_l" name="rifle_character_walk_aim_l" />
+		<Animation handle="strafe_r" name="rifle_character_walk_aim_r" />
+
+		<Animation handle="sprint" name="rifle_character_sprint_f" />
+
+		<Animation handle="opendoor" name="rifle_character_dooropen" />
+		<Animation handle="opendoor_l" name="rifle_character_dooropen_l" />
+		<Animation handle="opendoor_r" name="rifle_character_dooropen_r" />
+
+		<Animation handle="kickdoor" name="rifle_character_doorkick" />
+		<Animation handle="kickdoor_l" name="rifle_character_doorkick_l" />
+		<Animation handle="kickdoor_r" name="rifle_character_doorkick_r" />
+
+		<Animation handle="crouch_down" name="rifle_character_crouch_aim" />
+		<Animation handle="crouch_up" name="rifle_character_crouch_aim_reverse" />
+
+		<Animation handle="fire" name="rifle_character_fire" />
+		<Animation handle="fire_blind" name="rifle_character_blind_fire" />
+		<Animation handle="reload" name="cmb_rifle_character_reload" />
+		<Animation handle="reloadempty" name="cmb_rifle_character_reload" />
+		<Animation handle="melee" name="rifle_character_doorkick" />
 
 		<Animation handle="break_window" name="break_window_rifle" />
 		<Animation handle="break_curtain" name="break_curtain_rifle" />

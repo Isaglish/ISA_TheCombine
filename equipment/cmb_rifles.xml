@@ -12,7 +12,7 @@
 			description="@firearm_cmb_pulse_rifle_desc"
 			img="data/models/weapons/cmb_pulse_rifle_ui.dds"
 
-			animationSet="cmb_rifle"
+			animationSet="cmb_pulse_rifle"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="0"/>
 		<RenderObject3D model="data/models/weapons/cmb_pulse_smg.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_pulse_smg.dds"/>
@@ -147,7 +147,7 @@
 			description="@firearm_cmb_heavy_shotgun_desc"
 			img="data/models/weapons/cmb_heavy_shotgun_ui.dds"
 
-			animationSet="cmb_rifle"
+			animationSet="cmb_pulse_rifle"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-1"/>
 		<RenderObject3D model="data/models/weapons/m500pp.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/m500pp.dds"/>
@@ -218,7 +218,7 @@
 			description="@firearm_cmb_pulse_smg_desc"
 			img="data/models/weapons/cmb_pulse_smg_ui.dds"
 
-			animationSet="cmb_rifle"
+			animationSet="cmb_pulse_smg"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
 		<RenderObject3D model="data/models/weapons/cmb_pulse_smg.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_pulse_smg.dds"/>
