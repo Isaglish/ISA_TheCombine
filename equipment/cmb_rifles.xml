@@ -6,7 +6,6 @@
 
 		<to name="IronSights"/>
 	</Bind>
-	<!-- TODO: Finish CMB_PulseRifle model and texture baking -->
 	<Firearm name="CMB_PulseRifle" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
 			tooltip="@firearm_cmb_pulse_rifle_name"
 			description="@firearm_cmb_pulse_rifle_desc"
@@ -15,7 +14,7 @@
 			animationSet="cmb_pulse_rifle"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="0"/>
-		<RenderObject3D model="data/models/weapons/cmb_pulse_smg.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_pulse_smg.dds"/>
+		<RenderObject3D model="data/models/weapons/cmb_pulse_rifle.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_pulse_rifle.dds"/>
 
 		<ModifiableParams
 			numPellets="1"
@@ -41,7 +40,7 @@
 		<Params
 			caliberInfoText="@firearm_caliber_cmb_pulse_orb_name"
 			operationInfoText="@firearm_operation_fullauto_name"
-			magazineEntity="cmb_pulse_smg_mag"
+			magazineEntity=""
 			ai_rangeMin="1.0"
 			ai_rangeOptimal="40.0"
 			ai_rangeMax="100.0"
@@ -213,6 +212,7 @@
 
 		<to name="IronSights"/>
 	</Bind>
+	<!-- Rebake texture for more accurate DK2 presentation? -->
 	<Firearm name="CMB_PulseSMG" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
 			tooltip="@firearm_cmb_pulse_smg_name"
 			description="@firearm_cmb_pulse_smg_desc"
