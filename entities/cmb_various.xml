@@ -43,7 +43,7 @@
 	<Entity name="CMB_PulseOrb" type="Projectile" hideInEditor="true">
 		<PhysicalParams solid="false"/>
 		<RenderObject3D model="data/textures/fx/cmb_pulse_orb.khm" diffuseTex="" windAnimated="1" skipCastShadows="true" disableLighting="true"/>
-		<RenderObject3D model="data/textures/fx/grenade_trail.khm" diffuseTex="data/textures/fx/cmb_pulse_orb_trail.dds" skipGOSSAO="true" blendMode="normal" scale="0.6"/>
+		<!-- <RenderObject3D model="data/textures/fx/grenade_trail.khm" diffuseTex="data/textures/fx/cmb_pulse_orb_trail.dds" skipGOSSAO="true" blendMode="normal" scale="0.6"/> -->
 	</Entity>
 
 	<Entity name="InvisibleProjectile" type="Projectile" hideInEditor="true">
