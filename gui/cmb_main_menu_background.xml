@@ -1,24 +1,12 @@
 <GUIItems>
-    <Item name="HideMainMenuLogo_cmb_helper" hidden="true">
+    <Item name="Menu_Main_Background_TheCombine" hidden="true">
         <OnOpen>
+            <Action type="AddMeToParent" target="Menu_Main_Blurred_Background"/>
             <Action type="Hide" target="#MainMenuLogo"/>
         </OnOpen>
         
         <OnClose>
-            <Action type="Show" target="#MainMenuLogo"/> 
-        </OnClose>
-    </Item>
-    
-    <Item name="Menu_Main_Background_TheCombine" hidden="true">
-        <OnOpen>
-            <Action type="AddMeToParent" target="Menu_Main_Blurred_Background"/>
-            <Action type="Show" target="HideMainMenuLogo_cmb_helper"/>
-            <Action type="Show" target="#MainMenuLogo_TheCombine"/>
-        </OnOpen>
-        
-        <OnClose>
-            <Action type="Hide" target="HideMainMenuLogo_cmb_helper"/>
-            <Action type="Hide" target="#MainMenuLogo_TheCombine"/>
+            <Action type="Show" target="#MainMenuLogo"/>
         </OnClose>
 
         <!-- global speed with which the layers move around in their default animation -->
