@@ -26,6 +26,7 @@
 
 		<to name="CMB_StunBaton_Sights"/>
 	</Bind>
+	<!-- Remake CMB_StunBaton UI -->
  	<Firearm name="CMB_StunBaton" inventoryBinding="SecondaryWeapon" category="melee" unlockCost="0"
 			tooltip="@melee_cmb_stun_baton_name"
 			description="@melee_cmb_stun_baton_desc"
