@@ -1,5 +1,26 @@
 <GUIItems>
+    <Item name="HideMainMenuLogo_cmb_helper" hidden="true">
+        <OnOpen>
+            <Action type="Hide" target="#MainMenuLogo"/>
+        </OnOpen>
+        
+        <OnClose>
+            <Action type="Show" target="#MainMenuLogo"/> 
+        </OnClose>
+    </Item>
+    
     <Item name="Menu_Main_Background_TheCombine" hidden="true">
+        <OnOpen>
+            <Action type="AddMeToParent" target="Menu_Main_Blurred_Background"/>
+            <Action type="Show" target="HideMainMenuLogo_cmb_helper"/>
+            <Action type="Show" target="#MainMenuLogo_TheCombine"/>
+        </OnOpen>
+        
+        <OnClose>
+            <Action type="Hide" target="HideMainMenuLogo_cmb_helper"/>
+            <Action type="Hide" target="#MainMenuLogo_TheCombine"/>
+        </OnClose>
+
         <!-- global speed with which the layers move around in their default animation -->
         <Item name="#parallax_speed" origin="2.0 0.0"/>  <!-- the layers go out of screen in 16:10, no Y movement -->
         <!--<Item name="#parallax_speed" origin="0.0 0"/>-->
@@ -12,7 +33,6 @@
             <Item>
                 <StaticImage origin="0 0">
                     <RenderObject2D texture="data/textures/gui/keyart_TheCombine/combine_bg_01_back.dds"/>
-
                     <!-- 'origin' for these is a multiplier for the movement speed of each layer, gets multiplied by #parallax_speed -->
                     <Item name="#parallax_layer_speed" origin="0.5 0"/>
                 </StaticImage>
@@ -70,5 +90,9 @@
                 </StaticImage>
             </Item>
         </Item>
+
+        <StaticImage name="#MainMenuLogo_TheCombine" origin="0 380" hidden="false">
+            <RenderObject2D texture="data/textures/gui/cmb_dk2_logo.dds"/>
+        </StaticImage>
     </Item>
 </GUIItems>
