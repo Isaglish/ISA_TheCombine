@@ -14,7 +14,7 @@
 		<to name="CombineOrdinal"/>
 		<to name="CombineGrunt"/>
 	</Bind>
-	<Grenade name="CMB_Grenade" inventoryBinding="UtilityPouch"
+	<Grenade name="CMB_Grenade" inventoryBinding="UtilityPouch1"
 			quantity="2"
 
 			tooltip="@grenade_cmb_grenade_name"
@@ -127,9 +127,9 @@
 			triggerTimeAfterTargetHitMsec="0"
 
 			minVelocity="0.0"
-			maxVelocity="0.1"
-			acceleration="0.1"
-			mass="10.0"
+			maxVelocity="0.0"
+			acceleration="0.0"
+			mass="9999999.0"
 
 			physicsDetonationForce="0"
 			audibleLaunchSoundRadius="1"
