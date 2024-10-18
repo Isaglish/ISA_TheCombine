@@ -1,7 +1,7 @@
 ####################
 # UNITS
 ####################
-@unit_combine_name=THE COMBINE
+@unit_combine_name=COMBINE OVERWATCH
 @unit_combine_description=Comprised of volunteers, the Combine Overwatch's transhuman forces are tasked with eliminating anti-citizen activity.
 
 @unit_combine_ordinal=ORDINAL
