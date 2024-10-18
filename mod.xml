@@ -9,8 +9,8 @@
 "languageMod" should only be valid if this adds a new language to the game, in which case it will show up in the Languages options list
 -->
 <Mod
-	title="The Combine"
-	description="Adds the Combine as a new faction, a powerful inter-dimensional empire that conquered the Earth during the Seven Hour War."
+	title="Combine Overwatch"
+	description="Adds the Combine Overwatch as a new faction which is the military branch of a powerful inter-dimensional empire that conquered the Earth during the Seven Hour War."
 	author="Isaglish"
 	tags="New Unit"
 	changeNotes=""
