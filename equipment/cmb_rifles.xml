@@ -69,15 +69,6 @@
 			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
 		</MuzzleFlash>
 
-		<Sounds> 
-			<Equip name="rifle_eqp"/>
-			<Unequip name="rifle_neqp"/>
-			<Reload name="cmb_pulse_rifle_reld"/>
-			<ReloadEmpty name="cmb_pulse_rifle_reld"/>
-			<Fire name="cmb_pulse_rifle_fire"/>
-			<Empty name="cmb_gen_empty"/>
-		</Sounds>
-
 		<Projectile
 			bodyTemplate="CMB_PulseOrb"
 			trailParticles="CMB_PulseOrb"
@@ -132,11 +123,20 @@
 				<SuppressEffect amount="15"/>
 			</EffectRange>
 		</Projectile>
+
+		<Sounds> 
+			<Equip name="rifle_eqp"/>
+			<Unequip name="rifle_neqp"/>
+			<Reload name="cmb_pulse_rifle_reld"/>
+			<ReloadEmpty name="cmb_pulse_rifle_reld"/>
+			<Fire name="cmb_pulse_rifle_fire"/>
+			<Empty name="cmb_gen_empty"/>
+		</Sounds>
 	</Firearm>
-	
+
     <Bind eqp="CMB_HeavyShotgun">
 		<to name="CombineCharger"/>
-		
+
 		<to name="CMB_HeavyShotgun_Ammo"/>
 
 		<to name="IronSights"/>
