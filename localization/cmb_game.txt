@@ -56,6 +56,12 @@
 @firearm_caliber_cmb_pulse_orb_name=Dark Energy/Energy Orb
 @firearm_caliber_cmb_stun_baton_name=50M Volts
 
+####################
+# PISTOLS
+####################
+@firearm_cmb_usp_name=USP Match
+@firearm_cmb_usp_desc=The USP Match is the Combine's standard sidearm and is often carried by Civil Protection officers.
+
 
 ####################
 # MELEE
@@ -71,6 +77,8 @@
 @ammo_cmb_blunt_electric_desc=Delivers a forceful impact, capable of subduing targets with a few strikes whilst also shocking anyone unlucky enough to get the short end of the stick.
 @ammo_cmb_dark_energy_name=Dark Energy
 @ammo_cmb_dark_energy_desc=This Dark Energy plasma is the basis for many examples of Combine's technology, in fact, the entire Combine civilization appears to be dependent on it.\n\nIt is extremely hot, and can impart a massive amount of kinetic force.\n\nMetal-based weapons and armor can be rendered useless due to melting or explosive damage.
+@ammo_cmb_9x19_parabellum_name=9x19mm Parabellum
+@ammo_cmb_9x19_parabellum_desc=The classic 9×19mm Parabellum – versatile, widely used, and known for its balanced performance. A solid choice with decent stopping power and reliability.
 
 
 ####################

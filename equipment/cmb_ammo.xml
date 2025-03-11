@@ -56,4 +56,20 @@
 			<ArmorPenetration start="40" end="40" startDist="0" endDist="100"/>
 		</Params>
 	</Ammo>
+
+	<Ammo name="CMB_9x19_Parabellum"
+			tooltip="@ammo_cmb_9x19_parabellum_name"
+			description="@ammo_cmb_9x19_parabellum_desc"
+			img="data/models/weapons/attachments/m882_ammo_ui.dds"
+		>
+
+		<Params	roundsPerSecond="6"
+				audibleSoundRadius="50"
+				physicsImpactForce="2.0"
+				>
+			<Damage start="20" end="15" startDist="0" endDist="100"/>
+			<CriticalChancePercent start="30" end="25" startDist="0" endDist="30"/>
+			<ArmorPenetration start="40" end="20" startDist="0" endDist="100"/>
+		</Params>
+	</Ammo>
 </Equipment>

@@ -1,0 +1,76 @@
+<Equipment>
+<Bind eqp="CMB_USP">
+		<to name="CombinePolice"/>
+
+		<to name="CMB_9x19_Parabellum"/>
+
+		<to name="IronSights_Pistol"/>
+	</Bind>
+	<Firearm name="CMB_USP" inventoryBinding="SecondaryWeapon" category="pistol" unlockCost="5"
+			tooltip="@firearm_cmb_usp_name"
+			description="@firearm_cmb_usp_desc"
+			img="data/models/weapons/cmb_usp_ui.dds"
+
+			animationSet="pistol"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		<RenderObject3D model="data/models/weapons/cmb_usp.khm" attachSlot="prop_sidearm" diffuseTex="data/models/weapons/cmb_usp.dds" skipGOSSAO="true"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="18"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="1400"
+			reloadEmptyTime="1800"
+			changeInTime="800"
+			changeOutTime="1000"
+			readyTime="100"
+			guardTime="50"
+
+			accuracyStart="90"
+			accuracyEnd="85"
+			accuracyStartDist="0"
+			accuracyEndDist="100"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_9x19_name"
+			operationInfoText="@firearm_operation_semiauto_name"
+			ejectingShellEntity="BulletCasingSmall"
+			magazineEntity="pm63_mag"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="3.0"
+			ai_rangeMax="15.0"
+			ai_stopWhenShooting="false"
+		/>
+
+		<AttackTypes>
+			<AttackType name="Rangers_EmergencyFire9mil" rangeMeters="1.5"/>
+			<AttackType name="Rangers_PistolAimedFireShort9mil" rangeMeters="8"/>
+			<!-- AttackType name="Rangers_DoubleTap9mil" rangeMeters="4"/  Sorry Rangers, no more real DT for you -->
+			<AttackType name="Rangers_ControlledPair9mil" rangeMeters="8" disabled="true"/>
+			<AttackType name="Rangers_PistolAimedFire9mil" rangeMeters="15"/>
+			<AttackType name="Rangers_PistolAimedFireLong9mil" rangeMeters="30"/>
+			<AttackType name="Rangers_PistolAimedFireLong9milXX" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Pistol">
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
+		</MuzzleFlash>
+
+		<Sounds> 
+			<Equip name="pistol_eqp"/>
+			<Unequip name="pistol_neqp"/>
+			<Reload name="cmb_pistol_reld"/>
+			<ReloadEmpty name="cmb_pistol_reldempt"/>
+			<Fire name="cmb_usp_fire"/>
+			<ShellDrop name="pistol_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
+</Equipment>

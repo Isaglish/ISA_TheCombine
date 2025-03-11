@@ -145,6 +145,8 @@
 
 			<Equipment>
 				<Item name="FeetOfSteel"/>
+			
+				<Item name="CMB_StunBaton"/>
 			</Equipment>
 		</Human>
 	</Entity>

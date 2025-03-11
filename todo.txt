@@ -1,0 +1,4 @@
+- Add VOX_TRPR_TANGODOWN voicelines (announcekill_00)
+- Add VOX_WARN_GRENADE voicelines (danger_grenade_00)
+
+- Rework Stun Baton UI
