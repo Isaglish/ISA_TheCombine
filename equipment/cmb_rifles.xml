@@ -279,4 +279,79 @@
 			<Empty name="cmb_gen_empty"/>
 		</Sounds>
 	</Firearm>
+
+	<Bind eqp="CMB_MP7">
+		<to name="CombinePolice"/>
+
+		<to name="CMB_46x30HP"/>
+
+		<to name="IronSights"/>
+		<to name="Holosight"/>
+	</Bind>
+	<Firearm name="CMB_MP7" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="30"
+			tooltip="@firearm_cmb_mp7_name"
+			description="@firearm_cmb_mp7_desc"
+			img="data/models/weapons/cmb_mp7_ui.dds"
+
+			animationSet="rifle"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="-3" />
+		<RenderObject3D model="data/models/weapons/cmb_mp7.khm" attachSlot="prop_front_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_mp7.dds"/>
+
+		<ModifiableParams
+			numPellets="1"
+			roundsPerMagazine="45"
+			closedBolt="1"
+
+			cyclicReload="0"
+			reloadTime="1600"
+			reloadEmptyTime="2400"
+			changeInTime="0"
+			changeOutTime="0"
+			readyTime="335"
+			guardTime="150"
+
+			accuracyStart="140"
+			accuracyEnd="65"
+			accuracyStartDist="10"
+			accuracyEndDist="30"
+		/>
+
+		<Params
+			caliberInfoText="@firearm_caliber_46x30_name"
+			operationInfoText="@firearm_operation_semifull_name"
+			ejectingShellEntity="BulletCasingLarge"
+			magazineEntity="mp5_mag"
+			ai_rangeMin="1.0"
+			ai_rangeOptimal="10.0"
+			ai_rangeMax="25.0"
+			ai_stopWhenShooting="false"
+		/>
+
+		<AttackTypes>
+			<AttackType name="CMB_MP7_BurstFireClose" rangeMeters="7"/>
+			<AttackType name="CMB_MP7_BurstFire" rangeMeters="14"/>
+			<AttackType name="CMB_MP7_BurstFireLong" rangeMeters="20"/>
+			<AttackType name="CMB_MP7_BurstFireLongXX" rangeMeters="55"/>
+			<AttackType name="CMB_MP7_BurstFireTooFar" rangeMeters="9999"/>
+		</AttackTypes>
+
+		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_01" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_02" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_03" />
+			<Flare particles="FX_MUZZLE_FLASH_PISTOL_04" />
+		</MuzzleFlash>
+
+		<Sounds> 
+			<Equip name="smg_eqp"/>
+			<Unequip name="smg_neqp"/>
+			<Reload name="smg_reld"/>
+			<ReloadEmpty name="smg_reldempt"/>
+			<Fire name="cmb_mp7_fire"/>
+			<ShellDrop name="smg_shell_drop"/>
+			<Empty name="gen_empty"/>
+		</Sounds>
+	</Firearm>
 </Equipment>

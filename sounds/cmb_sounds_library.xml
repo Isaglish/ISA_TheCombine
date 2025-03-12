@@ -95,4 +95,13 @@
 		<Path name="data/sounds/sfx/weapons/cmb_usp_fire_03.ogg"/>
 		<Path name="data/sounds/sfx/weapons/cmb_usp_fire_04.ogg"/>
     </Sound>
+
+	<Sound ID="cmb_mp7_fire" channel="game" preload="false">
+        <Path name="data/sounds/sfx/weapons/cmb_mp7_fire_01.wav"/>
+		<Path name="data/sounds/sfx/weapons/cmb_mp7_fire_02.wav"/>
+		<Path name="data/sounds/sfx/weapons/cmb_mp7_fire_03.wav"/>
+		<Path name="data/sounds/sfx/weapons/cmb_mp7_fire_04.wav"/>
+		<Path name="data/sounds/sfx/weapons/cmb_mp7_fire_05.wav"/>
+		<Path name="data/sounds/sfx/weapons/cmb_mp7_fire_06.wav"/>
+    </Sound>
 </Sounds>

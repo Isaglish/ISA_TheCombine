@@ -1,5 +1,7 @@
 - Changed the cost of 1x Stimdose to 21 Stars
 - Updated Stimdose description
+- Updated Empty slots
 - Added 2x Stimdose to Ordinal and APF
 - Added 3x Stimdose to Ordinal
 - Added USP Match to Civil Protection
+- Added MP7 to Civil Protection

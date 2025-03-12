@@ -209,4 +209,70 @@
 			critChanceAdd="-40"
 		/>
 	</AttackType>
+
+<!-- MP7 -->
+	<AttackType name="CMB_MP7_BurstFireClose">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="300"
+			minShots="7"
+			maxShots="12"
+			resetTime="400"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_MP7_BurstFire">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="350"
+			minShots="5"
+			maxShots="8"
+			resetTime="400"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_MP7_BurstFireLong">
+		<ModifiableParams
+			minAimTime="350"
+			maxAimTime="450"
+			minShots="3"
+			maxShots="6"
+			resetTime="450"
+			accuracyAdd="-100"
+			followupShotAccuracyAdd="-10"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_MP7_BurstFireLongXX">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="800"
+			minShots="1"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="-150"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_MP7_BurstFireTooFar">
+		<ModifiableParams
+			minAimTime="1200"
+			maxAimTime="1500"
+			minShots="1"
+			maxShots="3"
+			resetTime="500"
+			accuracyAdd="-200"
+			followupShotAccuracyAdd="20"
+			critChanceAdd="-50"
+		/>
+	</AttackType>
 </FirearmAttackTypes>

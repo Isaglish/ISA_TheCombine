@@ -72,4 +72,21 @@
 			<ArmorPenetration start="40" end="20" startDist="0" endDist="100"/>
 		</Params>
 	</Ammo>
+
+	<Ammo name="CMB_46x30HP"
+			tooltip="@ammo_cmb_46x30hp_name"
+			description="@ammo_cmb_46x30hp_desc"
+			img="data/models/weapons/attachments/m855_ammo_ui.dds"
+		>
+
+		<Params roundsPerSecond="15.8"
+				audibleSoundRadius="80"
+				physicsImpactForce="1.0"
+				>
+
+			<Damage start="25" end="19" startDist="15" endDist="40"/>
+			<CriticalChancePercent start="32" end="15" startDist="13" endDist="35"/>
+			<ArmorPenetration start="40" end="40" startDist="0" endDist="100"/>
+		</Params>
+	</Ammo>
 </Equipment>

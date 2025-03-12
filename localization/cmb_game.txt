@@ -51,6 +51,8 @@
 @firearm_cmb_heavy_shotgun_desc=desc.
 @firearm_cmb_pulse_rifle_name=OSIPR
 @firearm_cmb_pulse_rifle_desc=The OSIPR, also known as "Pulse Rifle" is a Combine assault rifle that is known for its accuracy and deadly dark energy orb launcher.\n\nThe OSIPRs are "gene-coded" like all other Combine weapons, so they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
+@firearm_cmb_mp7_name=MP7
+@firearm_cmb_mp7_desc=The MP7, forms the bulk of the Combine's small arms arsenal and is often carried by Civil Protection officers.
 
 @firearm_caliber_cmb_pulse_name=Dark Energy
 @firearm_caliber_cmb_pulse_orb_name=Dark Energy/Energy Orb
@@ -79,6 +81,8 @@
 @ammo_cmb_dark_energy_desc=This Dark Energy plasma is the basis for many examples of Combine's technology, in fact, the entire Combine civilization appears to be dependent on it.\n\nIt is extremely hot, and can impart a massive amount of kinetic force.\n\nMetal-based weapons and armor can be rendered useless due to melting or explosive damage.
 @ammo_cmb_9x19_parabellum_name=9x19mm Parabellum
 @ammo_cmb_9x19_parabellum_desc=The classic 9×19mm Parabellum – versatile, widely used, and known for its balanced performance. A solid choice with decent stopping power and reliability.
+@ammo_cmb_46x30hp_name=4.6x30mm Hollow Point
+@ammo_cmb_46x30hp_desc=A Hollow Point round for use when body armor is not a factor, it expands reliably and boosts stopping power at ranges under 15m.
 
 
 ####################

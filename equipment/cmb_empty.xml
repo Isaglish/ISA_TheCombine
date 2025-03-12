@@ -1,8 +1,10 @@
 <Equipment>
     <Bind eqp="EmptyUtility">
+        <to name="TheCombine"/>
     </Bind>
 
     <Bind eqp="EmptyPrimary">
+        <to name="CombinePolice"/>
     </Bind>
     <Bind eqp="EmptySecondary">
         <to name="CombineGrunt"/>
@@ -17,7 +19,7 @@
         <to name="CombineGrunt"/>
     </Bind>
     <Bind eqp="EmptySupportGear">
-        <to name="CombineGrunt"/>
+        <to name="TheCombine"/>
     </Bind>
     
     <Bind eqp="EmptyPrimaryMuzzle">
