@@ -93,10 +93,117 @@
 		<to name="CombineSuppressor"/>
 		<to name="CombineGrunt"/>
 	</Bind>
-	<Grenade name="CMB_HealthPen" inventoryBinding="UtilityPouch" unlockCost="20" unlockCostBH="0"
+	<Grenade name="CMB_HealthPen" inventoryBinding="UtilityPouch2" unlockCost="21" unlockCostBH="0"
 			quantity="1"
 
 			tooltip="@cmb_health_pen_name"
+			description="@cmb_health_pen_desc"
+			img="data/models/equipment/cmb_health_pen_ui.dds"
+			movie="data/movies/cmb_health_pen.ogv"
+
+			animationSet="cmb_health_pen"
+			crouchOnUse="false"
+		>
+		<RenderObject3D model="data/models/equipment/cmb_health_pen.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/cmb_health_pen.dds"/>
+		<ConcealmentModifier add="0"/>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="0"/>
+
+		<ModifiableParams
+			changeInTime="600"
+			changeOutTime="400"
+			throwTime="2000"
+			throwTimeCorner="2000"
+		/>
+
+		<Projectile
+			bodyTemplate="InvisibleProjectile"
+			pathIconTexture="data/textures/gui/contextual/pathicon_stinger_active.tga"
+
+			soundUse=""
+			soundExplosion="cmb_health_pen_inject"
+
+			friendlyFire="true"
+			triggerOnImpact="true"
+			triggerTimeAfterTargetHitMsec="0"
+
+			minVelocity="0.0"
+			maxVelocity="0.0"
+			acceleration="0.0"
+			mass="9999999.0"
+
+			physicsDetonationForce="0"
+			audibleLaunchSoundRadius="1"
+			audibleDetonationSoundRadius="0">
+
+			<EffectRange radiusMeters="0.1">
+				<DamageEffect chancePercent="100" damage="-50" damageType="1"/>
+				<ScatterEffect chancePercent="100" armorPenetration="6"/>
+				<SmokeEffect durationMSec="0" />
+			</EffectRange>
+		</Projectile>
+	</Grenade>
+
+	<Bind eqp="CMB_HealthPen_2x">
+		<to name="CombineOrdinal"/>
+		<to name="CombineSuppressor"/>
+	</Bind>
+	<Grenade name="CMB_HealthPen_2x" inventoryBinding="UtilityPouch2" unlockCost="0" unlockCostBH="7"
+			quantity="2"
+
+			tooltip="@cmb_health_pen_2x_name"
+			description="@cmb_health_pen_desc"
+			img="data/models/equipment/cmb_health_pen_ui.dds"
+			movie="data/movies/cmb_health_pen.ogv"
+
+			animationSet="cmb_health_pen"
+			crouchOnUse="false"
+		>
+		<RenderObject3D model="data/models/equipment/cmb_health_pen.khm" skipGOSSAO="true" diffuseTex="data/models/equipment/cmb_health_pen.dds"/>
+		<ConcealmentModifier add="0"/>
+		<MobilityModifiers moveSpeedModifierPercent="-1" turnSpeedModifierPercent="0"/>
+
+		<ModifiableParams
+			changeInTime="600"
+			changeOutTime="400"
+			throwTime="2000"
+			throwTimeCorner="2000"
+		/>
+
+		<Projectile
+			bodyTemplate="InvisibleProjectile"
+			pathIconTexture="data/textures/gui/contextual/pathicon_stinger_active.tga"
+
+			soundUse=""
+			soundExplosion="cmb_health_pen_inject"
+
+			friendlyFire="true"
+			triggerOnImpact="true"
+			triggerTimeAfterTargetHitMsec="0"
+
+			minVelocity="0.0"
+			maxVelocity="0.0"
+			acceleration="0.0"
+			mass="9999999.0"
+
+			physicsDetonationForce="0"
+			audibleLaunchSoundRadius="1"
+			audibleDetonationSoundRadius="0">
+
+			<EffectRange radiusMeters="0.1">
+				<DamageEffect chancePercent="100" damage="-50" damageType="1"/>
+				<ScatterEffect chancePercent="100" armorPenetration="6"/>
+				<SmokeEffect durationMSec="0" />
+			</EffectRange>
+		</Projectile>
+	</Grenade>
+
+	<Bind eqp="CMB_HealthPen_3x">
+		<to name="CombineOrdinal"/>
+	</Bind>
+	<Grenade name="CMB_HealthPen_3x" inventoryBinding="UtilityPouch2" unlockCost="0" unlockCostBH="14"
+			quantity="3"
+
+			tooltip="@cmb_health_pen_3x_name"
 			description="@cmb_health_pen_desc"
 			img="data/models/equipment/cmb_health_pen_ui.dds"
 			movie="data/movies/cmb_health_pen.ogv"
