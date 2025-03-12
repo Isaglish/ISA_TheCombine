@@ -6,7 +6,7 @@
 
 		<to name="IronSights_Pistol"/>
 	</Bind>
-	<Firearm name="CMB_USP" inventoryBinding="SecondaryWeapon" category="pistol" unlockCost="5"
+	<Firearm name="CMB_USP" inventoryBinding="SecondaryWeapon" category="pistol" unlockCost="7"
 			tooltip="@firearm_cmb_usp_name"
 			description="@firearm_cmb_usp_desc"
 			img="data/models/weapons/cmb_usp_ui.dds"
@@ -47,13 +47,11 @@
 		/>
 
 		<AttackTypes>
-			<AttackType name="Rangers_EmergencyFire9mil" rangeMeters="1.5"/>
-			<AttackType name="Rangers_PistolAimedFireShort9mil" rangeMeters="8"/>
-			<!-- AttackType name="Rangers_DoubleTap9mil" rangeMeters="4"/  Sorry Rangers, no more real DT for you -->
-			<AttackType name="Rangers_ControlledPair9mil" rangeMeters="8" disabled="true"/>
-			<AttackType name="Rangers_PistolAimedFire9mil" rangeMeters="15"/>
-			<AttackType name="Rangers_PistolAimedFireLong9mil" rangeMeters="30"/>
-			<AttackType name="Rangers_PistolAimedFireLong9milXX" rangeMeters="9999"/>
+			<AttackType name="CMB_USP_PanicFire" rangeMeters="3"/>
+			<AttackType name="CMB_USP_FireClose" rangeMeters="8"/>
+			<AttackType name="CMB_USP_Fire" rangeMeters="15"/>
+			<AttackType name="CMB_USP_FireLong" rangeMeters="30"/>
+			<AttackType name="CMB_USP_FireLongXX" rangeMeters="9999"/>
 		</AttackTypes>
 
 		<MuzzleFlash lightTemplate="ShotLightSmall" tracerTemplate="Tracer_Pistol">
