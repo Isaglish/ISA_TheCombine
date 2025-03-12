@@ -5,3 +5,4 @@
 - Added 3x Stimdose to Ordinal
 - Added USP Match to Civil Protection
 - Added MP7 to Civil Protection
+- Removed Stimdose from UtilityPouch1
