@@ -1,1 +1,47 @@
-<Mod title="Combine Overwatch" gameVersion="104" author="Isaglish" description="Adds the Combine Overwatch as a new faction which is the military branch of a powerful inter-dimensional empire that conquered the Earth during the Seven Hour War." changeNotes="" languageMod="" tags="Playable Units,Equipment,Sound Effects,Music" ugcId="3429811041"/>
+<Mod title="Combine Overwatch [Beta]" gameVersion="107" author="Isaglish" description="This mod adds the [b]Combine Overwatch[/b] from [b]Half-Life: Alyx[/b].
+
+The mod is still work-in-progress and unfinished; lots of equipment, art, and models are still missing, however if you still wanna test out the mod, the Combine Ordinal, Combine Charger, and Combine Grunts are playable.
+
+This mod is heavily focused on [b]Half-Life: Alyx[/b], stuff from the previous franchises may or may not get added.
+
+Looking forward to your valuable feedback.
+
+[h1]Priority:[/h1]
+[list]
+[*]Weapon Models, Animation, and Code
+[*]Doctrines
+[*]Voicelines
+[*]Combine Models
+[*]Map Assets??
+[/list]
+
+[h1]Bugs:[/h1]
+There is currently a bug for the Bouncer where it doesn&apos;t stop beeping after exploding. This is a bug in Door Kickers 2, I can&apos;t fix this.
+
+[h1]Plans:[/h1]
+[h3]Combine Humanoid Models:[/h3]
+[list]
+[*]Combine Ordinal
+[*]Combine Charger
+[*]Combine Suppressor
+[*]Optimize Combine Grunt model (currently 20k+ triangles)
+[*]Metro Police
+[/list]
+
+[h3]Equipment:[/h3]
+[list]
+[*]Stun Baton
+[*]9mm Pistol
+[*]9mm SMG
+[*]Revolver?
+[*]Heavy Shotgun
+[*]Heavy Machinegun
+[/list]
+" changeNotes="- Changed the cost of 1x Stimdose to 21 Stars
+- Updated Stimdose description
+- Updated Empty slots
+- Added 2x Stimdose to Ordinal and APF
+- Added 3x Stimdose to Ordinal
+- Added USP Match to Civil Protection
+- Added MP7 to Civil Protection
+- Removed Stimdose from UtilityPouch1" languageMod="" tags="Playable Units,Equipment,Sound Effects,Music" ugcId="3429811041"/>

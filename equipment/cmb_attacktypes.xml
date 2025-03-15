@@ -158,12 +158,12 @@
 		<ModifiableParams
 			minAimTime="400"
 			maxAimTime="600"
-			roundsPerSecondOverride="3"
+			roundsPerSecondOverride="4.5"
 			minShots="1"
 			maxShots="2"
 			resetTime="300"
-			accuracyAdd="10"
-			followupShotAccuracyAdd="3"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="2"
 			critChanceAdd="10"
 		/>
 	</AttackType>
@@ -172,12 +172,12 @@
 		<ModifiableParams
 			minAimTime="600"
 			maxAimTime="900"
-			roundsPerSecondOverride="2.5"
+			roundsPerSecondOverride="3.5"
 			minShots="1"
-			maxShots="1"
+			maxShots="3"
 			resetTime="300"
-			accuracyAdd="5"
-			followupShotAccuracyAdd="2"
+			accuracyAdd="-5"
+			followupShotAccuracyAdd="1"
 			critChanceAdd="5"
 		/>
 	</AttackType>
@@ -186,12 +186,12 @@
 		<ModifiableParams
 			minAimTime="800"
 			maxAimTime="1050"
-			roundsPerSecondOverride="1.3"
+			roundsPerSecondOverride="2.7"
 			minShots="1"
-			maxShots="1"
+			maxShots="2"
 			resetTime="175"
 			accuracyAdd="-30"
-			followupShotAccuracyAdd="2"
+			followupShotAccuracyAdd="1"
 			critChanceAdd="-20"
 		/>
 	</AttackType>
@@ -200,7 +200,7 @@
 		<ModifiableParams
 			minAimTime="1050"
 			maxAimTime="1100"
-			roundsPerSecondOverride="1.1"
+			roundsPerSecondOverride="1.8"
 			minShots="1"
 			maxShots="1"
 			resetTime="200"
