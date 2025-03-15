@@ -68,12 +68,12 @@
 			
 			<!-- skills -->
 			<Node name="CMB_Intimidation">
-				<Node name="CMB_Coercion">
+				<Node name="CMB_Expel">
 				</Node>
 			</Node>
 
 			<!-- elite -->
-			<Node name="CMB_Interrogation" minSquadLevel="14"/>
+			<Node name="CMB_Interrogation" minSquadLevel="14" numLevels="5"/>
 		</Doctrine>
 	</Unit>
 </Units>

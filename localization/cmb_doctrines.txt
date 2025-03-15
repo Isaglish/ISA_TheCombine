@@ -1,5 +1,13 @@
 @doctrine_combine_intimidation_name=Intimidation
-@doctrine_combine_intimidation_desc=Intimidation description...
+@doctrine_combine_intimidation_desc=The Combine invokes fear in nearby citizens through its oppressive presence, overwhelming military technology, ruthless enforcement, and chilling, faceless authority.
 
+@doctrine_combine_expel_name=Evacuation Protocol
+@doctrine_combine_expel_desc=The Combine learns how to properly issue an order that forces citizens to leave the room or head to the nearest exit.
+
+@doctrine_combine_propaganda_name=Propaganda
+@doctrine_combine_propaganda_desc=Propaganda boosts morale and strengthens control against suppression by spreading Overwatch messages.
+
+@doctrine_combine_interrogation_name=Interrogation
+@doctrine_combine_interrogation_desc=The Combine learns how to interrogate citizens and captured anti-citizens to reveal the location of nearby anti-citizens.
 
 @buff_cmb_coordinated=Coordinated

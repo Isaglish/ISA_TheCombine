@@ -9,7 +9,7 @@
 
 
 # doctrine.xml
-@menu_doctrine_cmb_elite=ELITE SQUAD
-@menu_doctrine_branch_cmb_technology=TECHNOLOGY
 @menu_doctrine_branch_cmb_training=TRAINING
+@menu_doctrine_branch_cmb_technology=TECHNOLOGY
 @menu_doctrine_branch_cmb_skills=SKILLS
+@menu_doctrine_cmb_elite=ELITE SQUAD

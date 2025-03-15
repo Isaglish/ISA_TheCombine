@@ -41,14 +41,15 @@
     
     <!-- SKILLS -->
     <Node name="CMB_Intimidation" nameUI="@doctrine_combine_intimidation_name" description="@doctrine_combine_intimidation_desc" texturePrefix="data/textures/gui/doctrines/doctrine_cmb_intimidation">
+        <Enable name="BasicLanguage" value="5.0"/> 
     </Node>
 
-    <Node name="CMB_Coercion" nameUI="@doctrine_combine_coercion_name" description="@doctrine_combine_coercion_desc" texturePrefix="data/textures/gui/doctrines/doctrine_empty">
+    <Node name="CMB_Expel" nameUI="@doctrine_combine_expel_name" description="@doctrine_combine_expel_desc" texturePrefix="data/textures/gui/doctrines/doctrine_empty">
         <Enable name="AdvancedLanguage"/>
     </Node>
 
     <!-- ELITE -->
     <Node name="CMB_Interrogation" nameUI="@doctrine_combine_interrogation_name" description="@doctrine_combine_interrogation_desc" texturePrefix="data/textures/gui/doctrines/doctrine_empty">
-        <Enable name="Persuasion" value="100"/>
+        <Enable name="Persuasion" value="5"/>
     </Node>
 </DoctrineNodes>

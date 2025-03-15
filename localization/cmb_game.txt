@@ -101,3 +101,13 @@
 @cmb_health_pen_2x_name=2x Stimdose
 @cmb_health_pen_3x_name=3x Stimdose
 @cmb_health_pen_desc=The Health Pen, called a Stim or Stimdose in Combine terminology, is a syringe containing a healing substance used for medical treatment.\n\nUse this if you don't want to get discarded and replaced.\n\n*Lost limbs will not regenerate.\n*Stims are not addictive.\n\nInjection time: 2s\nHeal Amount: 50hp
+
+
+####################
+# MODIFIED VANILLA
+####################
+
+@entity_human_civilian=Citizen
+@entity_human_civilian_vis_1=Citizen who called it in
+
+@tooltip_civilian=Citizens live here. Monitor them closely—some could be anti-citizens. Exercise caution; do not kill indiscriminately.
