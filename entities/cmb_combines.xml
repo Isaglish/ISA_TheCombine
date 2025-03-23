@@ -24,6 +24,7 @@
 				<Item name="CMB_PulseRifle"/>
 
 				<Item name="CMB_Grenade"/>
+				<Item name="CMB_KevlarArmor"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Leadership"/>
@@ -56,7 +57,7 @@
 				<Item name="CMB_HeavyShotgun"/>
 				<Item name="CMB_StunBaton"/>
 
-				<Item name="CMB_ChargerArmor"/>
+				<Item name="CMB_HeavyArmor"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Authorized_Gene"/>
@@ -84,6 +85,10 @@
 
 			<Equipment>
 				<Item name="FeetOfSteel"/>
+
+				<Item name="CMB_HMG"/>
+
+				<Item name="CMB_HeavyArmor"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Authorized_Gene"/>
@@ -116,8 +121,9 @@
 				
 				<Item name="CMB_PulseSMG"/>
 				
-				<Item name="CMB_GruntHelmet"/>
 				<Item name="CMB_Grenade"/>
+				<Item name="CMB_GruntHelmet"/>
+				<Item name="CMB_KevlarArmor"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Authorized_Gene"/>
@@ -147,6 +153,8 @@
 				<Item name="FeetOfSteel"/>
 			
 				<Item name="CMB_StunBaton"/>
+
+				<Item name="CMB_FlakVest"/>
 			</Equipment>
 		</Human>
 	</Entity>

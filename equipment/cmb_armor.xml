@@ -1,22 +1,55 @@
 <Equipment>
-	<!-- TODO: Civil Protection armor, similar to Soft Armor or Level IIIA of Rangers. -->
-	<!-- TODO: Ordinal armor, coverage similar to Sapper's Vest. -->
-	<!-- TODO: Suppressor armor, similar to Charger armor but with less protection and coverage. -->
-	
-    <Bind eqp="CMB_ChargerArmor">
+    <Bind eqp="CMB_HeavyArmor">
 		<to name="CombineCharger"/>
+		<to name="CombineSuppressor"/>
 	</Bind>
-	<Armor name="CMB_ChargerArmor" inventoryBinding="Armor" unlockCost="0"
-			tooltip="@armor_cmb_charger_name"
-			description="@armor_cmb_charger_desc"
-			img="data/models/equipment/armor_noplates_ui.dds"
+	<Armor name="CMB_HeavyArmor" inventoryBinding="Armor" unlockCost="0"
+			tooltip="@armor_cmb_heavy_name"
+			description="@armor_cmb_heavy_desc"
+			img="data/models/equipment/cmb_heavy_armor_ui.dds"
 		>
 		<MobilityModifiers moveSpeedModifierPercent="-10" turnSpeedModifierPercent="-15"/>
 
 		<Params protectionInfoText="@equipment_protect2">
-			<ProtectionArc degrees="90" coveragePercent="90" piercingProtectionLevel="999"/>
+			<ProtectionArc degrees="90" coveragePercent="80" piercingProtectionLevel="999"/>
 			<ProtectionArc degrees="270" coveragePercent="65" piercingProtectionLevel="999"/>
 			<ProtectionArc degrees="360" coveragePercent="50" piercingProtectionLevel="999"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="CMB_FlakVest">
+		<to name="CombinePolice"/>
+	</Bind>
+	<Armor name="CMB_FlakVest" inventoryBinding="Armor" unlockCost="0"
+			tooltip="@armor_cmb_flak_vest_name"
+			description="@armor_cmb_flak_vest_desc"
+			img="data/models/equipment/armor_noplates_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-4" turnSpeedModifierPercent="0"/>
+
+		<Params>
+			<ProtectionArc degrees="90" coveragePercent="40" piercingProtectionLevel="40"/>
+			<ProtectionArc degrees="270" coveragePercent="20" piercingProtectionLevel="40"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="40"/>
+		</Params>
+	</Armor>
+
+	<Bind eqp="CMB_KevlarArmor">
+		<to name="CombineOrdinal"/>
+		<to name="CombineGrunt"/>
+	</Bind>
+	<Armor name="CMB_KevlarArmor" inventoryBinding="Armor" unlockCost="0"
+			tooltip="@armor_cmb_kevlar_name"
+			description="@armor_cmb_kevlar_desc"
+			img="data/models/equipment/armor_extended_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-18" turnSpeedModifierPercent="-11"/>
+		<ConcealmentModifier add="-6" />
+
+		<Params>
+			<ProtectionArc degrees="90" coveragePercent="70" piercingProtectionLevel="50"/>
+			<ProtectionArc degrees="270" coveragePercent="40" piercingProtectionLevel="50"/>
+			<ProtectionArc degrees="360" coveragePercent="40" piercingProtectionLevel="50"/>
 		</Params>
 	</Armor>
 </Equipment>

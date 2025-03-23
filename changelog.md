@@ -2,3 +2,9 @@
 - Updated USP Match attacktypes to be a bit more erratic
 - Updated civilian names and descriptions
 - Updated OSIPR and Combine SMG descriptions
+- Updated Heavy Armor coveragePercent: 90 > 80
+- Changed Charger Plates name to Heavy Armor
+- Added Heavy Armor to APF
+- Added Heavy Armor UI
+- Added Flak Vest to Civil Protection
+- Added Kevlar Armor to Ordinal and Echo One

@@ -31,9 +31,12 @@
 ####################
 # ARMOR
 ####################
-@armor_cmb_charger_name=Charger Plates
-@armor_cmb_charger_desc=description...
-
+@armor_cmb_heavy_name=Heavy Armor
+@armor_cmb_heavy_desc=The Combine Heavy Armor is a heavily reinforced combat suit designed for maximum protection and durability.\n\nIt consists of thick composite plating, layered over a flexible but resilient underlayer, providing excellent resistance to gunfire and explosions.\n\nThe armor features a segmented design, allowing for some mobility despite its bulk.
+@armor_cmb_flak_vest_name=Flak Vest
+@armor_cmb_flak_vest_desc=The Flak Vest is a lightweight yet durable piece of body armor worn by Civil Protection officers.\n\nDesigned for urban pacification rather than full-scale military engagements, the vest provides moderate protection while allowing for mobility.
+@armor_cmb_kevlar_name=Kevlar Armor
+@armor_cmb_kevlar_desc=The Kevlar Armor is a reinforced tactical suit worn by Combine soldiers.\n\nDesigned for frontline engagements, it offers superior protection compared to standard Overwatch soldiers.
 
 ####################
 # HELMET

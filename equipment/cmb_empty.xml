@@ -15,9 +15,8 @@
     <Bind eqp="EmptyHelmetNVG">
     </Bind>
 
-    <Bind eqp="EmptyArmor">
-        <to name="CombineGrunt"/>
-    </Bind>
+    <!-- <Bind eqp="EmptyArmor">
+    </Bind> -->
     <Bind eqp="EmptySupportGear">
         <to name="TheCombine"/>
     </Bind>
