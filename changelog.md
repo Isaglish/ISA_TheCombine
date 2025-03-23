@@ -1,3 +1,5 @@
+# Weapon & Armor Update
+
 - Updated doctrine buffs
 - Updated USP Match attacktypes to be a bit more erratic
 - Updated civilian names and descriptions

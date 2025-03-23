@@ -1,3 +1,12 @@
+<!--
+Armor Penetration values:
+	Level IIA = 20
+	Level II = 30
+	Level IIIA = 40
+	Level III = 50
+	Level IV = 60
+ -->
+
 <Equipment>
     <Bind eqp="CMB_HeavyArmor">
 		<to name="CombineCharger"/>
