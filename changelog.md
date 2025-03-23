@@ -7,6 +7,8 @@
 - Updated Heavy Armor coveragePercent: 90 > 80
 - Updated OSIPR reload sfx
 - Updated Combine SMG reload sfx
+- Updated each ammo's penetration value
+- Updated Echo One Gas Mask protection value
 
 - Changed Charger Plates name to Heavy Armor
 

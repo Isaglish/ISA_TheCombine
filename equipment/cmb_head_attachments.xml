@@ -11,7 +11,7 @@
 		<ConcealmentModifier add="0" />
 
 		<Params>
-			<ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="5"/>
+			<ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="30"/>
 		</Params>
 	</Helmet>
 </Equipment>

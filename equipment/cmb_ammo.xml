@@ -1,3 +1,12 @@
+<!--
+Armor Penetration values:
+	Level IIA = 20
+	Level II = 30
+	Level IIIA = 40
+	Level III = 50
+	Level IV = 60
+ -->
+
 <Equipment>
 	<!-- TODO: Redraw big UI, rename ammo name and desc -->
 	<Ammo name="CMB_PulseRifle_Ammo"
@@ -13,7 +22,7 @@
 
 			<Damage start="60" end="50" startDist="0" endDist="200"/>
 			<CriticalChancePercent start="40" end="35" startDist="0" endDist="60"/>
-			<ArmorPenetration start="45" end="45" startDist="0" endDist="200"/>
+			<ArmorPenetration start="55" end="50" startDist="0" endDist="200"/>
 		</Params>
 	</Ammo>
 
@@ -31,7 +40,7 @@
 
 			<Damage start="70" end="50" startDist="0" endDist="200"/>
 			<CriticalChancePercent start="40" end="40" startDist="0" endDist="80"/>
-			<ArmorPenetration start="50" end="45" startDist="0" endDist="200"/>
+			<ArmorPenetration start="65" end="55" startDist="0" endDist="200"/>
 		</Params>
 	</Ammo>
 
@@ -53,7 +62,7 @@
 
 			<Damage start="100" end="1" startDist="0" endDist="30"/>
 			<CriticalChancePercent start="0" end="0" startDist="0" endDist="10"/>
-			<ArmorPenetration start="10" end="2" startDist="0" endDist="10"/>
+			<ArmorPenetration start="45" end="30" startDist="0" endDist="10"/>
 		</Params>
 	</Ammo>
 
@@ -71,7 +80,7 @@
 
 			<Damage start="30" end="24" startDist="0" endDist="100"/>
 			<CriticalChancePercent start="25" end="20" startDist="0" endDist="40"/>
-			<ArmorPenetration start="40" end="40" startDist="0" endDist="100"/>
+			<ArmorPenetration start="35" end="30" startDist="0" endDist="100"/>
 		</Params>
 	</Ammo>
 
@@ -87,7 +96,7 @@
 				>
 			<Damage start="20" end="15" startDist="0" endDist="100"/>
 			<CriticalChancePercent start="30" end="25" startDist="0" endDist="30"/>
-			<ArmorPenetration start="40" end="20" startDist="0" endDist="100"/>
+			<ArmorPenetration start="25" end="20" startDist="0" endDist="100"/>
 		</Params>
 	</Ammo>
 
@@ -104,7 +113,7 @@
 
 			<Damage start="25" end="19" startDist="15" endDist="40"/>
 			<CriticalChancePercent start="32" end="15" startDist="13" endDist="35"/>
-			<ArmorPenetration start="40" end="40" startDist="0" endDist="100"/>
+			<ArmorPenetration start="35" end="30" startDist="0" endDist="100"/>
 		</Params>
 	</Ammo>
 </Equipment>
