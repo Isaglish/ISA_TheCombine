@@ -148,7 +148,7 @@
 
 			animationSet="rifle"
 		>
-		<MobilityModifiers moveSpeedModifierPercent="-20" turnSpeedModifierPercent="-10"/>
+		<MobilityModifiers moveSpeedModifierPercent="-15" turnSpeedModifierPercent="-10"/>
 		<RenderObject3D model="data/models/weapons/cmb_hmg.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_hmg.dds"/>
 
 		<ModifiableParams
