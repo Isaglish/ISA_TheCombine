@@ -2,4 +2,5 @@
 - Add VOX_WARN_GRENADE voicelines (danger_grenade_00)
 
 - Rework Stun Baton UI
-- Retexture OSIPR
+- Retexture OSIPR?
+- Add helmets to Charger, Ordinal, Suppressor, and Police

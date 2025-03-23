@@ -293,7 +293,6 @@
 
 		<to name="IronSights"/>
 	</Bind>
-	<!-- Rebake texture for more accurate DK2 presentation? -->
 	<Firearm name="CMB_PulseSMG" inventoryBinding="PrimaryWeapon" category="rifle" unlockCost="0"
 			tooltip="@firearm_cmb_pulse_smg_name"
 			description="@firearm_cmb_pulse_smg_desc"
