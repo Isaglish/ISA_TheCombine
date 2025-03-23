@@ -16,7 +16,25 @@
 			<ArmorPenetration start="45" end="45" startDist="0" endDist="200"/>
 		</Params>
 	</Ammo>
-	
+
+	<!-- TODO: Redraw big UI, rename ammo name and desc -->
+	<Ammo name="CMB_HMG_Ammo"
+			tooltip="@ammo_cmb_dark_energy_name"
+			description="@ammo_cmb_dark_energy_desc"
+			img="data/models/weapons/attachments/cmb_dark_energy_ui.dds"
+		>
+
+		<Params roundsPerSecond="20"
+				audibleSoundRadius="100"
+				physicsImpactForce="3.5"
+				>
+
+			<Damage start="80" end="50" startDist="0" endDist="200"/>
+			<CriticalChancePercent start="50" end="40" startDist="0" endDist="80"/>
+			<ArmorPenetration start="60" end="45" startDist="0" endDist="200"/>
+		</Params>
+	</Ammo>
+
 	<!-- TODO: Redraw small and big UI, rename ammo name and desc-->
     <Ammo name="CMB_HeavyShotgun_Ammo"
 			tooltip="@ammo_cmb_dark_energy_name"

@@ -275,4 +275,146 @@
 			critChanceAdd="-50"
 		/>
 	</AttackType>
+
+	<AttackType name="CMB_HMG_FireClose">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="450"
+			minShots="5"
+			maxShots="10"
+			resetTime="200"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_Fire">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="700"
+			minShots="10"
+			maxShots="15"
+			resetTime="200"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="-2.5"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_FireLong">
+		<ModifiableParams
+			minAimTime="700"
+			maxAimTime="1000"
+			minShots="15"
+			maxShots="30"
+			resetTime="400"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_FireLongXX">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1000"
+			minShots="15"
+			maxShots="30"
+			resetTime="400"
+			accuracyAdd="5"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_FireTooFar">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1200"
+			minShots="20"
+			maxShots="30"
+			resetTime="400"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+
+	<AttackType name="CMB_HMG_FireCloseMounted">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="400"
+			minShots="10"
+			maxShots="30"
+			resetTime="100"
+			accuracyAdd="-20"
+			followupShotAccuracyAdd="-0.5"
+			critChanceAdd="1"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_FireMounted">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="450"
+			minShots="10"
+			maxShots="30"
+			resetTime="120"
+			accuracyAdd="-5"
+			followupShotAccuracyAdd="-0.5"
+			critChanceAdd="3"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_FireLongMounted">
+		<ModifiableParams
+			minAimTime="450"
+			maxAimTime="600"
+			minShots="15"
+			maxShots="30"
+			resetTime="120"
+			accuracyAdd="-3"
+			followupShotAccuracyAdd="1"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_FireLongXXMounted">
+		<ModifiableParams
+			minAimTime="600"
+			maxAimTime="1000"
+			minShots="15"
+			maxShots="30"
+			resetTime="150"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="2"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HMG_FireTooFarMounted">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1200"
+			minShots="20"
+			maxShots="30"
+			resetTime="250"
+			accuracyAdd="-5"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_AreaSuppression_HMG">
+		<ModifiableParams
+			minAimTime="220"
+			maxAimTime="270"
+			minShots="15"
+			maxShots="35"
+			resetTime="400"
+			critChanceAdd="-25"
+		/>
+	</AttackType>
 </FirearmAttackTypes>

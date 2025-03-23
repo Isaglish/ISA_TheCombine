@@ -1,3 +1,4 @@
 - Updated doctrines
 - Updated USP Match attacktypes to be a bit more erratic
 - Updated civilian names and descriptions
+- Updated OSIPR and Combine SMG descriptions

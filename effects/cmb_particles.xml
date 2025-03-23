@@ -21,6 +21,24 @@
         </Emitter>
     </ParticleSystem>
 
+    <ParticleSystem name="CMB_Tracer_HMG" poolSize="120">
+        <Emitter name="trail" emitDelay="1.000">
+            <Particle lifetime="0.040" lifetimeMax="0.070"/>
+            <Initial scaleMax="1.200" sizeX="0.120" sizeY="0.600" sizeZ="1.050"/>
+            <Movement scaleStart="0.600" scaleEnd="1.300"/>
+            <Tracer/>
+            <Material fadeIn="0.520" fadeOut="0.999" blendMode="add_masked" mainTex="data/textures/fx/trail_bullet1.dds" colorize="FFBD93FF">
+                <GradientMapped gradingTex="data/textures/fx/ramp_bullet1.tga"/>
+            </Material>
+        </Emitter>
+        <Emitter name="bullet" shape="end" startDelay="0.071" emitDelay="1.000" emitCount="0" spawnOffsetZ="-0.200">
+            <Particle lifetime="0.100"/>
+            <Initial sizeX="0.400" sizeZ="0.060" orient="-90.000"/>
+            <Movement scaleEnd="1.200"/>
+            <Material fadeIn="0.600" fadeOut="0.800" blendMode="add_masked" mainTex="data/textures/fx/bullet_head.dds" colorize="FFFEFEFF"/>
+        </Emitter>
+    </ParticleSystem>
+
     <ParticleSystem name="CMB_Grenade" poolSize="8">
         <Emitter name="radial dust" duration="0.100" emitDelay="1.000" spawnOffsetY="0.100">
             <Particle lifetime="0.700"/>

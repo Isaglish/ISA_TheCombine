@@ -59,6 +59,7 @@
 	 
 	<Sound ID="cmb_pulse_smg_reld" Path="data/sounds/sfx/weapons_general/cmb_pulse_smg_reld.ogg" channel="game" preload="false"/>
 	<Sound ID="cmb_pulse_rifle_reld" Path="data/sounds/sfx/weapons_general/cmb_pulse_rifle_reld.ogg" channel="game" preload="false"/>
+	<Sound ID="cmb_hmg_reld" Path="data/sounds/sfx/weapons_general/cmb_hmg_reld.ogg" channel="game" preload="false"/>
 	<Sound ID="cmb_pistol_reld" Path="data/sounds/sfx/weapons_general/cmb_pistol_reld.ogg" channel="game" preload="false"/>
 	<Sound ID="cmb_pistol_reldempt" Path="data/sounds/sfx/weapons_general/cmb_pistol_reldempt.ogg" channel="game" preload="false"/>
 
@@ -87,6 +88,13 @@
 		<Path name="data/sounds/sfx/weapons/cmb_heavy_shotgun_fire_02.ogg"/>
 		<Path name="data/sounds/sfx/weapons/cmb_heavy_shotgun_fire_03.ogg"/>
 		<Path name="data/sounds/sfx/weapons/cmb_heavy_shotgun_fire_04.ogg"/>
+    </Sound>
+
+	<Sound ID="cmb_hmg_fire" channel="game" preload="false">
+        <Path name="data/sounds/sfx/weapons/cmb_hmg_fire_01.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_hmg_fire_02.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_hmg_fire_03.ogg"/>
+		<Path name="data/sounds/sfx/weapons/cmb_hmg_fire_04.ogg"/>
     </Sound>
 
 	<Sound ID="cmb_usp_fire" channel="game" preload="false">

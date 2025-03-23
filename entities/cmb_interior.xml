@@ -3,4 +3,9 @@
         <PhysicalParams physicsEnabled="true" density="100" solid="false"/>
         <RenderObject3D model="data/models/environment/interior/cmb_pulse_smg_mag.khm" diffuseTex="data/models/weapons/cmb_pulse_smg.dds"/>
     </Entity>
+
+    <Entity name="cmb_hmg_mag" type="BasicEntity" editorTags="weapon" >
+        <PhysicalParams physicsEnabled="true" density="100" solid="false"/>
+        <RenderObject3D model="data/models/environment/interior/cmb_hmg_mag.khm" diffuseTex="data/models/weapons/cmb_hmg.dds"/>
+    </Entity>
 </Entities>

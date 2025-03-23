@@ -46,17 +46,20 @@
 # FIREARMS
 ####################
 @firearm_cmb_pulse_smg_name=Combine SMG
-@firearm_cmb_pulse_smg_desc=The Combine SMG is a rapid-fire compact dark energy pulse weapon that can be easily wielded with one hand.\n\nThe SMGs are "gene-coded" like all other Combine weapons, so they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
+@firearm_cmb_pulse_smg_desc=The Combine SMG is a rapid-fire compact dark energy pulse weapon that can be easily wielded with one hand.\n\nThis weapon is "gene-coded" like all other Combine weapons, they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
 @firearm_cmb_heavy_shotgun_name=Heavy Shotgun
-@firearm_cmb_heavy_shotgun_desc=desc.
+@firearm_cmb_heavy_shotgun_desc=Model Not Finished.
+@firearm_cmb_hmg_name=Heavy Machinegun
+@firearm_cmb_hmg_desc=desc.The Heavy Machine Gun's appearance somewhat mirrors that of a minigun, with a joystick-like rear grip that houses the trigger and a foldable bipod under the barrel.\n\nThis weapon is "gene-coded" like all other Combine weapons, they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
 @firearm_cmb_pulse_rifle_name=OSIPR
-@firearm_cmb_pulse_rifle_desc=The OSIPR, also known as "Pulse Rifle" is a Combine assault rifle that is known for its accuracy and deadly dark energy orb launcher.\n\nThe OSIPRs are "gene-coded" like all other Combine weapons, so they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
+@firearm_cmb_pulse_rifle_desc=The OSIPR, also known as "Pulse Rifle" is a Combine assault rifle that is known for its accuracy and deadly dark energy orb launcher.\n\nThis weapon is "gene-coded" like all other Combine weapons, they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
 @firearm_cmb_mp7_name=MP7
 @firearm_cmb_mp7_desc=The MP7, forms the bulk of the Combine's small arms arsenal and is often carried by Civil Protection officers.
 
 @firearm_caliber_cmb_pulse_name=Dark Energy
 @firearm_caliber_cmb_pulse_orb_name=Dark Energy/Energy Orb
 @firearm_caliber_cmb_stun_baton_name=50M Volts
+
 
 ####################
 # PISTOLS

@@ -28,6 +28,18 @@
         <Enable name="CMB_PulseSMG_BurstFireLong"/>
         <Enable name="CMB_PulseSMG_BurstFireLongXX"/>
         <Enable name="CMB_PulseSMG_BurstFireTooFar"/>
+
+        <Enable name="CMB_HMG_FireClose"/>
+        <Enable name="CMB_HMG_Fire"/>
+        <Enable name="CMB_HMG_FireLong"/>
+        <Enable name="CMB_HMG_FireLongXX"/>
+        <Enable name="CMB_HMG_FireTooFar"/>
+
+        <Enable name="CMB_HMG_FireCloseMounted"/>
+        <Enable name="CMB_HMG_FireMounted"/>
+        <Enable name="CMB_HMG_FireLongMounted"/>
+        <Enable name="CMB_HMG_FireLongXXMounted"/>
+        <Enable name="CMB_HMG_FireTooFarMounted"/>
     </Node>
 
     <!-- TRAINING -->
