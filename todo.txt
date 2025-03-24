@@ -3,4 +3,3 @@
 
 - Rework Stun Baton UI
 - Retexture OSIPR?
-- Add helmets to Charger, Ordinal, Suppressor, and Police
