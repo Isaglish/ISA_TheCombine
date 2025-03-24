@@ -482,4 +482,15 @@
 			critChanceAdd="-20"
 		/>
 	</AttackType>
+
+	<AttackType name="CMB_AreaSuppression_HeavyShotgun">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="400"
+			minShots="1"
+			maxShots="1"
+			resetTime="650"
+			critChanceAdd="-25"
+		/>
+	</AttackType>
 </FirearmAttackTypes>

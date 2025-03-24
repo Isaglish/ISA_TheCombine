@@ -274,6 +274,10 @@
 			<AttackType name="GENE_CODED" rangeMeters="9999"/>
 		</AttackTypes>
 
+		<AttackTypesSuppressiveFire>
+			<AttackType name="CMB_AreaSuppression_HeavyShotgun" rangeMeters="9999"/>
+		</AttackTypesSuppressiveFire>
+
 		<MuzzleFlash lightTemplate="CMB_Light_MuzzleFlash_Blue" tracerTemplate="CMB_Tracer_OSIPR">
 			<Flare particles="CMB_FX_MUZZLE_FLASH_BLUE_01" />
 			<Flare particles="CMB_FX_MUZZLE_FLASH_BLUE_02" />

@@ -6,6 +6,7 @@
 - Updated USP Match attacktypes to be a bit more erratic
 - Updated Heavy Shotgun description
 - Updated Heavy Shotgun attacktypes
+- Updated Heavy Shotgun suppression attacktype
 - Updated Heavy Shotgun effects
 - Updated Heavy Shotgun reload time: 2s > 4s
 - Updated Heavy Shotgun ammo capacity: 6 > 32
