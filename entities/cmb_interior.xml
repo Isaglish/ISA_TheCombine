@@ -8,4 +8,9 @@
         <PhysicalParams physicsEnabled="true" density="100" solid="false"/>
         <RenderObject3D model="data/models/environment/interior/cmb_hmg_mag.khm" diffuseTex="data/models/weapons/cmb_hmg.dds"/>
     </Entity>
+
+    <Entity name="cmb_heavy_shotgun_mag" type="BasicEntity" editorTags="weapon" >
+        <PhysicalParams physicsEnabled="true" density="100" solid="false"/>
+        <RenderObject3D model="data/models/environment/interior/cmb_heavy_shotgun_mag.khm" diffuseTex="data/models/weapons/cmb_heavy_shotgun.dds"/>
+    </Entity>
 </Entities>

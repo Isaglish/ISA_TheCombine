@@ -40,6 +40,12 @@
         <Enable name="CMB_HMG_FireLongMounted"/>
         <Enable name="CMB_HMG_FireLongXXMounted"/>
         <Enable name="CMB_HMG_FireTooFarMounted"/>
+
+        <Enable name="CMB_HeavyShotgun_FireClose"/>
+        <Enable name="CMB_HeavyShotgun_Fire"/>
+        <Enable name="CMB_HeavyShotgun_FireLong"/>
+        <Enable name="CMB_HeavyShotgun_FireLongXX"/>
+        <Enable name="CMB_HeavyShotgun_FireTooFar"/>
     </Node>
 
     <!-- TRAINING -->

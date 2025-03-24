@@ -60,7 +60,7 @@ Armor Penetration values:
 				accuracyMultiplier="100"
 				>
 
-			<Damage start="100" end="1" startDist="0" endDist="30"/>
+			<Damage start="30" end="1" startDist="0" endDist="30"/>
 			<CriticalChancePercent start="0" end="0" startDist="0" endDist="10"/>
 			<ArmorPenetration start="45" end="30" startDist="0" endDist="10"/>
 		</Params>

@@ -417,4 +417,69 @@
 			critChanceAdd="-25"
 		/>
 	</AttackType>
+
+	<AttackType name="CMB_HeavyShotgun_FireClose">
+		<ModifiableParams
+			minAimTime="300"
+			maxAimTime="400"
+			minShots="1"
+			maxShots="1"
+			resetTime="300"
+			accuracyAdd="0"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="0"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HeavyShotgun_Fire">
+		<ModifiableParams
+			minAimTime="400"
+			maxAimTime="800"
+			minShots="1"
+			maxShots="1"
+			resetTime="600"
+			accuracyAdd="-10"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="-1"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HeavyShotgun_FireLong">
+		<ModifiableParams
+			minAimTime="800"
+			maxAimTime="1200"
+			minShots="1"
+			maxShots="1"
+			resetTime="800"
+			accuracyAdd="-40"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="-10"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HeavyShotgun_FireLongXX">
+		<ModifiableParams
+			minAimTime="1000"
+			maxAimTime="1500"
+			minShots="1"
+			maxShots="1"
+			resetTime="1000"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="-15"
+		/>
+	</AttackType>
+
+	<AttackType name="CMB_HeavyShotgun_FireTooFar">
+		<ModifiableParams
+			minAimTime="1200"
+			maxAimTime="1700"
+			minShots="1"
+			maxShots="1"
+			resetTime="1200"
+			accuracyAdd="-50"
+			followupShotAccuracyAdd="0"
+			critChanceAdd="-20"
+		/>
+	</AttackType>
 </FirearmAttackTypes>

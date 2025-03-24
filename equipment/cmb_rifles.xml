@@ -229,20 +229,20 @@
 
 			animationSet="cmb_pulse_rifle"
 		>
-		<MobilityModifiers moveSpeedModifierPercent="-3" turnSpeedModifierPercent="-1"/>
-		<RenderObject3D model="data/models/weapons/m500pp.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/m500pp.dds"/>
+		<MobilityModifiers moveSpeedModifierPercent="-6" turnSpeedModifierPercent="-3"/>
+		<RenderObject3D model="data/models/weapons/cmb_heavy_shotgun.khm" attachSlot="prop_back_rifle" skipGOSSAO="true" diffuseTex="data/models/weapons/cmb_heavy_shotgun.dds"/>
 		<ModifiableParams
 			numPellets="8"
-			roundsPerMagazine="6"
+			roundsPerMagazine="32"
 			closedBolt="0"
 
 			suppressArea="1"
 
 			cyclicReload="0"
-			reloadTime="2000"
-			reloadEmptyTime="2000"
-			changeInTime="1000"
-			changeOutTime="1000"
+			reloadTime="4000"
+			reloadEmptyTime="4000"
+			changeInTime="1200"
+			changeOutTime="1200"
 			readyTime="650"
 			guardTime="350"
 
@@ -257,6 +257,7 @@
 		<Params
 			caliberInfoText="@firearm_caliber_12gauge_name"
 			operationInfoText="@firearm_operation_semiauto_name"
+			magazineEntity="cmb_heavy_shotgun_mag"
 			ai_rangeMin="1.0"
 			ai_rangeOptimal="6.0"
 			ai_rangeMax="10.0"
@@ -264,23 +265,27 @@
 		/>
 
 		<AttackTypes>
-			<AttackType name="NWS_PumpAimedFire" rangeMeters="6"/>
-			<AttackType name="NWS_PumpAimedFireLong" rangeMeters="12"/>
-			<AttackType name="NWS_PumpAimedFireLongXX" rangeMeters="9999"/>
+			<AttackType name="CMB_HeavyShotgun_FireClose" rangeMeters="6" disabled="true"/>
+			<AttackType name="CMB_HeavyShotgun_Fire" rangeMeters="12" disabled="true"/>
+			<AttackType name="CMB_HeavyShotgun_FireLong" rangeMeters="27" disabled="true"/>
+			<AttackType name="CMB_HeavyShotgun_FireLongXX" rangeMeters="45" disabled="true"/>
+			<AttackType name="CMB_HeavyShotgun_FireTooFar" rangeMeters="110" disabled="true"/>
+			<!-- This attack type does not exist, it's only here to stop enemies from using the weapon. Can also act as "can't shoot, target too far." -->
+			<AttackType name="GENE_CODED" rangeMeters="9999"/>
 		</AttackTypes>
 
-		<MuzzleFlash lightTemplate="ShotLightLarge" tracerTemplate="Tracer_Rifle">
-			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_01" />
-			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_02" />
-			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_03" />
-			<Flare particles="FX_MUZZLE_FLASH_SHOTGUN_04" />
+		<MuzzleFlash lightTemplate="CMB_Light_MuzzleFlash_Blue" tracerTemplate="CMB_Tracer_OSIPR">
+			<Flare particles="CMB_FX_MUZZLE_FLASH_BLUE_01" />
+			<Flare particles="CMB_FX_MUZZLE_FLASH_BLUE_02" />
+			<Flare particles="CMB_FX_MUZZLE_FLASH_BLUE_03" />
+			<Flare particles="CMB_FX_MUZZLE_FLASH_BLUE_04" />
 		</MuzzleFlash>
 
 		<Sounds> 
 			<Equip name="870br_eqp"/>
 			<Unequip name="870br_neqp"/>
-			<Reload name="870br_reld"/>
-			<ReloadEmpty name="870br_reld"/>
+			<Reload name="cmb_heavy_shotgun_reld"/>
+			<ReloadEmpty name="cmb_heavy_shotgun_reld"/>
 			<Fire name="cmb_heavy_shotgun_fire"/>
 			<Empty name="cmb_gen_empty"/>
 		</Sounds>

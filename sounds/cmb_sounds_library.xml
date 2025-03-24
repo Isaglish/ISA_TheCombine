@@ -60,6 +60,7 @@
 	<Sound ID="cmb_pulse_smg_reld" Path="data/sounds/sfx/weapons_general/cmb_pulse_smg_reld.ogg" channel="game" preload="false"/>
 	<Sound ID="cmb_pulse_rifle_reld" Path="data/sounds/sfx/weapons_general/cmb_pulse_rifle_reld.ogg" channel="game" preload="false"/>
 	<Sound ID="cmb_hmg_reld" Path="data/sounds/sfx/weapons_general/cmb_hmg_reld.ogg" channel="game" preload="false"/>
+	<Sound ID="cmb_heavy_shotgun_reld" Path="data/sounds/sfx/weapons_general/cmb_heavy_shotgun_reld.ogg" channel="game" preload="false"/>
 	<Sound ID="cmb_pistol_reld" Path="data/sounds/sfx/weapons_general/cmb_pistol_reld.ogg" channel="game" preload="false"/>
 	<Sound ID="cmb_pistol_reldempt" Path="data/sounds/sfx/weapons_general/cmb_pistol_reldempt.ogg" channel="game" preload="false"/>
 

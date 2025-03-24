@@ -51,7 +51,7 @@
 @firearm_cmb_pulse_smg_name=Combine SMG
 @firearm_cmb_pulse_smg_desc=The Combine SMG is a rapid-fire compact dark energy pulse weapon that can be easily wielded with one hand.\n\nThis weapon is "gene-coded" like all other Combine weapons, they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
 @firearm_cmb_heavy_shotgun_name=Heavy Shotgun
-@firearm_cmb_heavy_shotgun_desc=Model Not Finished.
+@firearm_cmb_heavy_shotgun_desc=The Heavy Shotgun is of relatively large size, and appears to be box-fed and semi automatic. It is capable of devastating damage and can pose a serious threat.\n\nThis weapon is "gene-coded" like all other Combine weapons, they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
 @firearm_cmb_hmg_name=Heavy Machinegun
 @firearm_cmb_hmg_desc=The Heavy Machine Gun's appearance somewhat mirrors that of a minigun, with a joystick-like rear grip that houses the trigger and a foldable bipod under the barrel.\n\nThis weapon is "gene-coded" like all other Combine weapons, they cannot be used by normal people unless they modify their genes or find an unbonded weapon.
 @firearm_cmb_pulse_rifle_name=OSIPR
