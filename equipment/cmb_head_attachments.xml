@@ -1,4 +1,61 @@
+<!--
+Armor Penetration values:
+	Level IIA = 20
+	Level II = 30
+	Level IIIA = 40
+	Level III = 50
+	Level IV = 60
+ -->
+
 <Equipment>
+	<Bind eqp="CMB_OrdinalHelmet">
+		<to name="CombineOrdinal"/>
+	</Bind>
+	<Helmet name="CMB_OrdinalHelmet" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_cmb_gas_mask"
+			description="@helmet_cmb_ordinal_desc"
+			img="data/models/humans/attachments/cmb_ordinal_helmet_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="0" />
+
+		<Params>
+			<ProtectionArc degrees="360" coveragePercent="80" piercingProtectionLevel="50"/>
+		</Params>
+	</Helmet>
+
+	<Bind eqp="CMB_ChargerHelmet">
+		<to name="CombineCharger"/>
+	</Bind>
+	<Helmet name="CMB_ChargerHelmet" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_cmb_gas_mask"
+			description="@helmet_cmb_charger_desc"
+			img="data/models/humans/attachments/cmb_charger_helmet_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-3"/>
+		<ConcealmentModifier add="0" />
+
+		<Params>
+			<ProtectionArc degrees="360" coveragePercent="90" piercingProtectionLevel="65"/>
+		</Params>
+	</Helmet>
+
+	<Bind eqp="CMB_SuppressorHelmet">
+		<to name="CombineSuppressor"/>
+	</Bind>
+	<Helmet name="CMB_SuppressorHelmet" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_cmb_gas_mask"
+			description="@helmet_cmb_suppressor_desc"
+			img="data/models/humans/attachments/cmb_suppressor_helmet_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="-2" turnSpeedModifierPercent="-2"/>
+		<ConcealmentModifier add="0" />
+
+		<Params>
+			<ProtectionArc degrees="360" coveragePercent="85" piercingProtectionLevel="60"/>
+		</Params>
+	</Helmet>
+
     <Bind eqp="CMB_GruntHelmet">
 		<to name="CombineGrunt"/>
 	</Bind>
@@ -11,7 +68,23 @@
 		<ConcealmentModifier add="0" />
 
 		<Params>
-			<ProtectionArc degrees="360" coveragePercent="10" piercingProtectionLevel="30"/>
+			<ProtectionArc degrees="360" coveragePercent="80" piercingProtectionLevel="30"/>
+		</Params>
+	</Helmet>
+
+	<Bind eqp="CMB_PoliceHelmet">
+		<to name="CombinePolice"/>
+	</Bind>
+	<Helmet name="CMB_PoliceHelmet" inventoryBinding="Helmet" unlockCost="0"
+			tooltip="@helmet_cmb_gas_mask"
+			description="@helmet_cmb_police_desc"
+			img="data/models/humans/attachments/cmb_police_helmet_ui.dds"
+		>
+		<MobilityModifiers moveSpeedModifierPercent="0" turnSpeedModifierPercent="0"/>
+		<ConcealmentModifier add="0" />
+
+		<Params>
+			<ProtectionArc degrees="360" coveragePercent="70" piercingProtectionLevel="25"/>
 		</Params>
 	</Helmet>
 </Equipment>

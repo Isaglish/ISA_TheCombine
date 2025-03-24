@@ -8,7 +8,7 @@
 			class="CombineOrdinal">
 
 			<Id name="CombineOrdinal" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_ordinal"/>
-			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.2"/>
+			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.2"/>
 			<Brain suppressionRecovery="45.0"/>
 
 			<Mobility>
@@ -25,6 +25,7 @@
 
 				<Item name="CMB_Grenade"/>
 				<Item name="CMB_KevlarArmor"/>
+				<Item name="CMB_OrdinalHelmet"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Leadership"/>
@@ -41,7 +42,7 @@
 			class="CombineCharger">
 
 			<Id name="CombineCharger" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_charger"/>
-			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.5"/>
+			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.5"/>
 			<Brain suppressionRecovery="85.0"/>
 
 			<Mobility>
@@ -58,6 +59,7 @@
 				<Item name="CMB_StunBaton"/>
 
 				<Item name="CMB_HeavyArmor"/>
+				<Item name="CMB_ChargerHelmet"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Authorized_Gene"/>
@@ -73,7 +75,7 @@
 			class="CombineSuppressor">
 
 			<Id name="CombineSuppressor" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_suppressor"/>
-			<FOV degrees="120" distanceMeters="999" eyeRadiusMeters="1.2"/>
+			<FOV degrees="60" distanceMeters="999" eyeRadiusMeters="0.75"/>
 			<Brain suppressionRecovery="55.0"/>
 
 			<Mobility>
@@ -89,6 +91,7 @@
 				<Item name="CMB_HMG"/>
 
 				<Item name="CMB_HeavyArmor"/>
+				<Item name="CMB_SuppressorHelmet"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Authorized_Gene"/>
@@ -106,7 +109,7 @@
 			class="CombineGrunt">
 
 			<Id name="CombineGrunt" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_grunt"/>
-			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.0"/>
+			<FOV degrees="80" distanceMeters="999" eyeRadiusMeters="1.0"/>
 			<Brain suppressionRecovery="30.0"/>
 
 			<Mobility>
@@ -122,8 +125,8 @@
 				<Item name="CMB_PulseSMG"/>
 				
 				<Item name="CMB_Grenade"/>
-				<Item name="CMB_GruntHelmet"/>
 				<Item name="CMB_KevlarArmor"/>
+				<Item name="CMB_GruntHelmet"/>
 			</Equipment>
 
 			<Doctrine name="CMB_Authorized_Gene"/>
@@ -139,7 +142,7 @@
 			class="CombinePolice">
 
 			<Id name="CombinePolice" portrait="data/textures/portraits/enemy_vip.dds" gender="0" voicePack="combine_grunt"/>
-			<FOV degrees="100" distanceMeters="999" eyeRadiusMeters="1.0"/>
+			<FOV degrees="75" distanceMeters="999" eyeRadiusMeters="1.0"/>
 			<Brain suppressionRecovery="20.0"/>
 
 			<Mobility>
@@ -155,6 +158,7 @@
 				<Item name="CMB_StunBaton"/>
 
 				<Item name="CMB_FlakVest"/>
+				<Item name="CMB_PoliceHelmet"/>
 			</Equipment>
 		</Human>
 	</Entity>
