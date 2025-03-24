@@ -1,6 +1,6 @@
 <Mod title="Combine Overwatch [Beta]" gameVersion="107" author="Isaglish" description="This mod adds the [b]Combine Overwatch[/b] from [b]Half-Life: Alyx[/b].
 
-The mod is still work-in-progress and unfinished; lots of equipment, art, and models are still missing, however if you still wanna test out the mod, the Combine Ordinal, Combine Charger, and Combine Grunts are playable.
+The mod is still work-in-progress and unfinished; lots of equipment, art, and models are still missing, however if you still wanna test out the mod, the Combine Ordinal, Combine Charger, Combine Grunts, and Metrocops are playable.
 
 This mod is heavily focused on [b]Half-Life: Alyx[/b], stuff from the previous franchises may or may not get added.
 
@@ -31,17 +31,64 @@ There is currently a bug for the Bouncer where it doesn&apos;t stop beeping afte
 [h3]Equipment:[/h3]
 [list]
 [*]Stun Baton
-[*]9mm Pistol
-[*]9mm SMG
-[*]Revolver?
 [*]Heavy Shotgun
 [*]Heavy Machinegun
 [/list]
-" changeNotes="- Changed the cost of 1x Stimdose to 21 Stars
-- Updated Stimdose description
-- Updated Empty slots
-- Added 2x Stimdose to Ordinal and APF
-- Added 3x Stimdose to Ordinal
-- Added USP Match to Civil Protection
-- Added MP7 to Civil Protection
-- Removed Stimdose from UtilityPouch1" languageMod="" tags="Playable Units,Equipment,Sound Effects,Music" ugcId="3429811041"/>
+
+Keep track of the project&apos;s progress on GitHub:
+https://github.com/Isaglish/ISA_TheCombine" changeNotes="[h1]Weapons &amp; Armor Update[/h1]
+
+[h2]New Heavy Shotgun[/h2]
+[*] Added Heavy Shotgun model
+[*] Added Heavy Shotgun reload sfx
+[*] Updated Heavy Shotgun description
+[*] Updated Heavy Shotgun attacktypes
+[*] Updated Heavy Shotgun suppression attacktype
+[*] Updated Heavy Shotgun effects
+[*] Updated Heavy Shotgun reload time: 2s &gt; 4s
+[*] Updated Heavy Shotgun ammo capacity: 6 &gt; 32
+[*] Updated Heavy Shotgun damage per pellet: 100 &gt; 30
+
+[h2]Weapon Changes[/h2]
+[*] Added Heavy Machinegun to APF
+[*] Updated USP Match attacktypes to be a bit more erratic
+[*] Updated OSIPR description
+[*] Updated OSIPR reload sfx
+[*] Updated Combine SMG description
+[*] Updated Combine SMG reload sfx
+[*] Updated every ammo&apos;s penetration value; [min, max]
+    [*] OSIPR: [45, 45] &gt; [55, 50]
+    [*] Heavy Machinegun: [50, 45] &gt; [65, 55]
+    [*] Heavy Shotgun: [10, 2] &gt; [45, 30]
+    [*] Combine SMG: [40, 40] &gt; [35, 30]
+    [*] 9x19mm Parabellum: [40, 20] &gt; [25, 20]
+    [*] 4.16x30mm Hollow Point: [40, 40] &gt; [35, 30]
+
+[h2]New Helmets &amp; Armor Changes[/h2]
+[*] Added Kevlar Armor to Ordinal
+[*] Added Kevlar Armor to Echo One
+[*] Added Heavy Armor to APF
+[*] Added Flak Vest to Civil Protection
+[*] Added Gas Mask to Ordinal
+[*] Added Gas Mask to Wallhammer
+[*] Added Gas Mask to APF
+[*] Added Gas Mask to Civil Protection
+[*] Updated Charger Plates name to Heavy Armor
+[*] Updated Heavy Armor UI
+[*] Updated Heavy Armor coverage: 90 &gt; 80
+[*] Updated Echo One Gas Mask description
+[*] Updated Echo One Gas Mask coverage: 10 &gt; 80
+[*] Updated Echo One Gas Mask protection: 5 &gt; 30
+
+[h2]Balanced unit FOVs (Helmets affect vision)[/h2]
+[*] Updated Ordinal FOV: 120 &gt; 100
+[*] Updated Wallhammer FOV: 120 &gt; 100
+[*] Updated APF FOV: 120 &gt; 60
+[*] Updated APF FOV radius: 1.2 &gt; 0.75
+[*] Updated Echo One FOV: 100 &gt; 80
+[*] Updated Civil Protection FOV: 100 &gt; 75
+
+[h2]Others[/h2]
+[*] Updated empty slots
+[*] Updated doctrine buffs and descriptions
+[*] Updated civilian names and descriptions" languageMod="" tags="Playable Units,Equipment,Sound Effects,Music,UI" ugcId="3429811041"/>
