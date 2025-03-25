@@ -29,4 +29,20 @@
 		ttip="@menu_game_cmb_health_pen_ttip"
 		ttip_disabled="@menu_generic_cannot_use"
 		ttip_empty="@menu_game_cmb_health_pen_none_ttip"/>
+
+	<wp
+		type="THROW_GRENADE"
+		equipment="CMB_HealthPen_2x"
+		ui_prefix="data/textures/gui_ingame/waypoints/cmb_health_pen"
+		ttip="@menu_game_cmb_health_pen_ttip"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_cmb_health_pen_none_ttip"/>
+
+	<wp
+		type="THROW_GRENADE"
+		equipment="CMB_HealthPen_3x"
+		ui_prefix="data/textures/gui_ingame/waypoints/cmb_health_pen"
+		ttip="@menu_game_cmb_health_pen_ttip"
+		ttip_disabled="@menu_generic_cannot_use"
+		ttip_empty="@menu_game_cmb_health_pen_none_ttip"/>
 </ActionWaypoints>
